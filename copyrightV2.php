@@ -53,9 +53,6 @@ Telecommunication and Film Department<br />
 The University of Alabama<br />
 Box 870152<br />
 Tuscaloosa, AL 35487</p>
-<p><?php 	/*$obfuscatedemail=c2c_email_obfuscator("jbutler@ua.edu", 1);
-			echo '<a href="mailto:' . $obfuscatedemail . '">' . $obfuscatedemail . '</a>' ;*/
-			?></p>
 
 <h2>Use of Shot Logger Materials and Data</h2>
 <p><a href="http://www.gnu.org/licenses/gpl.html" target="_blank"><img src="images_site/gplv3-127x51.png" width="127" style="float: left; margin: 0px 15px 15px 0px;" height="51" alt="GNU GPL 3 logo"/></a>Shot Logger relies heavily upon an open-source project: the <a href="http://www.videolan.org/vlc/" target="_blank">Videolan VLC media player</a>. Shot Logger's source code is also open-source. Specifically, Shot Logger software and data are licensed under <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">the GNU General Public License, Version 3</a>. No programming code, data, text, images, or video/sound on ShotLogger.org may be reproduced for commercial purposes. However, educational and other non-commercial uses are permitted, if proper attribution is given. Please see <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">the GNU General Public License, Version 3</a> for details.</p>

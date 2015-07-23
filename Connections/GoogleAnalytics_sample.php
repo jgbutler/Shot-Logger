@@ -1,8 +1,8 @@
 <script type="text/javascript">
-
+  // Insert your own Account and DomainName in the appropriate variables.
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36880052-1']);
-  _gaq.push(['_setDomainName', 'shotlogger.org']);
+  _gaq.push(['_setAccount', ' ']);
+  _gaq.push(['_setDomainName', ' ']);
   _gaq.push(['_trackPageview']);
 
   (function() {

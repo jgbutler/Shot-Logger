@@ -125,7 +125,7 @@ function format_bytes($size) {
 </head>
 <body>
 <!--Google Analytics-->
-<?php include_once("analyticstracking.php") ?>
+<?php include_once("Connections/GoogleAnalytics.php") ?>
 
 <!-- start .header -->
 <div class="container">
