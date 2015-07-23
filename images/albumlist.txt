@@ -1,0 +1,106 @@
+total 1428
+drwxr-xr-x+ 98 wwwrun www   4096 Oct 29 15:31 ./
+drwxrwxrwx+  9 wwwrun www   4096 Jan 21  2011 ../
+-rw-r--r--   1 root   root     0 Aug 24  2009 .NLDPolicy.status.completed
+-rw-r--r--   1 root   root     0 Aug 24  2009 .SLEDPolicy.status.completed
+-rw-r--r--   1 root   root     0 Aug 24  2009 .epiphany.status.completed
+-rw-r--r--   1 root   root     0 Aug 24  2009 .evolution.status.completed
+-rw-r--r--   1 root   root     0 Aug 24  2009 .firefox.status.completed
+-rw-r--r--   1 root   root     0 Aug 24  2009 .gconf.status.completed
+drwxr-xr-x   2 wwwrun www   8192 Jan 27  2010 400Blows/
+drwxr-xr-x+  3 wwwrun www     21 Dec 20  2007 AllMyChildren/
+drwxr-xr-x   3 wwwrun www     21 Jan 27  2010 AndyGriffithShow/
+drwxr-xr-x   3 wwwrun www     21 Jan 27  2010 ArrestedDevelopment/
+drwxr-xr-x   4 wwwrun www     24 Oct 14  2009 Ben Hur/
+drwxr-xr-x+  6 wwwrun www     66 Nov 26  2008 CHiPs/
+drwxr-xr-x+ 12 wwwrun www   4096 Mar 11  2009 CSI/
+drwxr-xr-x   2 wwwrun www   4096 Jan 27  2010 Cache/
+drwxr-xr-x+  3 wwwrun www     21 Feb  2  2009 Californication/
+drwxr-xr-x   2 wwwrun www   4096 Oct 16  2009 Chloe in the Afternoon/
+drwxr-xr-x   3 wwwrun www     21 Jan 27  2010 Chuck/
+drwxr-xr-x+  6 wwwrun www     66 Oct  8  2008 CrimeStory/
+drwxr-xr-x+ 87 wwwrun www   4096 Apr 29  2009 Cuidado Con El Angel/
+drwxr-xr-x   3 wwwrun www     20 Feb  3  2010 CurbYourEnthusiasm/
+drwxr-xr-x+ 15 wwwrun www   4096 Nov 19  2008 Dallas/
+drwxr-xr-x+  7 wwwrun www     81 Oct  3  2008 Dragnet/
+drwxr-xr-x+ 22 wwwrun www   4096 Dec  9  2008 ER/
+drwxr-xr-x+  3 wwwrun www     21 Sep 22  2008 FollowThatMan/
+drwxr-xr-x+  9 wwwrun www   4096 Feb 23  2011 Friends/
+drwxr-xr-x   2 wwwrun www  45056 Oct 14  2009 From the Terrace/
+drwxr-xr-x+  7 wwwrun www     91 Sep  8  2008 Fugitive/
+drwxr-xr-x   3 wwwrun www     21 Feb  3  2010 GreysAnatomy/
+drwxr-xr-x   2 wwwrun www  24576 Feb  3  2010 Hangover/
+drwxr-xr-x   5 wwwrun www     51 Oct  6  2009 Have Gun - Will Travel/
+drwxr-xr-x   3 wwwrun www     21 Jan 27  2010 ItsAlwaysSunnyInPhiladelphia/
+drwxr-xr-x+ 32 wwwrun www   4096 Apr 29  2009 Las Tontas No Van Al Cielo/
+drwxr-xr-x   4 wwwrun www     36 Oct  1  2009 Laugh-In/
+drwxr-xr-x   3 wwwrun www     21 Jan 27  2010 Lost/
+drwxr-xr-x+ 15 wwwrun www   4096 Sep 18  2009 MadMen/
+drwxr-xr-x+  5 wwwrun www     51 Oct 23  2008 MagnumPI/
+drwxr-xr-x+  3 wwwrun www     21 Oct 25  2008 MalcolmInTheMiddle/
+drwxr-xr-x+ 40 wwwrun www   4096 Apr 30  2009 Manana Es Para Siempre/
+drwxr-xr-x+  2 wwwrun www  53248 Jan 13  2009 MarkOfZorro/
+drwxr-xr-x+  3 wwwrun www     29 Sep 22  2008 MartinKane/
+drwxr-xr-x+  8 wwwrun www   4096 Oct 25  2008 MiamiVice/
+drwxr-xr-x+  2 wwwrun www  81920 Oct  9  2008 MiamiViceFilm/
+drwxr-xr-x+  4 wwwrun www     36 Oct 23  2008 Moonlighting/
+drwxr-xr-x+  2 wwwrun www   8192 Dec 20  2007 MyOtherHusband/
+drwxr-xr-x+  6 wwwrun www     66 Feb  8  2009 NYPD Blue/
+drwxr-xr-x   2 wwwrun www  32768 Oct 16  2009 Oceans Eleven/
+drwxr-xr-x   2 wwwrun www  20480 Oct 14  2009 On the Beach/
+drwxr-xr-x   3 wwwrun www     21 Jan 27  2010 OneTree Hill/
+drwxr-xr-x+  3 wwwrun www     21 Dec 20  2007 OzzieAndHarriet/
+drwxr-xr-x   2 wwwrun www  20480 Oct 16  2009 Please Dont Eat the Daisies/
+drwxr-xr-x+  4 wwwrun www     36 Jan 27  2010 Seinfeld/
+drwxr-xr-x   3 wwwrun www     21 Jan 27  2010 SexAndTheCity/
+drwxr-xr-x   2 wwwrun www  57344 Oct 14  2009 Shaggy Dog/
+drwxr-xr-x   2 wwwrun www  65536 Oct 29  2009 Solomon and Sheba/
+drwxr-xr-x   2 wwwrun www  28672 Oct  1  2009 Some Came Running/
+drwxr-xr-x+  4 wwwrun www     36 Feb  8  2009 Streets of San Francisco/
+drwxr-xr-x   7 wwwrun www     81 Feb  9  2010 StudioOne/
+drwxr-xr-x   2 wwwrun www  32768 Oct 16  2009 Suddenly Last Summer/
+drwxr-xr-x+  2 wwwrun www  12288 Dec 20  2007 SurunairdeCharleston/
+drwxr-xr-x   6 wwwrun www    114 Oct 29  2009 The Dick Van Dyke Show/
+drwxr-xr-x   2 wwwrun www  49152 Oct  1  2009 The Nuns Story/
+drwxr-xr-x   7 wwwrun www     81 Mar 21  2010 The Real World/
+drwxr-xr-x   4 wwwrun www     36 Oct  6  2009 Wagon Train/
+drwxr-xr-x+  2 wwwrun www  28672 Feb  5  2009 YellowEarth/
+-rw-r--r--   1 root   root     0 Oct 29 15:31 albumlist.txt
+drwxr-xr-x   2 wwwrun www  24576 Oct 13  2009 apartment/
+drwxr-xr-x+ 96 wwwrun www   4096 Jun 11  2008 atwt/
+drwxr-xr-x   2 wwwrun www  36864 Jul 14  2009 auntiemame/
+drwxr-xr-x+  2 wwwrun www   8192 Jan 13  2008 birthofanation/
+drwxr-xr-x   2 wwwrun www  40960 Jul 14  2009 breakfastattiffanys/
+drwxr-xr-x+  3 wwwrun www     30 Mar  3  2008 commercials/
+drwxr-xr-x+  9 wwwrun www   4096 Dec 20  2007 cosbyshow/
+drwxr-xr-x   2 wwwrun www      6 Jul 14  2009 dawnofthedead/
+drwxr-xr-x   3 wwwrun www   8192 Jun 13 13:05 flightoftheconchords/
+drwxr-xr-x+  2 wwwrun www   4096 Jan 17  2008 graduate/
+drwxr-xr-x   4 wwwrun www     36 Oct 27  2009 gunsmoke/
+drwxr-xr-x  23 wwwrun www   4096 Jun 13 13:14 happydays/
+drwxr-xr-x+  3 wwwrun www     21 Jan 17  2008 homemovies/
+drwxr-xr-x+  3 wwwrun www     21 Dec 20  2007 honeymooners/
+drwxr-xr-x+  7 wwwrun www     81 Mar 26  2008 ilovelucy/
+drwxr-xr-x   2 wwwrun www   4096 Apr 14  2010 lifeAmericanFireman/
+drwxr-xr-x+  2 wwwrun www  16384 Jan 17  2008 millerscrossing/
+drwxr-xr-x+  3 wwwrun www     21 Jan 17  2008 mysocalledlife/
+drwxr-xr-x+  3 wwwrun www     21 Jun 23  2008 newadventures/
+drwxr-xr-x+  3 wwwrun www     21 Jan 17  2008 newsradio/
+drwxr-xr-x+  3 wwwrun www     21 Jan 18  2008 niptuck/
+drwxr-xr-x   2 wwwrun www  65536 Jul 14  2009 northbynorthwest/
+drwxr-xr-x+  2 wwwrun www  20480 Jan 17  2008 nowandthen/
+drwxr-xr-x+  5 wwwrun www     51 Jan 23  2010 office/
+drwxr-xr-x   2 wwwrun www  49152 Oct 25  2009 operationpetticoat/
+drwxr-xr-x+  2 wwwrun www  16384 Jan 17  2008 patriotgames/
+drwxr-xr-x   6 wwwrun www     66 Nov  6  2009 perrymason/
+drwxr-xr-x   2 wwwrun www  40960 Oct 25  2009 psycho/
+drwxr-xr-x+  3 wwwrun www     21 Mar 17  2008 roseanne/
+drwxr-xr-x+  2 wwwrun www  20480 Dec 20  2007 sandlot/
+drwxr-xr-x+  6 wwwrun www     74 Feb  2  2009 scrubs/
+drwxr-xr-x+  2 wwwrun www   4096 Jan 18  2008 seventhseal/
+drwxr-xr-x+  3 wwwrun www     21 Dec 20  2007 simpsons/
+drwxr-xr-x   4 wwwrun www     30 Oct 25  2009 spartacus/
+drwxr-xr-x+  2 wwwrun www  16384 Jan 17  2008 stepmom/
+drwxr-xr-x+  2 wwwrun www  20480 Jan 17  2008 verylongengagement/
+drwxr-xr-x+  2 wwwrun www  16384 Dec 20  2007 walktheline/
+drwxr-xr-x   4 wwwrun www     36 Nov  7  2009 wanted/

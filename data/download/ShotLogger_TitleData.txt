@@ -1,0 +1,935 @@
+TITLE_ID_NUMBER	TITLE	IMDB_TITLE	EPISODE_DATE	MOVIE_DATE	LENGTH	SHOTS_TOTAL	ASL	MAXIMUM_SL	STANDARD_DEVIATION	COMMENTS	DATE_SUBMITTED
+962	(500) Days of Summer	(500) Days of Summer		2009	5434	940	5.78	116	7.10		13 January 2015
+928	10 Things I Hate About You	10 Things I Hate About You		1999	5555	821	6.77	64	8.93		21 July 2014
+966	3 Bad Men	3 Bad Men		1926	5445	1069	5.09	59	5.07	Intertitles were logged as if they were shots.	13 January 2015
+927	Her Parents	Adventure Time	2011-01-24		642	204	3.15	16	2.53		21 July 2014
+6	Captain Salty and the Submarine	Adventures of Ozzie & Harriet, The	1957-10-10		1303	145	8.99	54	10.00		13 August 2007
+885	The Fall Guy	Adventures of Ozzie & Harriet, The	1952-10-24		1222	107	11.42	107	16.76		05 February 2014
+886	Ricky, the Drummer	Adventures of Ozzie & Harriet, The	1957-04-10		1262	180	7.01	42	7.07		05 February 2014
+771	All I Desire	All I Desire		1953	4646	383	12.13	99	13.14		03 October 2013
+19	All My Children, 20051206, Part 1	All My Children	2005-12-06		234	42	5.57	19	4.10		25 January 2008
+910	One Hundred Tears Away	Ally McBeal	1997-10-20		2645	551	4.80	108	8.45		12 March 2014
+911	The Promise	Ally McBeal	1997-10-27		2644	654	4.04	182	7.78		12 March 2014
+912	The Attitude	Ally McBeal	1997-11-03		2671	640	4.17	94	5.37		12 March 2014
+913	Drawing the Lines	Ally McBeal	1997-11-10		2731	647	4.22	85	4.98		12 March 2014
+662	Public Equity - Republican SPAC	American Crossroads	2012-05-29		66	24	2.75	9	2.23		01 June 2012
+527	Jailbreak	Andy Griffith Show, The	1962-02-05		1546	189	8.18	79	10.67		02 November 2011
+887	Andy Discovers America	Andy Griffith Show, The	1963-03-04		1457	185	7.88	103	11.43		05 February 2014
+888	Mountain Wedding	Andy Griffith Show, The	1963-04-29		1454	199	7.31	69	8.49		05 February 2014
+890	A Feud Is a Feud	Andy Griffith Show, The	1960-12-05		1412	146	9.67	58	10.04		11 February 2014
+891	Christmas Story	Andy Griffith Show, The	1960-12-19		1475	141	10.46	125	16.36		11 February 2014
+892	Stranger in Town	Andy Griffith Show, The	1960-12-26		1451	180	8.06	67	10.57		11 February 2014
+893	Mayberry Goes Hollywood	Andy Griffith Show, The	1961-01-02		1471	186	7.91	61	9.71		11 February 2014
+894	The Horse Trader	Andy Griffith Show, The	1961-01-09		1438	183	7.86	53	8.23		11 February 2014
+895	Those Gossipin' Men	Andy Griffith Show, The	1961-01-16		1450	183	7.92	51	8.68		11 February 2014
+896	The Beauty Contest	Andy Griffith Show, The	1961-01-23		1457	189	7.71	57	8.54		11 February 2014
+403	Apartment, The	Apartment, The		1960	7402	455	16.27	158	19.67		13 October 2009
+859	Apocalypse Now (Part 1)	Apocalypse Now (Part 1)		1979	5956	828	7.19	87	8.82		23 January 2014
+860	Apocalypse Now (Part 2)	Apocalypse Now (Part 1)		1979	5552	722	7.69	80	8.33		23 January 2014
+848	Arizona	Arizona		1931	3911	383	10.21	84	10.49		15 January 2014
+528	Key Decisions	Arrested Development	2003-11-23		1263	99	12.76	51	11.20		02 November 2011
+45	As the World Turns, 20080114, Part 1	As the World Turns	2008-01-14		303	62	4.89	14	3.03	Part 1 of 6. No commercials.	25 January 2008
+46	As the World Turns, 20080114, Part 2	As the World Turns	2008-01-14		323	69	4.68	16	3.28	Part 2 of 6. No commercials.	25 January 2008
+57	As the World Turns, 20080114, Part 3	As the World Turns	2008-01-14		453	94	4.82	19	3.08		01 February 2008
+48	As the World Turns, 20080114, Part 4	As the World Turns	2008-01-14		354	76	4.66	13	2.83	Part 4 of 6. No commercials.	25 January 2008
+49	As the World Turns, 20080114, Part 5	As the World Turns	2008-01-14		371	71	5.23	27	4.14	Part 5 of 6. No commercials.	25 January 2008
+50	As the World Turns, 20080114, Part 6	As the World Turns	2008-01-14		410	67	6.12	32	5.60	Part 6 of 6. No commercials.	25 January 2008
+51	As the World Turns, 20080115, Part 1	As the World Turns	2008-01-15		238	60	3.97	29	4.17		25 January 2008
+52	As the World Turns, 20080115, Part 2	As the World Turns	2008-01-15		385	82	4.70	22	3.48		25 January 2008
+58	As the World Turns, 20080115, Part 3	As the World Turns	2008-01-15		421	71	5.93	38	6.30		01 February 2008
+54	As the World Turns, 20080115, Part 4	As the World Turns	2008-01-15		486	76	6.39	31	4.57		25 January 2008
+55	As the World Turns, 20080115, Part 5	As the World Turns	2008-01-15		395	79	5.00	25	4.18		25 January 2008
+56	As the World Turns, 20080115, Part 6	As the World Turns	2008-01-15		222	37	6.00	21	4.88		25 January 2008
+59	As the World Turns, 20080128, Part 1	As the World Turns	2008-01-28		329	78	4.22	27	4.38		17 March 2008
+60	As the World Turns, 20080128, Part 2	As the World Turns	2008-01-28		432	97	4.45	14	2.68		17 March 2008
+61	As the World Turns, 20080128, Part 3	As the World Turns	2008-01-28		436	74	5.89	21	3.87		17 March 2008
+62	As the World Turns, 20080128, Part 4	As the World Turns	2008-01-28		283	50	5.66	28	4.80		17 March 2008
+63	As the World Turns, 20080128, Part 5	As the World Turns	2008-01-28		367	71	5.17	27	4.00		17 March 2008
+64	As the World Turns, 20080128, Part 6	As the World Turns	2008-01-28		347	65	5.34	26	4.51		17 March 2008
+65	As the World Turns, 20080129, Part 1	As the World Turns	2008-01-29		377	63	5.98	20	4.31		17 March 2008
+66	As the World Turns, 20080129, Part 2	As the World Turns	2008-01-29		497	110	4.52	23	3.61		17 March 2008
+67	As the World Turns, 20080129, Part 3	As the World Turns	2008-01-29		370	67	5.52	21	4.14		17 March 2008
+68	As the World Turns, 20080129, Part 4	As the World Turns	2008-01-29		385	83	4.64	24	3.62		17 March 2008
+69	As the World Turns, 20080129, Part 5	As the World Turns	2008-01-29		327	64	5.11	36	5.37		17 March 2008
+70	As the World Turns, 20080129, Part 6	As the World Turns	2008-01-29		255	46	5.54	16	3.12		17 March 2008
+71	As the World Turns, 20080130, Part 1	As the World Turns	2008-01-30		380	71	5.35	38	5.82		17 March 2008
+72	As the World Turns, 20080130, Part 2	As the World Turns	2008-01-30		498	86	5.79	23	4.17		17 March 2008
+73	As the World Turns, 20080130, Part 3	As the World Turns	2008-01-30		474	88	5.39	33	4.40		17 March 2008
+74	As the World Turns, 20080130, Part 4	As the World Turns	2008-01-30		246	43	5.72	19	4.08		17 March 2008
+75	As the World Turns, 20080130, Part 5	As the World Turns	2008-01-30		254	55	4.62	20	3.63		17 March 2008
+76	As the World Turns, 20080130, Part 6	As the World Turns	2008-01-30		334	72	4.64	18	3.38		17 March 2008
+80	As the World Turns, 20080131, Part 1	As the World Turns	2008-01-31		406	89	4.56	18	3.39		25 March 2008
+81	As the World Turns, 20080131, Part 2	As the World Turns	2008-01-31		594	136	4.37	15	2.83		25 March 2008
+82	As the World Turns, 20080131, Part 3	As the World Turns	2008-01-31		340	81	4.20	17	2.92		25 March 2008
+83	As the World Turns, 20080131, Part 4	As the World Turns	2008-01-31		257	54	4.76	16	3.26		25 March 2008
+84	As the World Turns, 20080131, Part 5	As the World Turns	2008-01-31		286	69	4.14	17	3.41		25 March 2008
+85	As the World Turns, 20080131, Part 6	As the World Turns	2008-01-31		268	65	4.12	14	2.84		25 March 2008
+86	As the World Turns, 20080201, Part 1	As the World Turns	2008-02-01		316	66	4.79	26	3.98		25 March 2008
+87	As the World Turns, 20080201, Part 2	As the World Turns	2008-02-01		244	47	5.19	16	3.41		25 March 2008
+88	As the World Turns, 20080201, Part 3	As the World Turns	2008-02-01		540	110	4.91	30	3.74		25 March 2008
+89	As the World Turns, 20080201, Part 4	As the World Turns	2008-02-01		284	78	3.64	14	2.33		22 April 2008
+90	As the World Turns, 20080201, Part 5	As the World Turns	2008-02-01		342	69	4.96	17	3.63		25 March 2008
+91	As the World Turns, 20080201, Part 6	As the World Turns	2008-02-01		468	63	7.43	25	5.01		25 March 2008
+96	As the World Turns, 20080204, Part 1	As the World Turns	2008-02-04		416	95	4.38	20	3.73		29 April 2008
+97	As the World Turns, 20080204, Part 2	As the World Turns	2008-02-04		379	92	4.12	17	3.23		29 April 2008
+98	As the World Turns, 20080204, Part 3	As the World Turns	2008-02-04		316	81	3.90	13	2.85		29 April 2008
+99	As the World Turns, 20080204, Part 4	As the World Turns	2008-02-04		341	105	3.25	10	1.86		29 April 2008
+100	As the World Turns, 20080204, Part 5	As the World Turns	2008-02-04		449	91	4.93	16	3.38		29 April 2008
+101	As the World Turns, 20080204, Part 6	As the World Turns	2008-02-04		276	56	4.93	32	4.63		29 April 2008
+102	As the World Turns, 20080205, Part 1	As the World Turns	2008-02-05		453	78	5.81	14	3.24		29 April 2008
+103	As the World Turns, 20080205, Part 2	As the World Turns	2008-02-05		601	105	5.72	40	5.08		29 April 2008
+104	As the World Turns, 20080205, Part 3	As the World Turns	2008-02-05		240	43	5.58	15	3.59		29 April 2008
+105	As the World Turns, 20080205, Part 4	As the World Turns	2008-02-05		369	67	5.51	24	4.35		29 April 2008
+106	As the World Turns, 20080205, Part 5	As the World Turns	2008-02-05		283	59	4.80	15	2.96		29 April 2008
+107	As the World Turns, 20080205, Part 6	As the World Turns	2008-02-05		246	38	6.47	26	5.55		29 April 2008
+108	As the World Turns, 19840718, Part 1	As the World Turns	1984-07-18		379	45	8.42	51	8.47		20 May 2008
+109	As the World Turns, 19840718, Part 2	As the World Turns	1984-07-18		407	61	6.67	27	4.85		20 May 2008
+110	As the World Turns, 19840718, Part 3	As the World Turns	1984-07-18		314	29	10.83	41	9.71		20 May 2008
+111	As the World Turns, 19840718, Part 4	As the World Turns	1984-07-18		477	59	8.08	34	6.42		20 May 2008
+112	As the World Turns, 19840718, Part 5	As the World Turns	1984-07-18		324	57	5.68	20	4.10		20 May 2008
+113	As the World Turns, 19840718, Part 6	As the World Turns	1984-07-18		252	26	9.69	36	8.72		20 May 2008
+114	As the World Turns, 19840719, Part 1	As the World Turns	1984-07-19		230	31	7.42	42	8.39		20 May 2008
+115	As the World Turns, 19840719, Part 2	As the World Turns	1984-07-19		382	53	7.21	32	6.43		20 May 2008
+116	As the World Turns, 19840719, Part 3	As the World Turns	1984-07-19		474	47	10.09	69	11.29		20 May 2008
+117	As the World Turns, 19840719, Part 4	As the World Turns	1984-07-19		510	69	7.39	25	4.67		20 May 2008
+118	As the World Turns, 19840719, Part 5	As the World Turns	1984-07-19		522	59	8.85	37	7.87		20 May 2008
+119	As the World Turns, 19840719, Part 6	As the World Turns	1984-07-19		241	26	9.27	26	6.41		20 May 2008
+120	As the World Turns, 19840719, Part 7	As the World Turns	1984-07-19		114	21	5.43	25	5.78		20 May 2008
+121	As the World Turns, 19840720, Part 1	As the World Turns	1984-07-20		217	26	8.35	29	7.48		20 May 2008
+122	As the World Turns, 19840720, Part 2	As the World Turns	1984-07-20		212	21	10.10	34	6.91		20 May 2008
+123	As the World Turns, 19840720, Part 3	As the World Turns	1984-07-20		422	52	8.12	40	7.80		20 May 2008
+124	As the World Turns, 19840720, Part 4	As the World Turns	1984-07-20		450	72	6.25	47	6.94		20 May 2008
+125	As the World Turns, 19840720, Part 5	As the World Turns	1984-07-20		460	45	10.22	38	7.82		20 May 2008
+126	As the World Turns, 19840720, Part 6	As the World Turns	1984-07-20		549	63	8.71	42	8.08		20 May 2008
+127	As the World Turns, 19840720, Part 7	As the World Turns	1984-07-20		164	29	5.66	27	5.18		20 May 2008
+128	As the World Turns, 19840723, Part 1	As the World Turns	1984-07-23		153	22	6.95	22	5.56		20 May 2008
+129	As the World Turns, 19840723, Part 2	As the World Turns	1984-07-23		465	83	5.60	23	4.14		20 May 2008
+130	As the World Turns, 19840723, Part 3	As the World Turns	1984-07-23		329	58	5.67	38	5.42		20 May 2008
+131	As the World Turns, 19840723, Part 4	As the World Turns	1984-07-23		427	41	10.41	64	11.92		20 May 2008
+132	As the World Turns, 19840723, Part 5	As the World Turns	1984-07-23		323	40	8.08	32	6.60		20 May 2008
+133	As the World Turns, 19840723, Part 6	As the World Turns	1984-07-23		204	22	9.27	27	7.28		20 May 2008
+134	As the World Turns, 19840723, Part 7	As the World Turns	1984-07-23		617	64	9.64	49	10.50		20 May 2008
+135	As the World Turns, 19840724, Part 1	As the World Turns	1984-07-24		153	17	9.00	45	10.39		20 May 2008
+136	As the World Turns, 19840724, Part 2	As the World Turns	1984-07-24		451	72	6.26	23	5.21		20 May 2008
+137	As the World Turns, 19840724, Part 3	As the World Turns	1984-07-24		454	66	6.88	43	7.06		20 May 2008
+138	As the World Turns, 19840724, Part 4	As the World Turns	1984-07-24		498	103	4.83	19	3.48		20 May 2008
+139	As the World Turns, 19840724, Part 5	As the World Turns	1984-07-24		298	42	7.10	51	9.32		20 May 2008
+140	As the World Turns, 19840724, Part 6	As the World Turns	1984-07-24		240	44	5.45	33	5.46		20 May 2008
+141	As the World Turns, 19840724, Part 7	As the World Turns	1984-07-24		259	37	7.00	54	9.77		20 May 2008
+142	As the World Turns, 19840718, Part 7	As the World Turns	1984-07-18		271	35	7.74	49	9.69		28 May 2008
+143	As the World Turns, 1960s Episode 01, Unknown Date, part 1	As the World Turns	1960-01-01		317	20	15.85	37	10.03		11 June 2008
+144	As the World Turns, 1960s Episode 01, Unknown Date, part 3	As the World Turns	1960-01-01		168	13	12.92	31	8.21		11 June 2008
+145	As the World Turns, 1960s Episode 01, Unknown Date, part 5	As the World Turns	1960-01-01		158	18	8.78	25	6.30		11 June 2008
+610	Bob and Dana Face the Music	As the World Turns	1979-09-28		2590	298	8.69	60	8.25		07 March 2012
+611	Tom Hughes Marries Margo Montgomery	As the World Turns	1983-06-01		2515	281	8.95	72	8.77		07 March 2012
+612	Steve Andropoulos Marries Betsy Stewart	As the World Turns	1984-05-31		2328	205	11.36	89	12.01		07 March 2012
+613	Bob Hughes Marries Kim Andropoulos	As the World Turns	1985-04-12		2399	219	10.95	75	11.06		07 March 2012
+614	The Return of James Stenbeck	As the World Turns	1986-11-07		2518	171	14.73	160	19.61		07 March 2012
+615	When Villain Meets Vixen	As the World Turns	1987-03-20		5079	460	11.04	160	14.38		07 March 2012
+616	Lily's World Crumbles	As the World Turns	1987-06-24		2515	272	9.25	77	9.62		07 March 2012
+18	Attention! Une femme peut en cacher une autre	Attention! Une femme peut en cacher une autre		1983	594	115	5.17	34	6.17		30 August 2007
+384	Auntie Mame	Auntie Mame		1958	8454	761	11.11	148	14.38		14 July 2009
+971	Avengers, The	Avengers, The		2012	8657	2741	3.16	366	7.98		10 July 2015
+602	The Awful Truth	Awful Truth, The		1937	5369	691	7.77	94	11.22		15 February 2012
+935	Badlands	Badlands		1973	5438	734	7.41	69	8.13		21 July 2014
+730	Ball of Fire	Ball of Fire		1941	6521	737	8.85	75	9.53		15 March 2013
+861	Christmas with the Joker	Batman: The Animated Series	1992-11-13		1235	335	3.69	40	3.18		23 January 2014
+411	Ben-Hur, Part 1	Ben-Hur, Part 1		1959	8140	864	9.42	104	12.15		16 October 2009
+412	Ben-Hur, Part 2	Ben-Hur, Part 1		1959	4647	615	7.56	78	8.65		16 October 2009
+870	The Electric Can Opener Fluctuation	Big Bang Theory, The	2009-09-21		1226	275	4.46	45	3.89		23 January 2014
+655	Lullaby and Goodnight	Bill Cosby Show, The	1969-09-21		1311	107	12.25	67	16.22		21 May 2012
+656	A Girl Named Punkin	Bill Cosby Show, The	1969-10-05		1138	82	13.88	106	21.06		21 May 2012
+33	Birth of a Nation, The	Birth of a Nation, The		1915	765	107	7.15	28	5.23	From the Blackhawk Films DVD. Starting at 47 mins. Time code is inaccurate due to vagaries of transferring silent film to sound DVDs.	13 January 2008
+499	Black Pirate, The	Black Pirate, The		1926	5617	958	5.86	95	6.46	Includes intertitles as shots.	17 October 2011
+600	The Black Pirate	Black Pirate, The		1926	5453	955	5.71	58	5.71		08 February 2012
+923	Blonde Venus	Blonde Venus		1932	5481	551	9.95	87	11.60		16 April 2014
+936	Erlkonig	Boardwalk Empire	2013-10-06		3336	737	4.53	73	4.86		25 July 2014
+500	Body Double	Body Double		1984	6791	1019	6.66	221	13.47		17 October 2011
+383	Breakfast at Tiffany's	Breakfast at Tiffany's		1961	6874	669	10.28	135	13.23		14 July 2009
+767	Box Cutter	Breaking Bad	2011-07-17		2765	444	6.23	37	4.93		15 April 2013
+904	Breathless	Breathless		1960	5142	466	11.03	202	20.14		26 February 2014
+964	Bruce Almighty	Bruce Almighty		2003	5371	1201	4.47	80	5.28		13 January 2015
+672	Pilot	Buffalo Bill	1983-06-01		1368	284	4.82	28	4.30		23 October 2012
+673	Buffalo Beat	Buffalo Bill	1983-06-08		1369	355	3.86	23	3.43		31 October 2012
+674	Woody Quits	Buffalo Bill	1983-06-15		1350	357	3.78	22	3.01		31 October 2012
+675	Buffalo Bill and the Movies	Buffalo Bill	1983-06-22		1314	240	5.48	36	4.65		31 October 2012
+676	Mrs. Buffalo Bill	Buffalo Bill	1982-06-29		1359	260	5.23	32	4.90		31 October 2012
+677	Wilkinson's Sword	Buffalo Bill	1983-07-13		1296	193	6.72	57	7.19		31 October 2012
+678	Guess Who's Coming to Buffalo	Buffalo Bill	1983-07-20		1390	322	4.32	26	3.78		31 October 2012
+679	Below the Belt	Buffalo Bill	1983-07-27		1379	233	5.92	43	6.11		31 October 2012
+680	Ratings	Buffalo Bill	1983-08-03		1389	289	4.81	29	4.63		31 October 2012
+681	True Love	Buffalo Bill	1983-08-10		1377	275	5.01	28	4.03		31 October 2012
+682	Fan, The	Buffalo Bill	1983-08-17		1312	294	4.46	19	3.54		31 October 2012
+683	Hackles	Buffalo Bill	1983-08-24		1324	239	5.54	28	4.66		31 October 2012
+684	Hit The Road Newdell	Buffalo Bill	1983-12-22		1214	233	5.21	38	4.74		31 October 2012
+685	Jerry Lewis Week	Buffalo Bill	1984-01-05		1307	220	5.94	43	6.42		31 October 2012
+686	Interview, The	Buffalo Bill	1984-01-12		1306	194	6.73	29	5.91		31 October 2012
+687	Company Ink	Buffalo Bill	1984-01-19		1315	216	6.09	44	5.98		31 October 2012
+688	Jo Jo's Problem, Part 1	Buffalo Bill	1984-01-26		1289	276	4.67	53	5.40		31 October 2012
+689	Jo Jo's Problem, Part 2	Buffalo Bill	1984-02-02		1307	255	5.13	49	5.78		31 October 2012
+690	Miss WBFL	Buffalo Bill	1984-02-09		1273	287	4.44	38	4.08		31 October 2012
+691	Nuclear Freeze	Buffalo Bill	1984-02-16		1251	246	5.09	32	5.04		31 October 2012
+692	Girl on the Jetty, The	Buffalo Bill	1984-02-23		1307	303	4.31	38	4.52		31 October 2012
+693	Buffalo Bill Versus the Kremlin	Buffalo Bill	1984-03-01		1382	305	4.53	45	4.67		31 October 2012
+694	Hero, A	Buffalo Bill	1984-03-08		1297	268	4.84	30	4.69		31 October 2012
+695	Tap Dancer, The	Buffalo Bill	1984-03-15		1300	232	5.60	50	6.31		31 October 2012
+696	Have Yourself a Very Degrading Christmas	Buffalo Bill	1984-03-22		1325	295	4.49	49	4.78		31 October 2012
+697	Church of the Poisoned Mind	Buffalo Bill	1984-03-29		1211	259	4.68	27	4.23		31 October 2012
+788	Welcome to the Hellmouth	Buffy the Vampire Slayer	1997-03-10		2583	551	4.69	79	6.95		17 October 2013
+789	The Harvest	Buffy the Vampire Slayer	1997-03-10		2668	601	4.44	79	6.17		17 October 2013
+790	Witch	Buffy the Vampire Slayer	1997-03-17		2714	640	4.24	61	5.46		17 October 2013
+791	Teacher's Pet	Buffy the Vampire Slayer	1997-03-24		16257	3875	4.20	68	5.36		17 October 2013
+792	Never Kill a Boy on the First Date	Buffy the Vampire Slayer	1997-03-31		2685	600	4.48	74	6.45		17 October 2013
+793	The Pack	Buffy the Vampire Slayer	1997-04-07		2710	766	3.54	60	4.70		17 October 2013
+526	CachÃ©	CachÃ©		2005	1807	50	36.14	212	49.65	Frame captures from first 30 minutes only. Released in US as CachÃ© and Hidden.	02 November 2011
+227	Last Waltz	Californication	2007-10-29		1568	481	3.26	57	4.22		30 March 2009
+954	Chubby's Balls, Part 1	Cement Heads	2014-08-14		54	25	2.16	8	1.57		05 September 2014
+955	Chubby's Balls, Part 2	Cement Heads	2014-08-14		287	124	2.31	17	1.95		05 September 2014
+956	Chubby's Balls, Part 3	Cement Heads	2014-08-14		329	169	1.95	10	1.37		05 September 2014
+957	Chubby's Balls, Part 4	Cement Heads	2014-08-14		299	109	2.74	12	1.94		05 September 2014
+958	Chubby's Balls, Part 5	Cement Heads	2014-08-14		272	104	2.62	22	2.52		05 September 2014
+201	Pilot	CHiPs	1977-09-15		2736	702	3.90	56	5.02		28 November 2008
+202	Undertow	CHiPs	1977-09-22		2752	727	3.79	38	4.26		28 November 2008
+203	Dog Gone	CHiPs	1977-09-29		2791	553	5.05	57	6.04		28 November 2008
+204	Moving Violation	CHiPs	1977-10-13		2821	669	4.22	56	4.85		28 November 2008
+529	Chuck Versus the Helicopter	Chuck	2007-10-01		2425	846	2.87	20	2.06		02 November 2011
+501	Coco Before Chanel	Coco Before Chanel		2009	6381	1142	5.59	60	6.25	Aka, Coco avant Chanel.	17 October 2011
+862	Interpretive Dance	Community	2010-01-21		1238	423	2.93	37	3.06		23 January 2014
+944	Accounting for Lawyers	Community	2010-09-30		1096	340	3.22	21	2.63		06 August 2014
+945	Accounting for Lawyers (Open)	Community	2010-09-30		137	47	2.91	12	2.30		06 August 2014
+946	Epidemiology	Community	2010-10-28		971	321	3.02	40	3.41		06 August 2014
+947	Epidemiology (Open)	Community	2010-10-28		248	80	3.10	16	2.58		06 August 2014
+948	Advanced Dungeons and Dragons	Community	2011-02-03		1104	425	2.60	15	2.05		06 August 2014
+949	Advanced Dungeons and Dragons (Open)	Community	2011-02-03		119	29	4.10	22	3.97		29 August 2014
+22	Theo's Economic Lesson	Cosby Show, The	1984-09-20		1220	249	4.90	25	4.19		18 October 2007
+24	Rudy's Sick	Cosby Show, The	1984-12-13		1243	222	5.60	45	6.38		13 November 2007
+25	Is That My Boy	Cosby Show, The	1984-10-11		1232	247	4.99	34	4.78		16 November 2007
+26	The Slumber Party	Cosby Show, The	1985-03-28		1241	271	4.58	66	5.69		16 November 2007
+27	Vanessa's New Class	Cosby Show, The	1985-03-28		1214	249	4.88	50	5.76		19 November 2007
+28	Independence Day	Cosby Show, The	1985-01-10		1221	227	5.38	64	6.58		19 November 2007
+29	Play It Again Vanessa	Cosby Show, The	1984-11-08		1242	289	4.30	50	4.73		19 November 2007
+164	Battle of Las Vegas, The	Crime Story	1987-02-06		2858	501	5.70	53	6.77		09 October 2008
+165	Survivor, The	Crime Story	1987-02-13		2741	353	7.76	79	9.15		10 October 2008
+166	Top of the World	Crime Story	1987-03-06		2903	466	6.23	82	7.43		10 October 2008
+167	Ground Zero	Crime Story	1987-03-13		2831	399	7.10	92	10.48		10 October 2008
+919	Crime Wave	Crime Wave		1954	4325	357	12.11	163	16.54		08 April 2014
+168	Burked	CSI: Crime Scene Investigation	2001-09-27		2619	669	3.91	36	3.43		15 October 2008
+169	Scuba Doobie-Doo	CSI: Crime Scene Investigation	2001-10-25		2518	585	4.30	23	2.91		22 October 2008
+170	Chaos Theory	CSI: Crime Scene Investigation	2001-10-04		2602	634	4.10	41	3.69		22 October 2008
+171	Alter Boys	CSI: Crime Scene Investigation	2001-11-01		2641	739	3.57	33	2.85		22 October 2008
+219	Kill Me If You Can (pre-credits)	CSI: Crime Scene Investigation	2009-02-26		154	42	3.67	12	2.61		11 March 2009
+220	Kill Me If You Can	CSI: Crime Scene Investigation	2009-02-26		2407	713	3.38	39	3.15		11 March 2009
+221	Anatomy of a Lye	CSI: Crime Scene Investigation	2002-05-02		2653	531	5.00	37	4.11		11 March 2009
+222	Stalker	CSI: Crime Scene Investigation	2002-04-04		2637	549	4.80	44	4.34		11 March 2009
+223	Identity Crisis	CSI: Crime Scene Investigation	2002-01-17		2621	575	4.56	44	4.73		11 March 2009
+224	And Then There Were None	CSI: Crime Scene Investigation	2001-11-22		2418	672	3.60	28	2.77		11 March 2009
+228	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2008-10-22		648	153	4.24	18	3.03		20 April 2009
+229	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2008-10-22		424	94	4.51	47	5.52		12 May 2009
+230	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2008-10-22		872	174	5.01	232	17.59		12 May 2009
+231	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2008-10-22		415	94	4.41	26	4.52		12 May 2009
+232	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2008-10-22		612	100	6.12	240	23.78		12 May 2009
+233	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2008-10-23		483	152	3.18	22	2.80		12 May 2009
+234	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2008-10-23		622	144	4.32	22	3.50		12 May 2009
+235	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2008-10-23		464	111	4.18	47	5.85		12 May 2009
+236	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2008-10-23		399	106	3.76	15	2.80		12 May 2009
+237	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2008-10-23		529	107	4.94	21	3.95		12 May 2009
+238	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2008-10-24		931	258	3.61	24	3.29		12 May 2009
+239	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2008-10-24		542	149	3.64	21	3.28		12 May 2009
+240	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2008-10-24		544	145	3.75	23	3.42		12 May 2009
+241	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2008-10-24		274	72	3.81	18	3.20		12 May 2009
+242	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2008-10-24		193	58	3.33	15	2.92		12 May 2009
+243	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2008-10-27		774	180	4.30	34	4.89		12 May 2009
+244	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2008-10-27		530	159	3.33	20	2.60		12 May 2009
+245	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2008-10-27		555	155	3.58	42	4.93		12 May 2009
+246	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2008-10-27		345	94	3.67	18	2.92		12 May 2009
+247	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2008-10-27		304	100	3.04	11	1.92		12 May 2009
+248	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2009-01-23		1074	352	3.05	18	2.52		12 May 2009
+249	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2009-01-23		355	138	2.57	24	2.96		12 May 2009
+250	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2009-01-23		347	120	2.89	18	2.18		12 May 2009
+251	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2009-01-23		271	62	4.37	19	3.54		12 May 2009
+252	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2009-01-23		425	126	3.37	13	2.35		12 May 2009
+253	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2009-01-26		691	189	3.66	29	3.81		12 May 2009
+254	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2009-01-26		526	163	3.23	18	2.65		12 May 2009
+255	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2009-01-26		489	123	3.98	19	3.61		12 May 2009
+256	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2009-01-26		542	168	3.23	13	2.44		12 May 2009
+257	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2009-01-26		209	54	3.87	34	5.08		12 May 2009
+258	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2009-01-27		588	140	4.20	32	4.13		12 May 2009
+259	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2009-01-27		641	205	3.13	95	6.74		12 May 2009
+260	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2009-01-27		437	141	3.10	19	2.54		12 May 2009
+261	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2009-01-27		338	139	2.43	11	1.87		12 May 2009
+262	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2009-01-27		498	155	3.21	23	3.25		12 May 2009
+263	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2009-01-28		539	155	3.48	49	5.83		12 May 2009
+264	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2009-01-28		716	219	3.27	19	2.40		12 May 2009
+265	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2009-01-28		712	227	3.14	34	3.27		12 May 2009
+266	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2009-01-28		395	104	3.80	32	4.05		12 May 2009
+267	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2009-01-28		159	48	3.31	17	2.59		12 May 2009
+268	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2009-01-29		716	211	3.39	25	2.98		12 May 2009
+269	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2009-01-29		424	125	3.39	15	2.70		12 May 2009
+270	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2009-01-29		614	153	4.01	19	3.49		12 May 2009
+271	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2009-01-29		448	100	4.48	27	4.34		12 May 2009
+272	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2009-01-29		298	80	3.73	19	3.13		12 May 2009
+273	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2009-01-30		823	244	3.37	31	3.37		12 May 2009
+274	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2009-01-30		534	174	3.07	17	2.36		12 May 2009
+275	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2009-01-30		666	204	3.26	28	3.30		12 May 2009
+276	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2009-01-30		231	70	3.30	24	3.15		12 May 2009
+277	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2009-01-30		221	68	3.25	10	2.24		12 May 2009
+278	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2009-02-02		660	244	2.70	18	2.09		12 May 2009
+279	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2009-02-02		539	143	3.77	21	2.90		12 May 2009
+280	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2009-02-02		594	148	4.01	27	3.96		12 May 2009
+282	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2009-02-02		430	163	2.64	14	1.97		12 May 2009
+283	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2009-02-02		329	105	3.13	12	2.24		12 May 2009
+322	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2009-02-25		642	183	3.51	53	4.88		13 May 2009
+323	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2009-02-25		745	232	3.21	25	2.64		13 May 2009
+324	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2009-02-25		484	159	3.04	10	2.03		13 May 2009
+325	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2009-02-25		337	121	2.79	12	2.20		13 May 2009
+326	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2009-02-25		217	63	3.44	10	2.25		13 May 2009
+327	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2009-02-26		997	297	3.36	30	3.30		13 May 2009
+328	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2009-02-26		490	179	2.74	17	2.25		13 May 2009
+329	Cuidado con el Ã¡ngel, part 3	Cuidado con el Ã¡ngel	2009-02-26		480	122	3.93	22	3.28		13 May 2009
+330	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2009-02-26		246	87	2.83	9	1.79		13 May 2009
+331	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2009-02-26		204	62	3.29	10	2.07		13 May 2009
+332	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2009-02-27		1134	257	4.41	206	12.90		13 May 2009
+333	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2009-02-27		657	197	3.34	18	2.74		13 May 2009
+334	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2009-02-27		430	101	4.26	40	4.64		13 May 2009
+335	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2009-02-27		330	67	4.93	38	6.58		13 May 2009
+336	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2009-02-27		134	20	6.70	22	6.11		13 May 2009
+337	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2009-03-02		987	255	3.87	25	3.57		13 May 2009
+338	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2009-03-02		532	137	3.88	17	3.25		13 May 2009
+339	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2009-03-02		399	115	3.47	16	2.47		13 May 2009
+340	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2009-03-02		428	127	3.37	20	2.62		13 May 2009
+341	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2009-03-02		79	22	3.59	25	4.99		13 May 2009
+342	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2009-03-03		690	192	3.59	40	4.13		13 May 2009
+343	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2009-03-03		356	94	3.79	48	5.05		13 May 2009
+344	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2009-03-03		361	116	3.11	21	2.47		13 May 2009
+345	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2009-03-03		258	53	4.87	20	4.45		13 May 2009
+346	Cuidado con el Ã¡ngel, Part 1	Cuidado con el Ã¡ngel	2009-03-04		855	264	3.24	24	2.60		13 May 2009
+347	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2009-03-04		656	198	3.31	36	3.73		13 May 2009
+348	Cuidado con el Ã¡ngel, Part 3	Cuidado con el Ã¡ngel	2009-03-04		338	96	3.52	33	4.25		13 May 2009
+349	Cuidado con el Ã¡ngel, Part 4	Cuidado con el Ã¡ngel	2009-03-04		327	93	3.52	13	2.37		13 May 2009
+350	Cuidado con el Ã¡ngel, Part 5	Cuidado con el Ã¡ngel	2009-03-04		291	83	3.51	11	2.41		13 May 2009
+382	Cuidado con el Ã¡ngel, Part 2	Cuidado con el Ã¡ngel	2009-03-03		757	231	3.28	23	3.07		14 May 2009
+530	AAMCO	Curb Your Enthusiasm	2002-11-26		1521	108	14.08	70	14.56		02 November 2011
+158	Silent Killer, The	Dallas	1979-10-05		2881	406	7.10	97	9.21		03 October 2008
+172	Whatever Happened to Baby John?: Part 1	Dallas	1979-09-21		2736	428	6.39	50	7.19		23 October 2008
+173	Whatever Happened to Baby John?: Part 2	Dallas	1979-09-28		2588	405	6.39	103	9.36		23 October 2008
+174	Tangled Web	Dallas	1983-04-01		2766	418	6.62	51	6.57		23 October 2008
+175	Penultimate	Dallas	1983-04-29		2749	457	6.02	68	6.91		23 October 2008
+176	Ewing Inferno	Dallas	1983-05-06		2761	362	7.63	88	11.30		23 October 2008
+177	Things Ain't Goin' Too Good at Southfork	Dallas	1983-04-15		2760	345	8.00	115	10.59		23 October 2008
+205	Legacy	Dallas	1983-02-18		2758	469	5.88	42	5.72		28 November 2008
+206	Brothers and Sisters	Dallas	1983-02-25		2765	390	7.09	77	7.86		28 November 2008
+207	Caribbean Connection	Dallas	1983-03-04		2730	470	5.81	70	6.25		28 November 2008
+208	Hell Hath No Fury	Dallas	1983-03-18		2697	378	7.13	52	7.17		28 November 2008
+209	Cuba Libre	Dallas	1983-03-25		2766	430	6.43	72	6.64		28 November 2008
+210	The Sting	Dallas	1983-03-11		2751	379	7.26	131	9.35		28 November 2008
+934	Darjeeling Limited, The	Darjeeling Limited, The		2007	5133	632	8.12	93	12.47		21 July 2014
+959	Pilot	Dead Like Me	2003-06-27		4367	1229	3.55	43	3.85		21 October 2014
+960	Dead Girl Walking	Dead Like Me	2003-07-04		2397	628	3.82	49	4.54		21 October 2014
+428	Never Name A Duck	Dick van Dyke Show, The	1962-09-26		1427	218	6.55	41	6.33		06 November 2009
+429	Hustling The Hustler	Dick van Dyke Show, The	1962-10-24		1456	232	6.28	56	6.71		06 November 2009
+430	Bank Book 6565696	Dick van Dyke Show, The	1962-10-17		1461	217	6.73	59	7.21		06 November 2009
+431	The Night The Roof Fell In	Dick van Dyke Show, The	1962-11-21		1446	276	5.24	28	4.44		06 November 2009
+698	Pilot	Doogie Howser MD	1989-09-19		1421	256	5.55	52	6.66		31 October 2012
+699	The Ice Queen Cometh	Doogie Howser MD	1989-09-20		1393	302	4.61	36	4.36		31 October 2012
+700	A Stitch Called Wanda	Doogie Howser MD	1989-09-27		1360	244	5.57	53	7.71		31 October 2012
+701	Frisky Business	Doogie Howser MD	1989-10-04		1354	259	5.23	45	5.49		31 October 2012
+702	The Short Goodbye	Doogie Howser MD	1989-10-11		1386	309	4.49	42	4.72		31 October 2012
+703	Simply Irresistible	Doogie Howser MD	1989-10-18		1389	288	4.82	56	6.16		31 October 2012
+704	Vinnie Video Vici	Doogie Howser MD	1989-10-25		1407	170	8.28	70	11.61		31 October 2012
+705	Blood and Remember	Doogie Howser MD	1989-11-01		1385	302	4.59	62	6.53		31 October 2012
+706	She Ain't Heavy She's My Cousin	Doogie Howser MD	1989-11-08		1371	283	4.84	40	5.22		31 October 2012
+707	My Old Man And The Tea	Doogie Howser MD	1989-11-15		1372	216	6.35	78	9.81		31 October 2012
+708	Tonight's The Night	Doogie Howser MD	1989-11-22		1391	269	5.17	69	6.52		31 October 2012
+709	Every Dog Has His Doogie	Doogie Howser MD	1989-11-29		1378	268	5.14	46	5.79		31 October 2012
+710	Doogie The Red Nosed Reindeer	Doogie Howser MD	1989-12-13		1366	265	5.15	72	7.16		31 October 2012
+711	Greed Is Good	Doogie Howser MD	1990-01-03		1383	277	4.99	55	5.91		31 October 2012
+712	Attack of the Green-eyed Monster	Doogie Howser MD	1990-01-10		1376	274	5.02	53	5.88		31 October 2012
+713	It Ain't Over Till Mrs Howser Sings	Doogie Howser MD	1990-01-17		1381	253	5.46	49	5.72		31 October 2012
+714	Tough Guys Don't Teach	Doogie Howser MD	1990-01-31		1324	286	4.63	42	5.35		31 October 2012
+715	I Never Sold Shower Heads for My Father	Doogie Howser MD	1990-02-07		1350	250	5.40	55	6.71		31 October 2012
+716	Doogie's Awesome Excellent Adventure	Doogie Howser MD	1990-02-14		1346	306	4.40	45	5.45		31 October 2012
+717	Use a Slurpy Go To Jail	Doogie Howser MD	1990-02-28		1361	266	5.12	50	5.25		31 October 2012
+718	Whose Mid-Life Crisis Is It Anyway?	Doogie Howser MD	1990-03-14		1368	271	5.05	42	5.03		31 October 2012
+719	Vinnie's Blind Date	Doogie Howser MD	1990-03-21		1359	277	4.91	36	5.27		31 October 2012
+720	And The Winner Is	Doogie Howser MD	1990-03-28		1355	209	6.48	50	8.49		31 October 2012
+721	Breaking Up Is Hard to Doogie	Doogie Howser MD	1990-04-04		1374	250	5.50	62	6.13		31 October 2012
+722	The Grass Ain't Always Greener	Doogie Howser MD	1990-04-25		1349	262	5.15	27	4.53		31 October 2012
+723	Frankly My Dear I Don't Give a Grand	Doogie Howser MD	1990-05-02		1315	265	4.96	31	4.73		31 October 2012
+726	Doris Finds An Apartment	Doris Day Show	1970-09-14		1282	204	6.28	44	7.99		06 November 2012
+727	Feminist, The	Doris Day Show	1970-09-21		1281	262	4.89	39	5.12		06 November 2012
+728	How Can I Ignore The Man Next Door?	Doris Day Show	1970-09-28		1287	236	5.45	51	6.46		06 November 2012
+729	Dinner For One	Doris Day Show	1970-10-05		1288	208	6.19	86	8.80		06 November 2012
+731	Doris Leaves Today's World: Part 1	Doris Day Show	1970-10-12		1274	212	6.01	68	8.01		15 March 2013
+732	Doris Leaves Today's World: Part 2	Doris Day Show	1970-10-19		1406	202	6.96	54	8.22		15 March 2013
+733	Fashion Show, The	Doris Day Show	1970-10-26		1281	208	6.16	51	6.92		15 March 2013
+734	Lost And Found	Doris Day Show	1970-11-02		1376	210	6.55	59	8.64		15 March 2013
+735	DukeThe Performer	Doris Day Show	1970-11-09		1252	206	6.08	70	8.13		15 March 2013
+736	Doris the Spy	Doris Day Show	1970-11-16		1250	182	6.87	84	9.91		15 March 2013
+737	Tony Bennett is Eating Here	Doris Day Show	1970-11-23		1250	226	5.53	58	7.70		15 March 2013
+738	Love Makes The Pizza Go Around	Doris Day Show	1970-12-07		1504	205	7.34	90	11.33		15 March 2013
+739	Buck Visits The Big City	Doris Day Show	1970-12-14		1249	180	6.94	62	8.63		15 March 2013
+740	Its Christmas Time In The City	Doris Day Show	1970-12-21		1248	190	6.57	54	7.57		15 March 2013
+741	Doris Versus Pollution	Doris Day Show	1970-12-28		1251	226	5.54	85	8.31		15 March 2013
+742	The Forward Pass	Doris Day Show	1971-01-11		1258	249	5.05	53	7.05		15 March 2013
+743	Dukes Girlfriend	Doris Day Show	1971-01-18		1252	282	4.44	46	5.22		15 March 2013
+744	Jarvis Uncle	Doris Day Show	1971-01-25		1503	224	6.71	60	7.69		15 March 2013
+745	Lasso in Leroy	Doris Day Show	1971-02-01		1380	246	5.61	47	6.75		15 March 2013
+746	Colonel Fairburn JR	Doris Day Show	1971-02-08		1261	236	5.34	37	6.41		15 March 2013
+747	Billys First Date	Doris Day Show	1971-02-15		1407	210	6.70	59	8.07		15 March 2013
+748	Doris Goes To Hollywood	Doris Day Show	1971-02-22		1408	257	5.48	56	6.79		15 March 2013
+749	Skiing Anyone	Doris Day Show	1971-03-01		1174	210	5.59	71	9.85		15 March 2013
+750	The Father Son Weekend 	Doris Day Show	1971-03-08		1407	196	7.18	48	8.65		15 March 2013
+751	Young Love	Doris Day Show	1971-03-15		1167	169	6.91	36	6.08		15 March 2013
+752	Cousin Charlie	Doris Day Show	1970-11-30		1245	215	5.79	53	7.91		20 March 2013
+933	Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb	Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb		1964	5439	633	8.59	226	14.06		21 July 2014
+155	Big Crime, The	Dragnet	1954-09-09		1469	226	6.50	53	7.25		18 September 2008
+159	Big Seventeen, The	Dragnet	1952-11-06		1757	245	7.17	120	13.31		03 October 2008
+160	Big Break, The	Dragnet	1953-03-19		1513	160	9.46	70	12.51		03 October 2008
+161	Big Producer, The	Dragnet	1954-08-26		1514	264	5.73	57	6.90		03 October 2008
+162	Big Pair, The	Dragnet	1954-09-16		1501	254	5.91	65	7.55		03 October 2008
+851	The Puppy Episode: Part 1	Ellen	1997-04-30		1377	305	4.51	56	5.05		21 January 2014
+852	The Puppy Episode: Part 2	Ellen	1997-04-30		1335	255	5.24	33	4.93		21 January 2014
+972	Enemy Mine	Enemy Mine		1985	6121	1329	4.61	37	4.54		10 July 2015
+185	Something New, Part 1	ER	1997-10-02		287	47	6.11	41	8.21		18 November 2008
+186	Something New, Part 2	ER	1997-10-02		2302	370	6.22	142	12.87		18 November 2008
+187	Day One, Part 1	ER	1994-09-22		158	30	5.27	23	4.76		18 November 2008
+188	Day One, Part 2	ER	1994-09-22		2515	294	8.55	78	12.27		18 November 2008
+189	Going Home, Part 1	ER	1994-09-29		235	32	7.34	31	6.80		18 November 2008
+190	Going Home, part 2	ER	1994-09-29		2537	347	7.31	97	9.99		18 November 2008
+191	Friendly Fire, Part 1	ER	1997-10-09		274	45	6.09	69	11.78		18 November 2008
+192	Friendly Fire, Part 2	ER	1997-10-09		2401	383	6.27	82	9.80		18 November 2008
+193	When the Bough Breaks, Part 1	ER	1997-10-23		240	29	8.28	52	13.53		18 November 2008
+194	When the Bough Breaks, Part 2	ER	1997-10-23		2369	366	6.47	56	8.83		18 November 2008
+195	Peace of Wild Things, Part 1	ER	1999-11-11		154	15	10.27	39	10.24		28 November 2008
+196	Peace of Wild Things, Part 2	ER	1999-11-11		2385	397	6.01	47	6.85		28 November 2008
+197	Great Expectations, Part 1	ER	1999-11-25		199	17	11.71	42	9.40		28 November 2008
+198	Great Expectations, Part 2	ER	1999-11-25		2301	501	4.59	74	5.86		28 November 2008
+200	Humpty Dumpty, Part 2	ER	1999-11-18		2329	364	6.40	65	8.51		28 November 2008
+211	Ambush	ER	1997-09-25		2567	32	80.22	206	41.38		09 December 2008
+212	Truth & Consequences, Part 1	ER	1999-11-04		288	19	15.16	70	21.23		09 December 2008
+213	Truth & Consequences, Part 2	ER	1999-11-04		2213	330	6.71	60	9.33		09 December 2008
+667	24 Hours (Pilot)	ER	1994-09-19		5145	738	6.97	160	9.41		20 June 2012
+561	Finding Nemo	Finding Nemo		2003	5521	1430	3.86	40	4.07		09 November 2011
+765	TheMessage	Firefly	2003-07-28		2626	935	2.81	118	4.32		15 April 2013
+863	Jaynestown	Firefly	2002-11-01		2618	661	3.96	51	4.14		23 January 2014
+557	Sally	Flight of the Conchords, The	2007-06-17		1656	331	5.00	28	4.77		04 November 2011
+967	Four Brothers	Four Brothers		2005	6289	1565	4.02	42	4.98		08 April 2015
+850	Dinner at Eight	Frasier	1993-09-30		1349	323	4.18	25	3.35		21 January 2014
+879	Guess Who's Coming to Breakfast	Frasier	1994-01-06		1301	228	5.71	29	4.73		02 February 2014
+880	Can't Buy Me Love	Frasier	1994-01-20		1318	300	4.39	21	3.57		02 February 2014
+881	You Can't Tell a Crook by His Cover	Frasier	1994-01-27		1314	336	3.91	27	3.15		02 February 2014
+882	The Show Where Lilith Comes Back	Frasier	1994-02-03		1319	263	5.02	23	3.88		02 February 2014
+883	A Mid-Winter Night's Dream	Frasier	1994-02-10		1328	294	4.52	26	3.65		02 February 2014
+884	And the Whimper Is...	Frasier	1994-02-17		1318	309	4.27	23	3.09		02 February 2014
+864	French Kiss	French Kiss		1995	6198	1017	6.09	99	8.63		23 January 2014
+1	The One With Chandler's Work Laugh, Part 1	Friends	1999-01-21		44	15	2.93	8	1.79	First data entered.	16 November 2011
+2	The One With Chandler's Work Laugh, Part 2	Friends	1999-01-21		541	162	3.34	10	2.10		13 August 2007
+7	The One With Chandler's Work Laugh, Part 3	Friends	1999-01-21		618	140	4.41	16	3.21		13 August 2007
+216	The One Where Everybody Finds Out	Friends	1999-02-11		1459	341	4.28	51	4.32		14 January 2009
+217	The One With All the Cheesecakes	Friends	2001-01-04		1408	335	4.20	45	3.64		14 January 2009
+447	The One with Ross's Tan	Friends	2003-10-09		1535	356	4.31	58	3.92		23 February 2011
+408	From the Terrace	From the Terrace		1960	8517	885	9.62	114	11.39		16 October 2009
+932	Frozen	Frozen		2013	5275	1426	3.70	27	3.21		21 July 2014
+531	Decision in the Ring, Part 1	Fugitive, The	1963-10-22		827	115	7.19	40	7.98		02 November 2011
+532	Decision in the Ring, Part 2	Fugitive, The	1963-10-20		944	145	6.51	51	7.76		02 November 2011
+533	Decision in the Ring, Part 3	Fugitive, The	1963-10-20		335	46	7.28	54	9.83		02 November 2011
+534	Decision in the Ring, Part 4	Fugitive, The	1963-10-20		705	107	6.59	38	7.06		02 November 2011
+535	Decision in the Ring, Part 5	Fugitive, The	1963-10-20		60	6	10.00	20	6.87		18 November 2011
+940	A Head in the Polls	Futurama	1999-12-12		1296	274	4.73	21	4.07		29 July 2014
+941	A Tale of Two Santas	Futurama	2001-12-16		1295	349	3.71	29	2.93		29 July 2014
+865	The Old Gods and the New	Game of Thrones	2012-05-06		3049	930	3.28	32	2.84		23 January 2014
+599	General, The	General, The		1926	4673	614	7.61	61	6.42		01 February 2012
+754	Gentlemen Prefer Blondes	Gentlemen Prefer Blondes		1953	5467	538	10.16	93	11.34		11 April 2013
+603	Home Sweet Hut	Gilligan's Island	1964-10-03		1435	172	8.34	60	9.23		22 February 2012
+604	Voodoo Something to Me	Gilligan's Island	1964-10-10		1440	253	5.69	81	8.28		22 February 2012
+605	Goodnight Sweet Skipper	Gilligan's Island	1964-10-17		1424	224	6.36	78	9.14		22 February 2012
+606	Wrongway Feldman	Gilligan's Island	1964-10-24		1429	221	6.47	72	8.93		22 February 2012
+607	President Gilligan	Gilligan's Island	1964-10-31		1413	203	6.96	52	8.39		22 February 2012
+608	The Sound of Quacking	Gilligan's Island	1964-11-07		1437	245	5.87	49	6.99		22 February 2012
+609	Goodbye Island	Gilligan's Island	1964-11-21		1378	250	5.51	46	5.95		22 February 2012
+617	The Big Gold Strike	Gilligan's Island	1964-11-28		1435	267	5.37	42	5.98		21 March 2012
+618	Waiting for Watubi	Gilligan's Island	1964-12-05		1436	126	11.40	80	13.06		21 March 2012
+619	Angel on the Island	Gilligan's Island	1964-12-12		1436	148	9.70	107	15.16		21 March 2012
+620	Birds Gotta Fly Fis hGotta Talk	Gilligan's Island	1964-12-19		1425	277	5.14	48	6.59		21 March 2012
+621	Three Million Dollars More or Less	Gilligan's Island	1964-12-26		1437	179	8.03	59	10.17		21 March 2012
+622	Water Wate rEverywhere	Gilligan's Island	1965-01-02		1432	238	6.02	49	7.26		21 March 2012
+623	So Sorry My Island Now	Gilligan's Island	1965-01-09		1418	259	5.47	43	6.16		21 March 2012
+624	Two on a Raft	Gilligan's Island	1964-09-26		1439	213	6.76	32	6.31		21 March 2012
+625	Plant You Now Dig You Later	Gilligan's Island	1965-01-16		1424	211	6.75	60	8.40		04 April 2012
+626	Little Island Gig Gun	Gilligan's Island	1965-01-23		1433	186	7.70	92	12.82		04 April 2012
+627	X Marks the Spot	Gilligan's Island	1965-01-30		1375	178	7.72	75	10.31		04 April 2012
+628	Gilligan Meets Jungle Boy	Gilligan's Island	1965-02-06		1400	235	5.96	79	8.10		04 April 2012
+629	St Gilligan and the Dragon	Gilligan's Island	1965-02-13		1443	182	7.93	46	7.89		04 April 2012
+630	Big Manon Little Stick	Gilligan's Island	1965-02-20		1438	180	7.99	71	11.25		04 April 2012
+631	Diamonds Are an Apes Best Friend	Gilligan's Island	1965-02-27		1429	140	10.21	53	11.37		04 April 2012
+632	How to Be a Hero	Gilligan's Island	1965-03-06		1431	263	5.44	45	6.15		04 April 2012
+633	The Return of Wrongway Feldman	Gilligan's Island	1965-03-13		1436	214	6.71	81	9.27		04 April 2012
+634	The Matchmaker	Gilligan's Island	1965-03-20		1432	206	6.95	52	8.67		04 April 2012
+635	Music Hath Charms	Gilligan's Island	1965-03-27		1426	199	7.17	104	10.62		04 April 2012
+636	New Neighbor Sam	Gilligan's Island	1965-04-03		1434	223	6.43	48	7.25		04 April 2012
+639	They are Off and Running	Gilligan's Island	1965-04-10		1409	164	8.59	47	10.79		22 April 2012
+640	Three to Get Ready	Gilligan's Island	1965-04-17		1429	192	7.44	92	10.57		22 April 2012
+641	Forget Me Not	Gilligan's Island	1965-04-24		1438	211	6.82	59	9.54		22 April 2012
+642	Diogenes Wont You Please Go Home	Gilligan's Island	1965-05-01		1405	225	6.24	54	7.43		22 April 2012
+643	Physical Fatness	Gilligan's Island	1965-05-08		1424	140	10.17	63	13.34		22 April 2012
+644	Its Magic	Gilligan's Island	1965-05-15		1438	185	7.77	59	8.68		22 April 2012
+645	Goodbye Old Paint	Gilligan's Island	1965-05-22		1441	212	6.80	91	10.79		22 April 2012
+646	My Fair Gilligan	Gilligan's Island	1965-06-05		1422	218	6.52	45	7.45		22 April 2012
+647	A Nose by Any Other Name	Gilligan's Island	1965-06-12		1422	194	7.33	57	9.83		22 April 2012
+558	Gone With the Wind, Part 1	Gone With the Wind		1939	5858	599	9.78	75	10.57	Part 1 of 2.	18 November 2011
+560	Gone with the Wind, Part 2	Gone With the Wind		1939	7208	642	11.23	131	14.92		09 November 2011
+866	Good Burger	Good Burger		1997	5443	1607	3.39	62	3.52		23 January 2014
+503	Marty	Goodyear Playhouse	1953-05-24		3005	108	27.82	282	41.19		17 October 2011
+36	Graduate, The	Graduate, The		1967	1871	74	25.28	132	28.89	First 30 minutes, including titles.	17 January 2008
+867	The Inconveniencing	Gravity Falls	2012-07-13		1224	412	2.97	41	3.12		23 January 2014
+543	A Hard Day's Night	Grey's Anatomy	2005-03-27		2441	724	3.37	26	2.82		04 November 2011
+424	Old Flame	Gunsmoke	1960-05-28		1502	124	12.11	83	13.54		26 October 2009
+425	The Constable	Gunsmoke	1959-05-30		1498	169	8.86	61	9.83		27 October 2009
+544	Hangover, The	Hangover, The		2009	1952	502	3.89	25	3.20	First 30 minutes only.	04 November 2011
+666	Fonzie Loves Pinky, Part 2	Happy Days	1976-09-21		1331	415	3.21	28	3.28	The second 30 mins. of a one-hour special.	19 June 2012
+449	All the Way	Happy Days	1974-01-15		1379	266	5.18	62	7.22		03 March 2011
+665	Fonzie Loves Pinky, Part 1	Happy Days	1976-09-21		1412	260	5.43	36	4.74	The first 30 mins. of a one-hour special.	19 June 2012
+451	Fonzie Loves Pinky Part 3	Happy Days	1976-09-28		1385	329	4.21	29	4.26		07 March 2011
+452	A Mind of Their Own	Happy Days	1976-10-05		1429	212	6.74	34	6.57		07 March 2011
+453	The Lemon	Happy Days	1974-01-22		1395	245	5.69	77	9.37		08 March 2011
+454	Richie's Cup Runneth Over	Happy Days	1974-01-29		1379	159	8.67	68	10.57		08 March 2011
+455	Guess Who's Coming To Visit	Happy Days	1974-02-05		1349	259	5.21	80	8.25		08 March 2011
+456	Hardware Jungle	Happy Days	1974-02-12		1396	201	6.95	84	10.33		08 March 2011
+457	The Deadly Dares	Happy Days	1974-02-19		1382	234	5.91	51	7.83		08 March 2011
+458	Fonzie Drops In	Happy Days	1974-02-26		1388	238	5.83	56	7.81		08 March 2011
+460	The Skin Game	Happy Days	1974-03-05		1384	217	6.38	72	8.25		08 March 2011
+461	Breaking Up is Hard to Do	Happy Days	1974-03-12		1354	190	7.13	51	8.00		08 March 2011
+462	Give the Band a Hand	Happy Days	1974-03-26		1404	230	6.10	58	7.96		08 March 2011
+463	Because She's There	Happy Days	1974-04-02		1398	206	6.79	44	9.16		08 March 2011
+464	In the Name of Love	Happy Days	1974-04-09		1387	192	7.22	69	10.63		08 March 2011
+465	Great Expectations	Happy Days	1974-04-16		1373	182	7.54	74	10.12		08 March 2011
+466	The Best Man	Happy Days	1974-04-23		1398	186	7.52	77	10.98		08 March 2011
+467	Knock Around the Block	Happy Days	1974-04-30		1410	169	8.34	89	11.56		08 March 2011
+468	Be the First on Your Block	Happy Days	1974-05-07		1411	155	9.10	52	10.08		08 March 2011
+470	Richie Moves Out	Happy Days	1974-09-10		1408	133	10.59	151	17.70		14 October 2011
+471	Richie's Car	Happy Days	1974-09-17		1393	129	10.80	155	19.37		14 October 2011
+472	Who's Sorry Now?	Happy Days	1974-09-24		1409	165	8.54	94	14.35		14 October 2011
+473	You Go To My Head	Happy Days	1974-10-01		1402	200	7.01	63	9.10		14 October 2011
+474	ROTC	Happy Days	1974-10-08		1411	176	8.02	82	10.19		14 October 2011
+476	Fonzie Moves In	Happy Days	1975-09-09		1441	207	6.96	46	7.24		14 October 2011
+477	The Motorcycle	Happy Days	1975-09-16		1411	217	6.50	32	5.84		14 October 2011
+653	Fearless Fonzarelli Part One	Happy Days	1975-09-23		1437	235	6.11	50	6.60	Re-entered after I found that the previous version was entered 6 times!	17 May 2012
+479	Fearless Fonzarelli Part Two	Happy Days	1975-09-30		1445	217	6.66	68	9.09		14 October 2011
+480	The Other Richie Cunningham	Happy Days	1975-10-07		1446	231	6.26	38	6.02		14 October 2011
+481	Richie Fights Back	Happy Days	1975-10-14		1437	187	7.68	81	10.44		14 October 2011
+482	Jailhouse Rock	Happy Days	1975-10-21		1443	181	7.97	90	8.65		14 October 2011
+483	Howard's 45th Fiasco	Happy Days	1975-10-28		1434	181	7.92	66	8.49		14 October 2011
+484	Fonzie the Flatfoot	Happy Days	1975-11-04		1441	281	5.13	41	4.78		14 October 2011
+485	A Date with Fonzie	Happy Days	1975-11-11		1327	165	8.04	41	7.53		14 October 2011
+486	Three on a Porch	Happy Days	1975-11-18		1433	184	7.79	69	9.76		14 October 2011
+487	Fonzie's New Friend	Happy Days	1975-11-25		1208	163	7.41	54	8.01		14 October 2011
+488	They Call It Potsie Love	Happy Days	1975-12-02		1440	177	8.14	46	7.51		14 October 2011
+489	Tell It to the Marines	Happy Days	1975-12-16		1435	188	7.63	55	7.98		14 October 2011
+490	Dance Contest	Happy Days	1976-01-06		1432	173	8.28	97	10.77		14 October 2011
+491	Fonzie the Salesman	Happy Days	1976-01-13		1439	176	8.18	112	11.35		14 October 2011
+492	Football Frolics	Happy Days	1976-01-20		1433	188	7.62	44	7.92		14 October 2011
+493	Fonzie the Superstar	Happy Days	1976-01-27		1411	156	9.04	57	9.92		14 October 2011
+494	Two Angry Men	Happy Days	1976-02-03		1421	162	8.77	104	12.81		14 October 2011
+495	Beauty Contest	Happy Days	1976-02-10		1440	190	7.58	42	6.94		14 October 2011
+496	Bringing Up Spike	Happy Days	1976-02-17		1431	196	7.30	40	7.10		14 October 2011
+497	Sight for Sore Eyes	Happy Days	1976-02-24		1430	206	6.94	57	6.95		14 October 2011
+498	Arnold's Wedding	Happy Days	1976-03-02		1415	183	7.73	52	6.77		14 October 2011
+517	Wish Upon a Star	Happy Days	1974-11-12		1406	183	7.68	63	9.85		29 October 2011
+518	Not With My Sister	Happy Days	1974-11-19		1386	134	10.34	73	14.16		29 October 2011
+519	Big Money	Happy Days	1974-11-26		1418	196	7.23	75	8.76		29 October 2011
+520	A Star Is Bored	Happy Days	1974-12-03		1402	176	7.97	53	9.95		29 October 2011
+521	Guess Who's Coming to Christmas	Happy Days	1974-12-17		1351	212	6.37	76	8.60		29 October 2011
+563	Fonzie Joins the Band	Happy Days	1975-03-04		1326	241	5.50	50	7.20		10 November 2011
+536	Open House	Happy Days	1975-01-07		1408	200	7.04	82	10.22		03 November 2011
+537	Cruisin'	Happy Days	1975-02-11		1410	173	8.15	63	10.30		03 November 2011
+538	Fonzie Getting Married	Happy Days	1975-01-14		1421	187	7.60	62	9.21		03 November 2011
+539	The Cunninghan Caper	Happy Days	1975-01-21		1417	237	5.98	49	7.92		03 November 2011
+540	The Not Making of the President	Happy Days	1975-01-28		1403	215	6.53	53	7.78		03 November 2011
+541	The Howdy Doody Show	Happy Days	1975-02-18		1377	133	10.35	127	14.47		03 November 2011
+542	Get a Job	Happy Days	1975-02-25		1394	120	11.62	92	14.87		03 November 2011
+564	Fish and the Fins	Happy Days	1975-03-11		1417	164	8.64	74	11.32		10 November 2011
+565	Richie's Flip Side	Happy Days	1975-03-18		1338	176	7.60	64	10.20		14 November 2011
+566	Kiss Me Sickly	Happy Days	1975-04-29		1385	209	6.63	57	8.30		18 November 2011
+567	Going to Chicago	Happy Days	1975-05-06		1359	258	5.27	53	6.54		10 November 2011
+568	AKA The Fonz	Happy Days	1976-11-30		1428	249	5.73	32	5.18		17 November 2011
+569	The Muckrakers	Happy Days	1976-11-23		1431	235	6.09	28	5.37		17 November 2011
+570	They Shoot Fonzies Don't They	Happy Days	1976-11-16		1426	282	5.06	24	3.63		17 November 2011
+571	A Place of His Own	Happy Days	1976-11-09		1434	197	7.28	33	6.60		18 November 2011
+572	Fonzie's Hero	Happy Days	1976-10-26		1429	243	5.88	36	5.30		18 November 2011
+573	Fonzie the Father	Happy Days	1976-10-19		1409	209	6.74	58	7.45		17 November 2011
+574	Marion Rebels	Happy Days	1977-02-01		1430	226	6.33	43	6.19		01 December 2011
+575	A Shot in the Dark	Happy Days	1977-01-25		1434	214	6.70	60	7.03		01 December 2011
+576	The Book Of Record	Happy Days	1977-01-18		1430	262	5.46	33	5.57		01 December 2011
+577	Time Capsule	Happy Days	1977-01-11		1430	230	6.22	33	5.17		01 December 2011
+578	Fonzie's Old Lady	Happy Days	1977-01-04		1432	232	6.17	55	7.21		01 December 2011
+579	Richie Branches Out	Happy Days	1976-12-07		1431	287	4.99	34	4.63		01 December 2011
+580	The Graduation Part1	Happy Days	1977-02-08		1397	235	5.94	45	5.46		05 December 2011
+581	The Graduation Part2	Happy Days	1977-02-15		1427	220	6.49	41	5.81		05 December 2011
+582	The Physical	Happy Days	1977-02-22		1422	179	7.94	43	7.77		05 December 2011
+583	Joanie's Weird Boyfriend	Happy Days	1977-03-01		1430	305	4.69	29	3.92		05 December 2011
+584	FonzHow INC	Happy Days	1977-03-08		1415	244	5.80	30	4.87		05 December 2011
+585	Spunky Come Home	Happy Days	1977-03-15		1426	244	5.84	41	6.20		05 December 2011
+586	Last of the Big Time Malphs	Happy Days	1977-03-22		1427	265	5.38	36	5.08		05 December 2011
+587	Fonzies Baptism	Happy Days	1977-03-29		1412	282	5.01	20	3.86		05 December 2011
+588	3rd AnniversaryShow	Happy Days	1977-02-04		1373	240	5.72	68	6.79		05 December 2011
+664	Haunted	Happy Days	1974-10-29		1405	203	6.92	60	9.11		18 June 2012
+668	Dave of the Dead	Happy Endings	2011-05-04		1236	381	3.24	25	3.04		10 July 2012
+816	Hard, Fast and Beautiful	Hard, Fast and Beautiful		1951	4548	613	7.42	95	10.13		14 November 2013
+415	Have Gun - Will Travel	Have Gun - Will Travel	1960-02-13		1439	273	5.27	36	4.64		22 October 2009
+416	Have Gun - Will Travel	Have Gun - Will Travel	1960-02-06		1445	197	7.34	44	7.09		22 October 2009
+417	Have Gun - Will Travel	Have Gun - Will Travel	1960-01-30		1451	209	6.94	44	6.10		22 October 2009
+777	His Girl Friday	His Girl Friday		1940	5317	368	14.45	107	17.64		03 October 2013
+38	Wizard's Baker, The	Home Movies	2004-02-08		1227	274	4.48	39	5.38		17 January 2008
+23	TV or Not TV	Honeymooners, The	1955-10-01		1505	85	17.71	90	16.00		31 October 2007
+637	Bread	Honeymooners, The	1951-10-05		350	20	17.50	52	12.53	The first Honeymooners sketch -- included in "Cavalcade of Stars." 	22 April 2012
+638	The New Television Set	Honeymooners, The	1951-11-02		493	18	27.39	106	28.50	Sketch in "Cavalcade of Stars."	22 April 2012
+931	Hours, The	Hours, The		2002	6304	1598	3.94	37	3.74		21 July 2014
+764	I Got the Hook Up	House of Payne	2007-08-15		1212	256	4.73	29	3.64		15 April 2013
+794	How Green Was My Valley	How Green Was My Valley		1941	6996	738	9.48	109	9.54		24 October 2013
+556	Huang tu di	Huang tu di		1985	5029	517	9.73	139	12.87	Released in US as YELLOW EARTH.	04 November 2011
+785	I Confess	I Confess		1953	5584	791	7.06	98	8.45		10 October 2013
+79	The Girls Want to Go to a Nightclub	I Love Lucy	1951-10-15		1370	122	11.23	65	11.51		17 March 2008
+92	Be a Pal	I Love Lucy	1951-10-22		1331	122	10.91	44	9.90		26 March 2008
+93	Ricky Thinks He's Getting Bald	I Love Lucy	1952-06-02		1445	147	9.83	80	12.24		26 March 2008
+94	Ricky Asks for a Raise	I Love Lucy	1952-06-09		1435	159	9.03	57	9.19		26 March 2008
+95	The Pilot	I Love Lucy	1951-03-02		2049	128	16.01	74	12.83		26 March 2008
+589	The Diet	I Love Lucy	1951-10-29		1370	142	9.65	58	9.36		11 January 2012
+590	Lucy Thinks Ricky is Trying to Murder Her	I Love Lucy	1951-11-05		1360	123	11.06	95	13.48		11 January 2012
+591	The Quiz Show	I Love Lucy	1951-11-12		1375	123	11.18	74	11.90		11 January 2012
+592	The Audition	I Love Lucy	1951-11-19		1374	131	10.49	80	9.98		11 January 2012
+593	The Seance	I Love Lucy	1951-11-26		1341	172	7.80	55	7.02		11 January 2012
+594	Men are Messy	I Love Lucy	1951-12-03		1358	131	10.37	68	11.28		11 January 2012
+595	The Fur Coat	I Love Lucy	1951-12-10		1338	147	9.10	57	8.31		11 January 2012
+596	Lucy is Jealous of Girl Singer	I Love Lucy	1951-12-17		1447	175	8.27	49	8.01		11 January 2012
+597	Drafted	I Love Lucy	1951-12-24		1529	177	8.64	44	8.18		11 January 2012
+670	Job Switching	I Love Lucy	1952-09-15		1393	126	11.06	64	11.60		11 July 2012
+868	The Inferiority Complex	I Love Lucy	1953-02-02		1432	193	7.42	65	7.30		23 January 2014
+901	Honeymoon	I Married Joan	1953-06-24		1364	142	9.61	56	8.70		18 February 2014
+902	Bev's Boyfriend	I Married Joan	1953-12-02		1365	107	12.76	58	11.15		18 February 2014
+663	So Long, Patrick Henry	I Spy	1965-09-15		2870	487	5.89	76	6.83		14 June 2012
+524	Mac Bangs Dennis' Mom	It's Always Sunny in Philadelphia	2006-07-06		1286	313	4.11	19	3.03		02 November 2011
+505	Patterns	Kraft Theatre	1955-01-12		3076	220	13.98	120	16.26	Originally known as Kraft Television Theatre.	17 October 2011
+778	Kramer vs. Kramer	Kramer vs. Kramer		1979	6039	930	6.49	119	8.14		03 October 2013
+909	La Grande Illusion	La Grande Illusion		1937	6663	354	18.82	123	19.25		02 March 2014
+724	Lady in the Lake	Lady in the Lake		1947	6016	27	222.81	578	163.04		06 November 2012
+506	Lake Placid	Lake Placid		1999	4594	1225	3.75	107	4.82		17 October 2011
+292	Las tontas no van al cielo, Part 1	Las tontas no van al cielo, Part 1	2009-02-25		737	158	4.66	41	5.52		13 May 2009
+293	Las tontas no van al cielo, Part 2	Las tontas no van al cielo, Part 1	2009-02-25		449	114	3.94	35	4.85		13 May 2009
+294	Las tontas no van al cielo, Part 3	Las tontas no van al cielo, Part 1	2009-02-25		456	134	3.40	12	2.42		13 May 2009
+295	Las tontas no van al cielo, Part 4	Las tontas no van al cielo, Part 1	2009-02-25		489	105	4.66	20	3.69		13 May 2009
+296	Las tontas no van al cielo, Part 5	Las tontas no van al cielo, Part 1	2009-02-25		339	76	4.46	47	6.14		13 May 2009
+297	Las tontas no van al cielo, Part 1	Las tontas no van al cielo, Part 1	2009-02-26		573	122	4.70	70	7.61		13 May 2009
+298	Las tontas no van al cielo, Part 2	Las tontas no van al cielo, Part 1	2009-02-26		529	127	4.17	25	3.58		13 May 2009
+299	Las tontas no van al cielo, Part 3	Las tontas no van al cielo, Part 1	2009-02-26		569	108	5.27	51	6.44		13 May 2009
+300	Las tontas no van al cielo, Part 4	Las tontas no van al cielo, Part 1	2009-02-26		327	67	4.88	34	4.85		13 May 2009
+301	Las tontas no van al cielo, Part 5	Las tontas no van al cielo, Part 1	2009-02-26		446	109	4.09	26	3.29		13 May 2009
+302	Las tontas no van al cielo, Part 1	Las tontas no van al cielo, Part 1	2009-02-27		697	173	4.03	21	3.23		13 May 2009
+303	Las tontas no van al cielo, Part 2	Las tontas no van al cielo, Part 1	2009-02-27		467	92	5.08	23	4.55		13 May 2009
+304	Las tontas no van al cielo, Part 3	Las tontas no van al cielo, Part 1	2009-02-27		439	90	4.88	48	5.81		13 May 2009
+305	Las tontas no van al cielo, Part 4	Las tontas no van al cielo, Part 1	2009-02-27		453	111	4.08	24	3.81		13 May 2009
+306	Las tontas no van al cielo, Part 5	Las tontas no van al cielo, Part 1	2009-02-27		382	94	4.06	19	3.34		13 May 2009
+307	Las tontas no van al cielo, Part 1	Las tontas no van al cielo, Part 1	2009-03-02		636	139	4.58	38	4.05		13 May 2009
+308	Las tontas no van al cielo, Part 2	Las tontas no van al cielo, Part 1	2009-03-02		454	120	3.78	36	4.15		13 May 2009
+309	Las tontas no van al cielo, Part 3	Las tontas no van al cielo, Part 1	2009-03-02		490	94	5.21	41	6.62		13 May 2009
+310	Las tontas no van al cielo, Part 5	Las tontas no van al cielo, Part 1	2009-03-02		381	118	3.23	20	2.71		13 May 2009
+311	Las tontas no van al cielo, Part 1	Las tontas no van al cielo, Part 1	2009-03-03		1008	271	3.72	54	4.12		13 May 2009
+313	Las tontas no van al cielo, Part 2	Las tontas no van al cielo, Part 1	2009-03-03		404	102	3.96	35	4.24		13 May 2009
+314	Las tontas no van al cielo, Part 3	Las tontas no van al cielo, Part 1	2009-03-03		324	70	4.63	18	3.60		13 May 2009
+315	Las tontas no van al cielo, Part 4	Las tontas no van al cielo, Part 1	2009-03-03		441	132	3.34	21	2.91		13 May 2009
+316	Las tontas no van al cielo, Part 5	Las tontas no van al cielo, Part 1	2009-03-03		315	78	4.04	26	3.88		13 May 2009
+317	Las tontas no van al cielo, Part 1	Las tontas no van al cielo, Part 1	2009-03-04		801	203	3.95	19	3.02		13 May 2009
+318	Las tontas no van al cielo, Part 2	Las tontas no van al cielo, Part 1	2009-03-04		393	74	5.31	15	3.31		13 May 2009
+319	Las tontas no van al cielo, Part 3	Las tontas no van al cielo, Part 1	2009-03-04		467	127	3.68	23	3.35		13 May 2009
+320	Las tontas no van al cielo, Part 4	Las tontas no van al cielo, Part 1	2009-03-04		470	117	4.02	40	4.36		13 May 2009
+321	Las tontas no van al cielo, Part 5	Las tontas no van al cielo, Part 1	2009-03-04		339	73	4.64	22	3.68		13 May 2009
+381	Las tontas no van al cielo, Part 4	Las tontas no van al cielo, Part 1	2009-03-02		500	119	4.20	25	3.51		14 May 2009
+974	Leap Year	Leap Year		2010	5680	1611	3.53	41	3.62		10 July 2015
+970	Lego Movie, The	Lego Movie, The		2014	11257	3301	3.41	41	3.22		10 July 2015
+441	Life of an American Fireman	Life of an American Fireman		1903	448	9	49.78	104	34.01		14 April 2010
+899	Babs' School Election	Life of Riley, The	1953-01-02		1485	131	11.34	62	12.93		18 February 2014
+900	Riley's Operation	Life of Riley, The	1953-04-17		1484	197	7.53	56	8.26		18 February 2014
+648	Little Miss Sunshine	Little Miss Sunshine		2006	5853	1356	4.32	91	5.12		09 May 2012
+545	Tabula Rosa	Lost	2004-10-06		2580	820	3.15	42	3.44		04 November 2011
+918	Love Me Tonight	Love Me Tonight		1932	5229	524	9.98	120	13.28		08 April 2014
+963	Lupin the 3rd: The Mystery of Mamo	Lupin the 3rd: The Mystery of Mamo		1978	6000	1270	4.72	31	3.77		13 January 2015
+657	Pilot	M*A*S*H	1972-09-17		1306	227	5.75	45	5.90		21 May 2012
+658	To Market, To Market	M*A*S*H	1972-09-24		1450	234	6.20	42	6.73		21 May 2012
+284	MaÃ±ana es para siempre, Part 1	MaÃ±ana es para siempre	2009-02-23		918	186	4.94	30	4.95		12 May 2009
+285	MaÃ±ana es para siempre, Part 2	MaÃ±ana es para siempre	2009-02-23		573	155	3.70	24	3.34		12 May 2009
+286	MaÃ±ana es para siempre, Part 3	MaÃ±ana es para siempre	2009-02-23		971	224	4.33	42	4.87		12 May 2009
+287	MaÃ±ana es para siempre, Part 1	MaÃ±ana es para siempre	2009-02-24		662	152	4.36	53	5.64		13 May 2009
+288	MaÃ±ana es para siempre, Part 2	MaÃ±ana es para siempre	2009-02-24		812	200	4.06	32	3.72		13 May 2009
+289	MaÃ±ana es para siempre, Part 3	MaÃ±ana es para siempre	2009-02-24		339	93	3.65	16	2.76		13 May 2009
+290	MaÃ±ana es para siempre, Part 4	MaÃ±ana es para siempre	2009-02-24		419	99	4.23	28	4.19		13 May 2009
+291	MaÃ±ana es para siempre, Part 5	MaÃ±ana es para siempre	2009-02-24		161	30	5.37	33	5.88		13 May 2009
+351	MaÃ±ana es para siempre, Part 1	MaÃ±ana es para siempre	2009-02-25		796	190	4.19	26	3.42		13 May 2009
+352	MaÃ±ana es para siempre, Part 2	MaÃ±ana es para siempre	2009-02-25		659	155	4.25	20	3.71		13 May 2009
+353	MaÃ±ana es para siempre, Part 3	MaÃ±ana es para siempre	2009-02-25		473	152	3.11	18	2.65		13 May 2009
+354	MaÃ±ana es para siempre, Part 4	MaÃ±ana es para siempre	2009-02-25		312	85	3.67	18	3.54		13 May 2009
+355	MaÃ±ana es para siempre, Part 5	MaÃ±ana es para siempre	2009-02-25		163	51	3.20	18	2.69		13 May 2009
+356	MaÃ±ana es para siempre, Part 1	MaÃ±ana es para siempre	2009-02-26		811	188	4.31	39	3.99		13 May 2009
+357	MaÃ±ana es para siempre, Part 2	MaÃ±ana es para siempre	2009-02-26		359	91	3.95	25	3.40		13 May 2009
+358	MaÃ±ana es para siempre, Part 3	MaÃ±ana es para siempre	2009-02-26		407	99	4.11	24	3.97		13 May 2009
+359	MaÃ±ana es para siempre, Part 4	MaÃ±ana es para siempre	2009-02-26		332	68	4.88	31	4.90		13 May 2009
+360	MaÃ±ana es para siempre, Part 5	MaÃ±ana es para siempre	2009-02-26		450	57	7.89	57	11.06		13 May 2009
+361	MaÃ±ana es para siempre, Part 1	MaÃ±ana es para siempre	2009-02-27		732	171	4.28	81	6.97		13 May 2009
+362	MaÃ±ana es para siempre, Part 2	MaÃ±ana es para siempre	2009-02-27		328	71	4.62	24	4.36		13 May 2009
+363	MaÃ±ana es para siempre, Part 3	MaÃ±ana es para siempre	2009-02-27		582	151	3.85	19	2.93		13 May 2009
+364	MaÃ±ana es para siempre, Part 4	MaÃ±ana es para siempre	2009-02-27		513	133	3.86	15	2.83		13 May 2009
+365	MaÃ±ana es para siempre, Part 5	MaÃ±ana es para siempre	2009-02-27		326	86	3.79	23	3.90		13 May 2009
+366	MaÃ±ana es para siempre, Part 1	MaÃ±ana es para siempre	2009-03-02		692	174	3.98	31	3.33		13 May 2009
+367	MaÃ±ana es para siempre, Part 2	MaÃ±ana es para siempre	2009-03-02		480	138	3.48	40	3.81		13 May 2009
+368	MaÃ±ana es para siempre, Part 3	MaÃ±ana es para siempre	2009-03-02		489	138	3.54	20	3.18		13 May 2009
+369	MaÃ±ana es para siempre, Part 4	MaÃ±ana es para siempre	2009-03-02		465	132	3.52	15	2.44		13 May 2009
+370	MaÃ±ana es para siempre, Part 5	MaÃ±ana es para siempre	2009-03-02		275	80	3.44	10	2.25		13 May 2009
+371	MaÃ±ana es para siempre, Part 1	MaÃ±ana es para siempre	2009-03-03		822	190	4.33	41	4.22		13 May 2009
+372	MaÃ±ana es para siempre, Part 2	MaÃ±ana es para siempre	2009-03-03		479	114	4.20	28	4.14		13 May 2009
+373	MaÃ±ana es para siempre, Part 3	MaÃ±ana es para siempre	2009-03-03		625	68	9.19	38	8.16		13 May 2009
+374	MaÃ±ana es para siempre, Part 4	MaÃ±ana es para siempre	2009-03-03		249	60	4.15	18	3.08		13 May 2009
+375	MaÃ±ana es para siempre, Part 5	MaÃ±ana es para siempre	2009-03-03		213	61	3.49	10	2.10		13 May 2009
+376	MaÃ±ana es para siempre, Part 1	MaÃ±ana es para siempre	2009-03-04		534	131	4.08	36	4.09		13 May 2009
+377	MaÃ±ana es para siempre, Part 2	MaÃ±ana es para siempre	2009-03-04		521	125	4.17	15	2.96		13 May 2009
+378	MaÃ±ana es para siempre, Part 3	MaÃ±ana es para siempre	2009-03-04		593	120	4.94	33	5.24		13 May 2009
+379	MaÃ±ana es para siempre, Part 4	MaÃ±ana es para siempre	2009-03-04		442	102	4.33	32	4.21		13 May 2009
+380	MaÃ±ana es para siempre, Part 5	MaÃ±ana es para siempre	2009-03-04		294	57	5.16	21	4.03		13 May 2009
+386	Shoot	Mad Men	2007-09-13		2788	534	5.22	45	4.92		14 July 2009
+387	Smoke Gets In Your Eyes	Mad Men	2007-07-19		2854	596	4.79	34	3.91		21 September 2009
+388	Ladies Room	Mad Men	2007-07-26		2741	556	4.93	105	6.96		21 September 2009
+389	Marriage of Figaro	Mad Men	2007-08-02		2570	463	5.55	55	6.45		21 September 2009
+390	New Amsterdam	Mad Men	2007-08-09		2634	550	4.79	41	4.79		21 September 2009
+391	5G	Mad Men	2007-08-16		2803	474	5.91	32	4.73		21 September 2009
+392	Babylon	Mad Men	2007-08-23		2751	512	5.37	58	6.67		21 September 2009
+393	Red In The Face	Mad Men	2007-08-30		2743	570	4.81	40	4.86		21 September 2009
+394	The Hobo Code	Mad Men	2007-09-06		2814	606	4.64	42	3.85		21 September 2009
+395	Long Weekend	Mad Men	2007-09-27		2814	485	5.80	90	6.20		21 September 2009
+399	Indian Summer	Mad Men	2007-10-04		2816	606	4.65	52	4.90		24 September 2009
+397	Nixon vs. Kennedy	Mad Men	2007-10-11		2802	541	5.18	34	4.43		21 September 2009
+398	The Wheel	Mad Men	2007-10-18		3045	497	6.13	60	6.69		21 September 2009
+818	Madam Satan	Madam Satan		1930	6840	774	8.84	102	10.00		14 November 2013
+180	Letter to a Duchess	Magnum, P.I.	1983-11-10		2714	483	5.62	50	6.08		23 October 2008
+181	Limited Engagement	Magnum, P.I.	1983-11-03		2720	518	5.25	58	6.34		23 October 2008
+182	Squeeze Play	Magnum, P.I.	1983-11-17		2771	697	3.98	59	4.62		23 October 2008
+183	Rollerskates	Malcolm in the Middle	2000-04-30		1244	339	3.67	23	3.51		27 October 2008
+156	Day Man, The	Man Against Crime	1953-05-20		1419	106	13.39	91	15.21		22 September 2008
+654	Sea of Security	Marcus Welby, M.D.	1970-03-17		2923	386	7.57	71	9.03		21 May 2012
+649	Marie Antoinette	Marie Antoinette		2006	6722	549	12.24	227	22.07		09 May 2012
+215	Mark of Zorro, The	Mark of Zorro, The		1920	5644	1031	5.47	49	5.40		13 January 2009
+869	In Search of... Martin	Martin	1994-09-01		1261	154	8.19	81	9.36		23 January 2014
+157	Doctored Will	Martin Kane	1951-01-01		1511	73	20.70	103	19.75		22 September 2008
+523	Hotel Con Game	Martin Kane	1951-01-01		1490	81	18.40	110	19.27	Broadcast date is unknown, but IMDb says it is episode 30 of the second season.	02 November 2011
+650	Match Point	Match Point		2005	7336	543	13.51	165	15.70		09 May 2012
+753	Memento	Memento		2000	6658	1877	3.55	221	6.52		08 April 2013
+149	Cool Runnin', Part 1	Miami Vice	1984-10-05		307	65	4.72	61	8.11		03 September 2008
+150	Cool Runnin', Part 2	Miami Vice	1984-10-05		2500	420	5.95	59	6.96		03 September 2008
+151	The Hit List, Part 1	Miami Vice	1984-10-19		141	24	5.88	37	8.83		03 September 2008
+152	The Hit List, Part 2	Miami Vice	1984-10-19		2670	430	6.21	131	11.33		03 September 2008
+153	One Eyed Jack, Part 1	Miami Vice	1984-11-02		234	49	4.78	33	5.83		03 September 2008
+154	One Eyed Jack, Part 2	Miami Vice	1984-11-02		2576	484	5.32	59	6.57		03 September 2008
+163	Miami Vice (movie)	Miami Vice		2006	8029	1635	4.91	56	4.09		09 October 2008
+659	High Cost Of Dying, The	Mike Hammer	1958-01-07		1483	120	12.36	164	19.99	Also known as Mickey Spillane's Mike Hammer. A syndicated show so the dates are approximate and are taken from IMDb.	30 May 2012
+660	Death Gets a Diploma	Mike Hammer	1958-01-28		1486	90	16.51	176	24.68	Also known as Mickey Spillane's Mike Hammer. Syndicated, so air dates are approximate, from IMDb.	30 May 2012
+661	Letter Edged in Blackmail	Mike Hammer	1958-02-25		1475	80	18.44	158	25.22	Also known as Mickey Spillane's Mike Hammer. Syndicated, so air dates are approximate, from IMDb.	30 May 2012
+40	Miller's Crossing	Miller's Crossing		1990	1783	276	6.46	67	8.43	From first 30 minutes of film, including titles.	17 January 2008
+961	Blind	Mission Impossible	1971-09-18		3018	492	6.13	81	7.78		13 January 2015
+897	Ed the Beneficiary	Mister Ed	1962-01-21		1440	161	8.94	78	11.84		18 February 2014
+507	Moon Landing	Modern Family	2010-02-03		1289	215	6.00	40	6.08		17 October 2011
+762	The Old Wagon	Modern Family	2010-09-22		1295	273	4.74	50	4.89		15 April 2013
+651	Moneyball	Moneyball		2011	7769	1483	5.24	81	5.34		09 May 2012
+760	Mr. Monk and the Candidate	Monk	2002-07-12		4562	540	8.45	86	10.03		15 April 2013
+761	Monk 100th case	Monk	2008-09-05		2542	414	6.14	107	8.57		15 April 2013
+889	Monkey Business	Monkey Business		1952	5804	412	14.09	114	18.63		05 February 2014
+178	Dream Sequence Always Rings Twice, The	Moonlighting	1985-10-15		2811	524	5.36	77	7.27		23 October 2008
+179	My Fair David	Moonlighting	1985-10-29		2938	728	4.04	59	5.17		23 October 2008
+922	Morocco	Morocco		1930	5316	471	11.29	69	11.41		16 April 2014
+508	My Father the Hero	My Father the Hero		1994	5129	927	5.53	42	5.69	The 1994 remake of the 1991 French film.	17 October 2011
+37	Dancing in the Dark	My So-Called Life	1994-09-01		1865	297	6.28	62	9.64		17 January 2008
+146	Ritchie Scores (excerpt)	New Adventures of Old Christine, The	2007-01-08		106	28	3.79	11	3.17		24 June 2008
+769	Mrs. Newton's Body Lies A-Mould'ring in the Grave	Newhart	1982-11-01		1366	208	6.57	52	6.30		03 October 2013
+770	Hail to the Councilman	Newhart	1982-11-08		1361	215	6.33	32	5.06		03 October 2013
+772	Shall We Gather at the River?	Newhart	1982-11-15		1380	232	5.95	57	6.52		03 October 2013
+773	This Probably Is Condemned	Newhart	1982-11-22		1392	237	5.87	53	5.86		03 October 2013
+774	No Tigers at the Circus	Newhart	1982-11-29		2753	421	6.54	59	6.58		03 October 2013
+775	The Perfect Match	Newhart	1982-12-06		1381	199	6.94	31	5.80		03 October 2013
+776	Some Are Born Writers... Others Have Writers Thrust Upon Them	Newhart	1982-12-13		1383	255	5.42	41	5.59		03 October 2013
+34	Bitch Session	NewsRadio	1996-01-14		1314	244	5.39	53	4.89		17 January 2008
+44	Montana/Sassy/Justice	Nip/Tuck	2003-10-07		1814	361	5.02	153	8.60	From first 30 minutes. Episode information may be incorrect.	18 January 2008
+385	North By Northwest	North By Northwest		1959	8023	1292	6.21	125	8.74		14 July 2009
+43	Now and Then	Now and Then		1995	2220	343	6.47	69	8.52		17 January 2008
+401	Nun's Story, The	Nun's Story, The		1959	8913	987	9.03	103	9.11		08 October 2009
+546	Ice Follies	NYPD Blue	1993-11-30		2581	508	5.08	40	4.82		04 November 2011
+547	Oscar, Meyer, Weiner	NYPD Blue	1993-12-07		4875	603	8.08	794	34.54		04 November 2011
+548	From Hare to Eternity	NYPD Blue	1993-12-14		2521	600	4.20	42	3.87		04 November 2011
+549	Up on the Roof	NYPD Blue	1994-01-04		2669	533	5.01	32	4.39		04 November 2011
+409	Ocean's Eleven	Ocean's Eleven		1960	7450	590	12.63	168	16.69		16 October 2009
+400	Safety Training	Office, The	2007-04-12		1257	253	4.97	47	5.06		01 October 2009
+756	Goodbye Michael	Office, The	2011-04-28		2136	768	2.78	19	2.09		15 April 2013
+876	Valentine's Day (Part 1)	Office, The	2006-02-09		434	68	6.38	35	6.31		02 February 2014
+877	Valentine's Day (Part 2)	Office, The	2006-02-09		405	85	4.76	31	4.63		02 February 2014
+878	Valentine's Day (Part 3)	Office, The	2006-02-09		336	71	4.73	14	3.03		02 February 2014
+410	On the Beach	On the Beach		1959	8016	372	21.55	793	49.29		16 October 2009
+550	Desperate Kingdom of Love, The	One Tree Hill	2004-09-21		2433	190	12.81	166	26.15		04 November 2011
+759	4:30 AM (Apparently They Were Travelling Abroad)	One Tree Hill	2009-09-14		2470	587	4.21	25	3.47		15 April 2013
+779	Only Angels Have Wings	Only Angels Have Wings		1939	7124	715	9.96	109	12.25		03 October 2013
+423	Operation Petticoat	Operation Petticoat		1959	7086	808	8.77	149	11.77		25 October 2009
+898	Home Cooked Meal	Our Miss Brooks	1955-06-03		1455	118	12.33	51	9.70		18 February 2014
+903	The Big Jump	Our Miss Brooks	1955-05-27		1270	104	12.21	94	12.57		18 February 2014
+669	The Camel	Parks and Recreation	2009-11-12		1292	382	3.38	35	2.68		10 July 2012
+510	Paths of Glory	Paths of Glory		1957	5222	592	8.82	128	13.13		17 October 2011
+35	Patriot Games	Patriot Games		1992	1784	266	6.71	130	9.74	From first 30 minutes, including titles.	17 January 2008
+559	Pee-wee's Big Adventure	Pee-wee's Big Adventure		1985	5256	1257	4.18	61	4.15		09 November 2011
+427	Wayward Wife	Perry Mason	1960-01-23		3039	412	7.38	71	7.44		06 November 2009
+434	The Case of the Prudent Prosecutor	Perry Mason	1960-01-30		2946	367	8.03	70	7.85		11 November 2009
+435	The Cae of the Gallant Grafter	Perry Mason	1960-02-06		3033	379	8.00	96	10.54		11 November 2009
+436	The Case of the Wary Wildcatter	Perry Mason	1960-02-20		3034	359	8.45	79	10.35		11 November 2009
+671	Pickpocket	Pickpocket		1959	4432	428	10.36	52	8.73		23 October 2012
+77	Pillsbury Crescent rolls	Pillsbury Crescent rolls	2008-01-28		12	10	1.20	2	0.42		17 March 2008
+511	Comedian, The	Playhouse 90	1957-02-14		4290	240	17.88	197	27.23		17 October 2011
+512	Days of Wine and Roses	Playhouse 90	1958-10-02		4691	270	17.37	407	34.15		17 October 2011
+513	Requiem for a Heavyweight	Playhouse 90	1956-10-11		4303	270	15.94	226	23.90		17 October 2011
+407	Please Don't Eat the Daisies	Please Don't Eat the Daisies		1960	6537	412	15.87	163	19.88		16 October 2009
+926	Princess Bride, The	Princess Bride, The		1987	5584	1401	3.99	60	3.53		21 July 2014
+420	Psycho	Psycho		1960	6392	967	6.61	100	9.25		25 October 2009
+601	The Public Enemy	Public Enemy, The		1931	4917	488	10.08	127	11.75		15 February 2012
+525	Quatre Cents Coups, Les	Quatre Cents Coups, Les		1959	1649	119	13.86	71	14.30	Released in US as The 400 Blows. Frame captures from first 30 minutes only.	02 November 2011
+943	Raising Arizona	Raising Arizona		1987	5509	1289	4.27	89	5.24		06 August 2014
+442	Becky Falls into Troubled Love	Real World, The	1992-07-09		1398	469	2.98	15	2.11		14 April 2010
+443	Julie in a Homeless Shelter?	Real World, The	1992-07-16		1413	370	3.82	22	3.35		14 April 2010
+444	He's So Ugly He's Cute!	Real World, The	1992-07-23		1357	308	4.41	36	4.47		14 April 2010
+445	Julie Thinks Kevin is Psycho!	Real World, The	1992-07-30		1385	243	5.70	32	5.30		14 April 2010
+446	WWF is in the House!	Real World, The	1992-08-06		1358	417	3.26	22	2.63		14 April 2010
+795	Return of the Secaucus Seven	Return of the Secaucus Seven		1979	5991	523	11.46	176	15.96		24 October 2013
+78	Life and Stuff	Roseanne	1988-10-18		1262	264	4.78	30	4.45		17 March 2008
+925	Sweet Dreams	Roseanne	1989-11-07		1287	289	4.45	27	3.87		09 May 2014
+413	Rowan & Martin's Laugh-In	Rowan & Martin's Laugh-In	1968-02-05		2923	339	8.62	91	10.85		22 October 2009
+414	Rowan & Martin's Laugh-In	Rowan & Martin's Laugh-In	1968-03-25		2924	355	8.24	68	8.36		22 October 2009
+32	Sandlot, The	Sandlot, The		1993	1804	436	4.14	45	4.94		07 December 2007
+914	Scarface	Scarface		1932	5456	585	9.33	216	12.72		19 March 2014
+147	My Life in Four Cameras, Part 1 (Pre-credit Sequence)	Scrubs	2005-02-15		193	44	4.39	19	3.53		25 June 2008
+148	My Life in Four Cameras, part 2.	Scrubs	2005-02-15		1074	279	3.85	19	3.16		25 June 2008
+225	My Perspective, part 1 (Pre-credit Sequence)	Scrubs	2007-02-15		133	37	3.59	12	2.49		30 March 2009
+226	My Perspective, part 2	Scrubs	2007-02-15		1136	277	4.10	21	3.29		30 March 2009
+800	My First Day	Scrubs	2001-10-02		1392	445	3.13	19	2.42		07 November 2013
+801	My Mentor	Scrubs	2001-10-04		1301	343	3.79	25	2.99		07 November 2013
+802	My Best Friend's Mistake	Scrubs	2001-10-09		1306	357	3.66	24	3.05		07 November 2013
+803	My Old Lady	Scrubs	2001-10-16		1284	295	4.35	58	4.88		07 November 2013
+804	My Two Dads	Scrubs	2001-10-23		1303	328	3.97	24	3.41		07 November 2013
+805	My Bad	Scrubs	2001-10-30		1303	295	4.42	48	5.30		07 November 2013
+806	My Super Ego	Scrubs	2001-11-06		1278	320	3.99	37	4.03		07 November 2013
+807	My Fifteen Minutes	Scrubs	2001-11-15		1286	267	4.82	28	4.90		07 November 2013
+808	My Day Off	Scrubs	2001-11-20		1302	290	4.49	32	4.26		07 November 2013
+809	My Nickname	Scrubs	2001-11-27		1327	268	4.95	87	6.53		07 November 2013
+810	My Own Personal Jesus	Scrubs	2001-12-11		1297	266	4.88	33	4.56		07 November 2013
+811	My Blind Date	Scrubs	2002-01-08		1307	219	5.97	65	7.88		07 November 2013
+812	My Balancing Act	Scrubs	2002-01-15		1291	242	5.33	33	5.31		07 November 2013
+813	My Drug Buddy	Scrubs	2002-01-22		1300	319	4.08	37	3.95		07 November 2013
+814	My Bed Banter & Beyond	Scrubs	2002-02-05		1672	242	6.91	81	12.02		07 November 2013
+815	My Heavy Meddle	Scrubs	2002-02-26		1292	233	5.55	49	6.19		07 November 2013
+551	Male Unbonding	Seinfeld	1990-06-14		1325	227	5.84	34	5.93		04 November 2011
+552	Junior Mint, The	Seinfeld	1993-03-17		1326	297	4.46	26	4.02		04 November 2011
+758	The Chinese Restaurant	Seinfeld	1991-05-23		1244	238	5.23	43	5.05		15 April 2013
+952	The Note	Seinfeld	1991-09-18		1305	315	4.14	32	3.45		02 September 2014
+953	The Truth	Seinfeld	1991-09-25		1306	306	4.27	26	3.85		02 September 2014
+553	Three's A Crowd	Sex and the City	1998-07-26		1565	263	5.95	40	5.47		04 November 2011
+405	Shaggy Dog, The	Shaggy Dog, The		1959	6060	1120	5.41	104	6.11		16 October 2009
+780	Shakespeare in Love	Shakespeare in Love		1998	7080	1753	4.04	69	4.53		03 October 2013
+781	She Wore a Yellow Ribbon	She Wore a Yellow Ribbon		1949	6042	532	11.36	80	10.59		03 October 2013
+832	Shopworn	Shopworn		1932	7773	728	10.68	84	10.44		15 January 2014
+968	Silver Linings Playbook	Silver Linings Playbook		2012	7130	1916	3.72	26	2.98		10 July 2015
+30	Mom and Pop Art	Simpsons, The	1999-04-11		1247	288	4.33	22	3.45		19 November 2007
+937	Treehouse of Horror II	Simpsons, The	1991-10-31		1252	300	4.17	24	3.45		29 July 2014
+938	Marge in Chains	Simpsons, The	1993-05-06		1247	301	4.14	21	3.28		29 July 2014
+939	A Millhouse Divided	Simpsons, The	1996-12-01		1289	248	5.20	29	4.63		29 July 2014
+950	The Front	Simpsons, The	1993-04-15		1170	273	4.29	29	3.76		29 August 2014
+42	Sjunde inseglet, Det	Sjunde inseglet, Det		1957	905	83	10.90	136	17.93	US release title: The Seventh Seal. From first 15 minutes, including titles.	18 January 2008
+782	Sleepless in Seattle	Sleepless in Seattle		1993	5961	711	8.38	162	12.01		03 October 2013
+965	Reckoning	Smallville	2006-01-26		2589	442	5.86	58	7.60		13 January 2015
+833	19770913	Soap	1977-09-13		5237	579	9.04	84	9.46		15 January 2014
+834	19770920	Soap	1977-09-20		1241	224	5.54	39	4.97		15 January 2014
+835	19770927	Soap	1977-09-27		1268	233	5.44	40	5.12		15 January 2014
+836	19771004	Soap	1977-10-04		1245	235	5.30	25	4.29		15 January 2014
+837	19771013	Soap	1977-10-13		1275	256	4.98	35	4.54		15 January 2014
+838	19771025	Soap	1977-10-25		1265	220	5.75	27	5.33		15 January 2014
+839	19771101	Soap	1977-11-01		1262	237	5.32	23	4.28		15 January 2014
+840	19771108	Soap	1977-11-08		1210	226	5.35	38	4.72		15 January 2014
+841	19771115	Soap	1977-11-15		1257	234	5.37	28	4.66		15 January 2014
+842	19771122	Soap	1977-11-22		1272	160	7.95	118	11.38		15 January 2014
+426	Solomon and Sheba	Solomon and Sheba		1959	8317	1092	7.62	65	7.77		29 October 2009
+402	Some Came Running	Some Came Running		1958	8045	500	16.09	238	25.33		08 October 2009
+757	Pilot	Sons of Anarchy	2008-09-03		3412	853	4.00	36	3.72		15 April 2013
+421	Spartacus, Part 1	Spartacus, Part 1		1960	6410	672	9.54	136	12.06		25 October 2009
+422	Spartacus, Part 2	Spartacus, Part 1		1960	4945	668	7.40	80	8.90		25 October 2009
+942	Spider-Man 2	Spider-Man 2		2004	7306	1912	3.82	64	4.66		06 August 2014
+39	Stepmom	Stepmom		1998	1858	310	5.99	73	7.05		17 January 2008
+905	Stolen Kisses	Stolen Kisses		1968	5102	556	9.18	160	16.23		26 February 2014
+787	Strangers on a Train 	Strangers on a Train 		1951	5998	997	6.02	118	7.85		10 October 2013
+554	Pilot	Streets of San Francisco, The	1972-09-16		5753	804	7.16	76	7.93		04 November 2011
+555	Thirty-Year Pin, The	Streets of San Francisco, The	1972-09-23		2900	395	7.34	61	7.62		04 November 2011
+438	Confessions of a Nervous Man, Part 2	Studio One	1953-11-30		949	47	20.19	162	28.15		16 February 2010
+439	Confessions of a Nervous Man, Part 3	Studio One	1953-11-30		1039	48	21.65	89	25.45		16 February 2010
+440	Confessions of a Nervous Man, Part 4	Studio One	1953-11-30		815	37	22.03	78	22.53		16 February 2010
+404	Suddenly, Last Summer	Suddenly, Last Summer		1959	6710	729	9.20	109	13.25		16 October 2009
+20	Sur un air de Charleston	Sur un air de Charleston		1927	581	99	5.87	24	4.96		31 August 2007
+784	Suspicion	Suspicion		1941	5869	670	8.76	71	10.51		08 October 2013
+799	Swing!	Swing!		1938	4013	299	13.42	92	15.43		07 November 2013
+973	Taking of Pelham One Two Three, The	Taking of Pelham One Two Three, The		1974	5990	1318	4.54	51	4.91		10 July 2015
+907	Tarzan and His Mate	Tarzan and His Mate		1934	6226	1197	5.20	65	6.43		12 March 2014
+930	Taxi Driver	Taxi Driver		1976	6548	883	7.42	125	11.02		21 July 2014
+830	Ten Cents a Dance 	Ten Cents a Dance 		1931	4490	273	16.45	158	19.15		04 December 2013
+819	The Addams Family Goes to School	The Addams Family	1964-09-18		1381	258	5.35	65	6.53		21 November 2013
+820	Morticia and the Psychiatrist	The Addams Family	1964-09-25		1419	181	7.84	77	9.07		21 November 2013
+821	Fester's Punctured Romance	The Addams Family	1964-10-02		1424	245	5.81	47	6.29		21 November 2013
+822	Gomez, the Politician	The Addams Family	1964-10-09		1429	280	5.10	42	5.42		21 November 2013
+823	The Addams Family Tree	The Addams Family	1964-10-16		1413	300	4.71	45	5.34		21 November 2013
+824	Morticia Joins the Ladies League	The Addams Family	1964-10-23		1396	239	5.84	50	6.98		21 November 2013
+825	Halloween with the Addams Family	The Addams Family	1964-10-30		1429	209	6.84	54	7.17		21 November 2013
+826	The New Neighbors Meet the Addams Family	The Addams Family	1964-11-13		1408	203	6.94	52	8.41		21 November 2013
+827	Wednesday Leaves Home	The Addams Family	1964-11-20		1373	195	7.04	41	6.53		21 November 2013
+828	The Addams Family Meet the VIPs	The Addams Family	1964-11-27		1431	255	5.61	74	7.81		21 November 2013
+797	The Best Years of Our Lives (A)	The Best Years of Our Lives		1946	4917	276	17.82	132	21.73		24 October 2013
+798	The Best Years of Our Lives (B)	The Best Years of Our Lives		1946	5120	303	16.90	141	21.40		24 October 2013
+783	The Big Heat	The Big Heat		1953	5266	482	10.93	92	13.09		03 October 2013
+817	The Conquerors	The Conquerors		1932	5037	765	6.58	101	7.92		14 November 2013
+906	The Crime of Monsieur Lange	The Crime of Monsieur Lange		1936	4662	210	22.20	113	21.52		26 February 2014
+924	The Devil Is a Woman	The Devil Is a Woman		1935	4657	349	13.34	123	12.70		16 April 2014
+871	The Hunger Games	The Hunger Games		2012	8230	2292	3.59	38	2.91		23 January 2014
+763	The Promise	The Larry Sanders Show	1992-08-22		1358	152	8.93	93	10.72		15 April 2013
+872	The Life Aquatic with Steve Zissou	The Life Aquatic with Steve Zissou		2004	6780	987	6.87	108	10.37		23 January 2014
+873	The Matrix	The Matrix		1999	7727	1455	5.31	65	6.42		23 January 2014
+755	The Perfect Storm	The O.C.	2005-11-03		2606	737	3.54	56	4.10		15 April 2013
+853	Downsize	The Office	2001-07-09		1712	126	13.59	81	16.73		21 January 2014
+854	Work Experience	The Office	2001-07-16		1664	157	10.60	80	14.33		21 January 2014
+855	The Quiz	The Office	2001-07-23		1700	142	11.97	80	14.35		21 January 2014
+856	Training	The Office	2001-07-30		1685	161	10.47	65	11.99		21 January 2014
+857	New Girl	The Office	2001-08-13		1716	149	11.52	87	14.37		21 January 2014
+858	Judgement	The Office	2001-08-20		1688	138	12.23	164	19.04		21 January 2014
+908	The Rules of the Game	The Rules of the Game		1939	6266	337	18.59	104	18.33		02 March 2014
+725	The Shootist	The Shootist		1976	5819	1003	5.80	88	7.95		06 November 2012
+874	Seed	The Walking Dead	2012-10-14		2551	525	4.86	36	3.94		23 January 2014
+786	The Wrong Man	The Wrong Man		1956	6262	797	7.86	126	10.45		10 October 2013
+768	There's Always Tomorrow	There's Always Tomorrow		1956	4665	365	12.78	95	14.55		03 October 2013
+920	They Won't Forget	They Won't Forget		1937	5551	515	10.78	101	11.46		08 April 2014
+849	Three Wise Girls	Three Wise Girls		1932	4017	347	11.58	102	13.62		15 January 2014
+875	Turn! Turn! Turn! 	True Blood	2012-06-10		3095	830	3.73	127	5.35		23 January 2014
+652	Twilight	Twilight		2008	6884	1664	4.14	46	4.73		09 May 2012
+41	Un long dimanche de fianÃ§ailles	Un long dimanche de fianÃ§ailles		2004	1892	329	5.75	62	7.05	US release title: A Very Long Engagement. From first 30 minutes, including titles.	17 January 2008
+469	Bang the Drum Slowly	United States Steel Hour, The	1956-09-26		3080	158	19.49	169	25.90		14 October 2011
+514	No Time for Sergeants	United States Steel Hour, The	1955-03-15		2945	168	17.53	204	27.45		17 October 2011
+515	Wind from the South, A	United States Steel Hour, The	1955-09-14		2847	198	14.38	110	15.56		17 October 2011
+516	Executioners, The	Virginian, The	1962-09-09		4376	827	5.29	192	9.79		17 October 2011
+831	Virtue	Virtue		1932	3994	340	11.75	85	11.04		04 December 2013
+915	Wagon Master (Part 1)	Wagon Master (Part 1)		1950	3647	461	7.91	122	8.63		19 March 2014
+916	Wagon Master (Part 2)	Wagon Master (Part 1)		1950	1461	184	7.94	47	7.02		19 March 2014
+418	Wagon Train	Wagon Train	1961-01-11		2903	386	7.52	103	10.15		22 October 2009
+419	Wagon Train	Wagon Train	1960-01-27		2937	327	8.98	90	10.32		22 October 2009
+31	Walk the Line	Walk the Line		2005	1772	288	6.15	43	6.35		06 December 2007
+432	Angela	Wanted: Dead or Alive	1960-01-09		1332	198	6.73	67	9.72		07 November 2009
+433	Mental Lapse	Wanted: Dead or Alive	1960-01-02		1330	174	7.64	44	7.49		07 November 2009
+929	We Bought a Zoo	We Bought a Zoo		2011	7129	1850	3.85	34	3.24		21 July 2014
+951	Who Framed Roger Rabbitt	Who Framed Roger Rabbitt		1988	5847	1408	4.15	97	6.46		29 August 2014
+843	Pilot	Will & Grace	1998-09-21		1388	353	3.93	33	3.34		15 January 2014
+844	A New Lease on Life	Will & Grace	1998-09-28		1296	301	4.31	24	3.29		15 January 2014
+845	Head Case	Will & Grace	1998-10-05		1290	295	4.37	25	3.47		15 January 2014
+846	Between a Rock and Harlin's Place	Will & Grace	1998-10-12		1267	301	4.21	29	3.55		15 January 2014
+847	Boo! Humbug	Will & Grace	1998-10-26		1304	332	3.93	20	3.09		15 January 2014
+562	You Can't Take It With You	You Can't Take It With You		1938	7490	997	7.51	344	15.91		09 November 2011
+921	Young Mr. Lincoln	Young Mr. Lincoln		1939	10758	1008	10.67	78	10.48		09 April 2014

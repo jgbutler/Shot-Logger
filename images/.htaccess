@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?tcf.ua.edu [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?screensite.org [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?screenpedia.org [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?shotlogger.org [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
