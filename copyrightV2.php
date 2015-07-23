@@ -1,9 +1,9 @@
 <?php 
-$pageTitle = 'Copyright Information' ; 
+$pageTitle = 'Copyright, Fair Use, & Source Code' ; 
 include ('includes/headerV2.php') ;
 ?>
 
-<h1>Copyright &amp; Fair Use</h1>
+<h1>Copyright,  Fair Use, &amp; Source Code</h1>
 <p>The images from television programs and films on Shot Logger are used for critical, teaching, and scholarship purposes. It is our understanding of <a href="http://www.loc.gov/copyright/title17/92chap1.html#107" target="_blank">Section 107 &quot;Limitations on Exclusive Rights: Fair Use</a>&quot; of U.S. copyright law that these purposes constitute &quot;fair use&quot; of copyrighted material. </p>
 <p>We believe that our use of television and film images passes the &quot;<a href="http://copyright.columbia.edu/copyright/fair-use/what-is-fair-use/" target="_blank">Four Factor Fair Use Test</a>&quot; that encapsulates the main provisions of Section 107. Moreover, we believe that the arguments made in favor of fair use in Kristin Thompson&#39;s &quot;<a href="http://www.cmstudies.org/resource/resmgr/docs/fairusefilmstills.pdf" target="_blank">Fair Usage Publication of Film Stills</a>&quot; and the Society for Cinema and Media Studies' &quot;<a href="http://www.cmstudies.org/resource/resmgr/files/scms_publishing_statement_-.pdf" target="_blank">Best Practices For Fair Use in Teaching</a>&quot; should also apply here.</p>
 <p>However, <strong>we do not wish to infringe upon any copyrights</strong>. If you are a copyright holder and you believe our use of an image infringes upon your copyright, please notify us and we will immediately remove that image from Shot Logger.</p>
@@ -58,11 +58,11 @@ Tuscaloosa, AL 35487</p>
 			?></p>
 
 <h2>Use of Shot Logger Materials and Data</h2>
-<p><a href="http://www.gnu.org/licenses/gpl.html" target="_blank"><img src="images_site/gplv3-127x51.png" width="127" align="left" height="51" alt="GNU GPL 3 logo"/></a>Shot Logger software and data are licensed under <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">the GNU General Public License, Version 3</a>. No data, text, images, or video/sound on Shot Logger may be reproduced for commercial purposes. However, educational and other non-commercial uses are permitted, if proper attribution is given. Please see <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">the GNU General Public License, Version 3</a> for details.</p>
+<p><a href="http://www.gnu.org/licenses/gpl.html" target="_blank"><img src="images_site/gplv3-127x51.png" width="127" style="float: left; margin: 0px 15px 15px 0px;" height="51" alt="GNU GPL 3 logo"/></a>Shot Logger relies heavily upon an open-source project: the <a href="http://www.videolan.org/vlc/" target="_blank">Videolan VLC media player</a>. Shot Logger's source code is also open-source. Specifically, Shot Logger software and data are licensed under <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">the GNU General Public License, Version 3</a>. No programming code, data, text, images, or video/sound on ShotLogger.org may be reproduced for commercial purposes. However, educational and other non-commercial uses are permitted, if proper attribution is given. Please see <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">the GNU General Public License, Version 3</a> for details.</p>
 <p>Aside from stills taken from TV programs and films, all Shot Logger materials and data are copyright &copy;2007-<?php echo date("Y") ; ?> by Jeremy G. Butler.</p>
-<br clear="all">
-<h2>Shot Logger Source Code</h2>
-<p>Shot Logger relies upon an open-source project: the <a href="http://www.videolan.org/vlc/" target="_blank">Videolan VLC media player</a>. In keeping with the licensing of this project, Shot Logger's source code -- primitive though it may be -- will also <a href="downloadV2.php">be made available as open source</a>.</p>
+
+<h2>GitHub: Shot Logger's Source Code</h2>
+<p> Shot Logger's source code -- primitive though it may be -- is <a href="https://github.com/jgbutler/Shot-Logger" target="_blank">available on GitHub</a> as open-source software.</p>
 <?php 
 
 include ('includes/footerV2.php') ;
