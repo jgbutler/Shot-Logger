@@ -58,13 +58,9 @@ Tuscaloosa, AL 35487</p>
 			?></p>
 
 <h2>Use of Shot Logger Materials and Data</h2>
-<div style="text-align: center">
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://creativecommons.org/images/public/somerights20.png" /></a>
-</div>
-<p>Shot Logger is licensed under a 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License</a>.</p>
-<p>No data, text, images, or video/sound on Shot Logger may be reproduced for commercial purposes. However, educational and other non-commercial uses are permitted, if proper attribution is given. Please see the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">Creative Commons License</a> for details.</p>
+<p><a href="http://www.gnu.org/licenses/gpl.html" target="_blank"><img src="images_site/gplv3-127x51.png" width="127" align="left" height="51" alt="GNU GPL 3 logo"/></a>Shot Logger software and data are licensed under <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">the GNU General Public License, Version 3</a>. No data, text, images, or video/sound on Shot Logger may be reproduced for commercial purposes. However, educational and other non-commercial uses are permitted, if proper attribution is given. Please see <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">the GNU General Public License, Version 3</a> for details.</p>
 <p>Aside from stills taken from TV programs and films, all Shot Logger materials and data are copyright &copy;2007-<?php echo date("Y") ; ?> by Jeremy G. Butler.</p>
+<br clear="all">
 <h2>Shot Logger Source Code</h2>
 <p>Shot Logger relies upon an open-source project: the <a href="http://www.videolan.org/vlc/" target="_blank">Videolan VLC media player</a>. In keeping with the licensing of this project, Shot Logger's source code -- primitive though it may be -- will also <a href="downloadV2.php">be made available as open source</a>.</p>
 <?php 
