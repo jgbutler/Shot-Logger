@@ -2,8 +2,8 @@
 <?php 
 /*
     Shot Logger facilitates the analysis of visual style in film and television 
-	through frame captures and editing statistics.
-    Copyright (C) 2008-2015 Jeremy Butler
+	through screen shots and editing statistics.
+    Copyright (C) 2007-2015 Jeremy Butler
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
