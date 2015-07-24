@@ -71,11 +71,9 @@ pip-log.txt
 .coverage
 .tox
 
-#Translations
-*.mo
-
-#Mr Developer
-.mr.developer.cfg
+#############
+## Files add by GitHub GUI
+#############
 admin/_notes/dwsync.xml
 data/exportdata_FromSL1_deprecated.php
 data/_notes/dwsync.xml
