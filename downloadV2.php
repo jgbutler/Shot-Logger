@@ -1,5 +1,25 @@
-<?php $pageTitle = 'Download Source Code' ; 
+<?php 
+/*
+    Shot Logger facilitates the analysis of visual style in film and television 
+	through screen shots and editing statistics.
+    Copyright (C) 2007-2015 Jeremy Butler.
+	Telecommunication and Film Department, The University of Alabama.
 
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+$pageTitle = 'Download Source Code' ; 
 include ('includes/headerV2.php') ;
 
 ?>
@@ -75,8 +95,8 @@ include ('includes/headerV2.php') ;
   </li>
 </ul>
 <h1>Download Source Code</h1>
-<p>Shot Logger relies upon the open-source project, <a href="http://www.videolan.org/vlc/" target="_blank">Videolan VLC media player</a>. In keeping with the licensing of this project, Shot Logger's source code will also be made available as open source.</p>
-<p>The current version is way too primitive for public release, but once it has been made presentable, it will be released here. We make no promises about a release date.</p>
+<p><a href="http://www.gnu.org/licenses/gpl.html" target="_blank"><img src="images_site/gplv3-127x51.png" width="127" style="float: left; margin: 0px 15px 15px 0px;" height="51" alt="GNU GPL 3 logo"/></a>Shot Logger's source code -- primitive though it may be -- is <a href="https://github.com/jgbutler/Shot-Logger" target="_blank">available on GitHub</a> as open-source software. It was first uploaded to GitHub on July 23, 2015, after lengthy alpha and beta periods.</p>
+<br clear="all">
 <h1>Download VLC</h1>
 <p><img src="VLCandShotLogger/GetVLC.png" width="298" height="122" alt="Get VLC Media Player" align="left" />Much as we love VLC, we have to acknowledge one occasional problem with it. Sometimes updates to VLC manage to break a key function that Shot Logger requires. At least twice during our use of VLC, the ability to embed time-code data into the names of &quot;screen shots&quot; has been busted. </p>
 <p>As a safeguard against this problem, we provide (below) versions of VLC that <em>do</em> support time-code embedding.</p>
