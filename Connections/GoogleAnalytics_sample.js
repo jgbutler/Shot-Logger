@@ -1,4 +1,3 @@
-<?php
 /*
     Shot Logger facilitates the analysis of visual style in film and television 
 	through screen shots and editing statistics.
@@ -19,23 +18,17 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-# FileName="ShotLoggerVM.php"
-# Type="MYSQL"
-# HTTP="true"
-# MySQL database required. See /data/download/tcf-shotlogger_Table_Structure_Only.sql.gz for table structure.
-# Fill in specifics for your MySQL database below:
-$hostname_ShotLoggerVM = " ";
-$database_ShotLoggerVM = " ";
-$username_ShotLoggerVM = " ";
-$password_ShotLoggerVM = " ";
-$ShotLoggerVM = mysql_pconnect($hostname_ShotLoggerVM, $username_ShotLoggerVM, $password_ShotLoggerVM) or trigger_error(mysql_error(),E_USER_ERROR); 
+<script type="text/javascript">
+  // Insert your own Account and DomainName in the appropriate variables.
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', ' ']);
+  _gaq.push(['_setDomainName', ' ']);
+  _gaq.push(['_trackPageview']);
 
-// Shot Logger login
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
-// Administrator username and password. Required only for adding data.
-$username = " ";
-$password = " ";
-// Password hash (any random text string will do)
-$nonsense = " ";
-
-?>
+</script>
