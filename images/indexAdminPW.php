@@ -1,4 +1,5 @@
-<?php // include configuration data for MySQL and Shot Logger login.
+<?php 
+// include configuration data for MySQL and Shot Logger login.
 require_once('../Connections/ShotLoggerVM.php'); 
 
 // Check to see if user is logged in.

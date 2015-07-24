@@ -1,3 +1,24 @@
+<?php 
+/*
+    Shot Logger facilitates the analysis of visual style in film and television 
+	through screen shots and editing statistics.
+    Copyright (C) 2007-2015 Jeremy Butler.
+	Telecommunication and Film Department, The University of Alabama.
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+?>
 		</td>
         </tr>
       </table>
@@ -16,7 +37,7 @@
 			<td width="40"><img src="images/mm_spacer.gif" alt="" width="40" height="1" border="0" /></td>
 			<td width="110" id="sidebar" class="smallText"><br />
 			  <!--Random image inserted.-->
-			<?php // @readfile('http://130.160.171.245/slgallery/main.php?g2_view=imageblock.External&g2_blocks=randomImage&g2_show=fullSize&g2_itemFrame=shadow&g2_linkTarget=blank');
+			<?php 
 			@readfile('http://www.tcf.ua.edu/slgallery/main.php?g2_view=imageblock.External&g2_blocks=randomImage&g2_show=fullSize&g2_itemFrame=shadow&g2_linkTarget=blank'); ?><br />
 			<?php @readfile('http://www.tcf.ua.edu/slgallery/main.php?g2_view=imageblock.External&g2_blocks=randomImage&g2_show=fullSize&g2_itemFrame=shadow&g2_linkTarget=blank'); ?><br />
 			<?php @readfile('http://www.tcf.ua.edu/slgallery/main.php?g2_view=imageblock.External&g2_blocks=randomImage&g2_show=fullSize&g2_itemFrame=shadow&g2_linkTarget=blank'); ?><br />
