@@ -1,3 +1,9 @@
+#############
+## Configuration Files
+#############
+Connections/GoogleAnalytics.js
+Connections/ShotLoggerVM.php
+
 # Dreamweaver versioning stuff
 dwsync.xml
 _notes/
