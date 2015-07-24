@@ -5,8 +5,12 @@ Connections/GoogleAnalytics.js
 Connections/ShotLoggerVM.php
 
 # Dreamweaver versioning stuff
-dwsync.xml
-_notes/
+Connections/_notes/dwsync.xml
+_notes/dwsync.xml
+includes/_notes/dwsync.xml
+# Did not work:
+#*/dwsync.xml
+#_notes/*
 
 # Others
 sql/
