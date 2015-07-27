@@ -1,4 +1,4 @@
-/*
+<!--
     Shot Logger facilitates the analysis of visual style in film and television 
 	through screen shots and editing statistics.
     Copyright (C) 2007-2015 Jeremy Butler.
@@ -16,7 +16,7 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*/
+-->
 
 <script type="text/javascript">
   // Insert your own Account and DomainName in the appropriate variables.
