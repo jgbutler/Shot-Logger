@@ -95,7 +95,7 @@ include ('includes/headerV2.php') ;
   </li>
 </ul>
 <h1>Download Source Code</h1>
-<p><a href="http://www.gnu.org/licenses/gpl.html" target="_blank"><img src="images_site/gplv3-127x51.png" width="127" style="float: left; margin: 0px 15px 15px 0px;" height="51" alt="GNU GPL 3 logo"/></a>Shot Logger's source code -- primitive though it may be -- is <a href="https://github.com/jgbutler/Shot-Logger" target="_blank">available on GitHub</a> as open-source software. It was first uploaded to GitHub on July 23, 2015, after lengthy alpha and beta periods.</p>
+<p><a href="https://github.com/jgbutler/Shot-Logger" target="_blank"><img src="images_site/Octocat.jpg" alt="GitHub logo (Octocat)" width="240"" height="200" style="float: left; margin: 0px 15px 15px 0px; width="64/></a>Shot Logger's source code&#8212;primitive though it may be&#8212;is <a href="https://github.com/jgbutler/Shot-Logger" target="_blank">available on GitHub</a> as open-source software, licensed under <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">the GNU General Public License, Version 3</a>. It was first uploaded to GitHub on July 23, 2015, after lengthy alpha and beta periods.</p>
 <br clear="all">
 <h1>Download VLC</h1>
 <p><img src="VLCandShotLogger/GetVLC.png" width="298" height="122" alt="Get VLC Media Player" align="left" />Much as we love VLC, we have to acknowledge one occasional problem with it. Sometimes updates to VLC manage to break a key function that Shot Logger requires. At least twice during our use of VLC, the ability to embed time-code data into the names of &quot;screen shots&quot; has been busted. </p>
