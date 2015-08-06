@@ -87,8 +87,10 @@ $slTitleID =  $row_rsSlTitle['MAX(slTitleID)'] + 1;
 <title>Shot Logger 2:  Item Data</title>
 <link href="admin.css" rel="stylesheet" type="text/css" />
 </head>
-<script src="../../SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
-<link href="../../SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<!-- Spry assets are left over from Dreamweaver coding that relied on them. 
+They should probably be replaced by Jquery form validation. -->
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
 <body>
 <h1 align="center">Item Data <br />
   Directory: <em><?php echo $slDir ; ?></em> </h1>
