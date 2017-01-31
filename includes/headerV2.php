@@ -151,7 +151,7 @@ $img4 = getRandomFromArray($files);
     <ul class="nav">
 <!--      <li><a href="/index.php">overview</a></li>-->
       <li><a href="data.php">data</a></li>
-      <li><a href="images/index.php">image gallery</a></li>
+      <li><a href="images/">image gallery</a></li>
       <li><a href="aboutusV2.php">about us</a></li>
       <li><a href="research.php">research</a></li>
       <li><a href="documentationV2.php">documentation</a></li>
@@ -162,13 +162,13 @@ $img4 = getRandomFromArray($files);
     </ul>
     <p>A service of <a href="http://www.tcf.ua.edu/" target="_blank">the Telecommunication and Film Department</a>, <a href="http://cis.ua.edu/" target="_blank">the  College of Communication and Information Sciences</a>, at <a href="http://www.ua.edu/" target="_blank">the University of Alabama</a>.</p>
 <p><strong>Related sites:</strong><br />
-<a href="http://www.cinemetrics.lv/" target="_blank">CineMetrics<br />
-</a><a href="http://www.tvcrit.com/" target="_blank">TVCrit.com<br />
-</a><a href="http://www.screensite.org/" target="_blank">ScreenSite</a>
+<a href="http://laughlogger.org/" target="_blank">Laugh Logger</a><br />
+<a href="http://cinemetrics.lv/" target="_blank">CineMetrics</a><br />
+<a href="http://tvcrit.com/" target="_blank">TVCrit.com</a><br />
+<a href="http://screensite.org/" target="_blank">ScreenSite</a>
       </p>
 	<p><strong>Related Software:</strong><br />
-<a href="http://www.videolan.org/vlc/" target="_blank"> VLC Media Player</a><br />
-<a href="http://gallery.menalto.com/" target="_blank">Gallery 2</a></p>
+<a href="http://www.videolan.org/vlc/" target="_blank"> VLC Media Player</a></p>
     <!-- end .sidebar1 --></div>
   <!-- start .content -->
   <div class="content">

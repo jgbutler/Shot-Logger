@@ -2,7 +2,7 @@
 /*
     Shot Logger facilitates the analysis of visual style in film and television 
 	through screen shots and editing statistics.
-    Copyright (C) 2007-2015 Jeremy Butler.
+    Copyright (C) 2007-2017 Jeremy Butler.
 	Telecommunication and Film Department, The University of Alabama.
 
     This program is free software: you can redistribute it and/or modify
@@ -86,6 +86,9 @@ $slTitleID =  $row_rsSlTitle['MAX(slTitleID)'] + 1;
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Shot Logger 2:  Item Data</title>
 <link href="admin.css" rel="stylesheet" type="text/css" />
+<!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/yeti/bootstrap.min.css" rel="stylesheet" integrity="sha256-gJ9rCvTS5xodBImuaUYf1WfbdDKq54HCPz9wk8spvGs= sha512-weqt+X3kGDDAW9V32W7bWc6aSNCMGNQsdOpfJJz/qD/Yhp+kNeR+YyvvWojJ+afETB31L0C4eO0pcygxfTgjgw==" crossorigin="anonymous">-->
+
+
 </head>
 <!-- Spry assets are left over from Dreamweaver coding that relied on them. 
 They should probably be replaced by Jquery form validation. -->
