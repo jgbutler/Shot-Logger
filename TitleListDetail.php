@@ -18,58 +18,24 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-require_once('Connections/ShotLoggerVM.php'); ?><?php
+require_once('Connections/ShotLoggerVM.php'); 
 
-if (!function_exists("GetSQLValueString")) {
-function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
-{
-  if (PHP_VERSION < 6) {
-    $theValue = get_magic_quotes_gpc() ? stripslashes($theValue) : $theValue;
-  }
+// Retrieve statistics for a Shot Logger title, based on $_GET['recordID']
+// Parametized code prevents SQL injections.
+// See "Fetching data using prepared statements": https://www.php.net/manual/en/pdo.prepared-statements.php
 
-  $theValue = function_exists("mysql_real_escape_string") ? mysql_real_escape_string($theValue) : mysql_escape_string($theValue);
-
-  switch ($theType) {
-    case "text":
-      $theValue = ($theValue != "") ? "'" . $theValue . "'" : "NULL";
-      break;    
-    case "long":
-    case "int":
-      $theValue = ($theValue != "") ? intval($theValue) : "NULL";
-      break;
-    case "double":
-      $theValue = ($theValue != "") ? doubleval($theValue) : "NULL";
-      break;
-    case "date":
-      $theValue = ($theValue != "") ? "'" . $theValue . "'" : "NULL";
-      break;
-    case "defined":
-      $theValue = ($theValue != "") ? $theDefinedValue : $theNotDefinedValue;
-      break;
-  }
-  return $theValue;
-}
+$stmt = $db->prepare("SELECT * FROM sl_Title2 WHERE slTitleID = ?");
+if ($stmt->execute(array($_GET['recordID']))) {
+  $row_DetailRS1 = $stmt->fetch();
 }
 
-$colname_DetailRS1 = "-1";
-if (isset($_GET['recordID'])) {
-  $colname_DetailRS1 = $_GET['recordID'];
-}
-mysql_select_db($database_ShotLoggerVM, $ShotLoggerVM);
-$query_DetailRS1 = sprintf("SELECT * FROM sl_Title2 WHERE slTitleID = %s", GetSQLValueString($colname_DetailRS1, "int"));
-$DetailRS1 = mysql_query($query_DetailRS1, $ShotLoggerVM) or die(mysql_error());
-$row_DetailRS1 = mysql_fetch_assoc($DetailRS1);
-$totalRows_DetailRS1 = mysql_num_rows($DetailRS1);
+// Retrieve list of shots for a Shot Logger title, based on $_GET['recordID']
 
-$colname_rsShotListing = "-1";
-if (isset($_GET['recordID'])) {
-  $colname_rsShotListing = $_GET['recordID'];
+$stmt = $db->prepare("SELECT * FROM sl_ShotData WHERE slTitleID = ? ORDER BY TimeCode ASC");
+if ($stmt->execute(array($_GET['recordID']))) {
+  $row_ShotListing = $stmt->fetch();
+//  echo $row_rsShotListing['sl_directory'] ;
 }
-mysql_select_db($database_ShotLoggerVM, $ShotLoggerVM);
-$query_rsShotListing = sprintf("SELECT * FROM sl_ShotData WHERE slTitleID = %s ORDER BY TimeCode ASC", GetSQLValueString($colname_rsShotListing, "int"));
-$rsShotListing = mysql_query($query_rsShotListing, $ShotLoggerVM) or die(mysql_error());
-$row_rsShotListing = mysql_fetch_assoc($rsShotListing);
-$totalRows_rsShotListing = mysql_num_rows($rsShotListing);
 
 // ListDir function by frasq at frasq dot org, http://php.net/manual/en/function.readdir.php
 function listdir($dir='.') { 
@@ -154,21 +120,22 @@ $img4 = getRandomFromArray($files);
       <li><a href="copyrightV2.php">copyright</a></li>
       <li><a href="downloadV2.php">download</a></li>
     </ul>
-    <p>A service of the Telecommunication and Film Department, the University of Alabama.</p>
-<p><strong>Related sites:</strong><br />
-<a href="http://www.cinemetrics.lv/" target="_blank">CineMetrics<br />
-</a><a href="http://www.tvcrit.com/" target="_blank">TVCrit.com<br />
-</a><a href="http://www.screensite.org/" target="_blank">ScreenSite</a>
-      </p>
-	<p><strong>Related Software:</strong><br />
-<a href="http://www.videolan.org/vlc/" target="_blank"> VLC Media Player</a><br />
-<a href="http://gallery.menalto.com/" target="_blank">Gallery 2</a></p>
+    <p>Formerly a service of the Telecommunication and Film Department, <a href="https://cis.ua.edu/" target="_blank">the  College of Communication and Information Sciences</a>, at <a href="https://ua.edu/" target="_blank">the University of Alabama</a>.</p>
+    <p><strong>Related sites:</strong><br />
+      <a href="http://laughlogger.org/" target="_blank">Laugh Logger</a><br />
+      <a href="http://cinemetrics.lv/" target="_blank">CineMetrics</a><br />
+      <a href="http://tvcrit.com/" target="_blank">TVCrit.com</a><br />
+      <a href="http://screensite.org/" target="_blank">ScreenSite</a></p>
+    <p><strong>Related Software:</strong><br />
+  <a href="http://www.videolan.org/vlc/" target="_blank"> VLC Media Player</a><br />
+  <a href="http://gallery.menalto.com/" target="_blank">Gallery 2</a></p>
     <!-- end .sidebar1 --></div>
   <!-- start .content -->
 <div class="content">
+
 <!--<div class="content_wide">-->
 
-<h1>Title Detail - <em><?php echo $row_DetailRS1['Title']; ?></em></h1>
+<h1>Title Detail - <em><?php echo $row_DetailRS1['Title'];  ?></em></h1>
 <table width="600">
 
 <!-- Extraneous table cells...
@@ -214,18 +181,28 @@ $img4 = getRandomFromArray($files);
     <td rowspan="23" valign="top"><a href="ShotListV2.php?recordID=<?php echo $_GET['recordID'] ?>">View list of all shots.</a><br />
       <?php 
         //display sample images
-		if ($row_rsShotListing['sl_directory'] != NULL) {
+		if ($row_DetailRS1['sl_directory'] != NULL) {
 			$SLdir = 'images/' . $row_DetailRS1['sl_directory'] ;
 			$files = listdir($SLdir); 
-			//shuffle array
-			shuffle($files);
-			//select first 20 images in randomized array
-			$files = array_slice($files, 0, 5);
 			
-			foreach ($files as $img) {
-//					Attempted to link from random image to its ShotListDetailV2.php page, but it doesn't work as $shotID is not unique
-			    	echo "<a href=\"$img\" target=\"_blank\"><img src=\"$img\" alt=\"Random thumbnail\" border=\"0\" class=\"image_framed\" height=\"100\" /></a> <br> ";
-			}
+				if  ( is_array($files) ) {
+
+					//shuffle array
+					shuffle($files);
+					//select first 20 images in randomized array
+					$files = array_slice($files, 0, 5);
+
+					foreach ($files as $img) {
+		//					Attempted to link from random image to its ShotListDetailV2.php page, but it doesn't work as $shotID is not unique
+							echo "<a href=\"$img\" target=\"_blank\"><img src=\"$img\" alt=\"Random thumbnail\" border=\"0\" class=\"image_framed\" height=\"100\" /></a> <br> ";
+							}
+
+				} else {
+
+					echo '$ files is not an array';
+
+				}
+			
 		}
         ?></td>
     </tr>
@@ -310,15 +287,14 @@ $img4 = getRandomFromArray($files);
     <td align="right" valign="top"><strong>IMDb Title</strong></td>
     <td>
 	<?php // Find IMDb title and link to it
-	do { 
-	  		$ID = $row_DetailRS1['IMDbID'];
-			mysql_select_db($database_ShotLogger2, $ShotLoggerVM);
-			$query_rsIMDbTitle = "SELECT * FROM sl_ImdbMap WHERE IMDbID = '$ID' ";
-			$rsIMDbTitle = mysql_query($query_rsIMDbTitle, $ShotLoggerVM) or die(mysql_error());
-			$row_rsIMDbTitle = mysql_fetch_assoc($rsIMDbTitle);
-	  ?>
-      <a href="http://us.imdb.com/title/<?php echo $row_DetailRS1['IMDbID']; ?>" target="_blank"><em><?php echo $row_rsIMDbTitle['ImdbTitle'] ?></em></a>
-      <?php } while ($row_rsSLTitle = mysql_fetch_assoc($rsSLTitle)); ?>
+	$stmt = $db->prepare("SELECT * FROM sl_ImdbMap WHERE IMDbID = ?");
+	if ($stmt->execute(array($row_DetailRS1['IMDbID']))) {
+		do { ?>
+			<a href="http://us.imdb.com/title/<?php echo $row_DetailRS1['IMDbID']; ?>" target="_blank"><em><?php echo $row_rsIMDbTitle['ImdbTitle'] ?></em></a>
+			<?php
+		} while ($row_rsIMDbTitle = $stmt->fetch()) ;
+	}
+	?>
 	</td>
   </tr>
   <tr>
@@ -338,245 +314,11 @@ $img4 = getRandomFromArray($files);
 
 <table width="600" border="0">
   <tr>
-    <td align="center"><p><strong>Shot-Length Graph</strong></p></td>
+    <td align="center"><p><strong><s>Shot-Length Graph</s><br />
+	Removed on 13 June 2023 due to incompatibility with current PHP version.</strong></p></td>
   </tr>
-  <tr>
-    <td align="center"><!--build URL for graph
-	Works:
-        <img src="http://www.cinemetrics.lv/getgraph.php?step=1&height=200&vr=1&degree=1&cc=0&shots=
-  -->
-      
-      <p>
-        
-        <!--     Works: modified below on 10/19/2011
- <img src="http://www.cinemetrics.lv/getgraph.php?step=1&height=200&vr=1&degree=8&cc=0&shots=
-
--->
-        <img src="http://www.cinemetrics.lv/getgraph.php?<?php 
-/*
-Here the variables after ? are:
-
-step - 
-height – height of the graph in pixels
-vr – vertical resolution (1 means 10 pixels per second, 2 means 20 pixels per second 0.5 means 5 pixels per second etc.)
-degree – degree of the trendline
-cc - color code?
-
-E.g.,
-http://www.cinemetrics.lv/getgraph.php?height=200&vr=1&degree=1&shots=10,20,30,40,50,60,70,80,90,100
-
-*/
-
-// Set Step parameter
-echo 'step=';
-	  	if (isset($_POST['step'])) {
-  			$_POST['step'] = ( get_magic_quotes_gpc() ) ? $_POST['step'] : addslashes( $_POST['step'] )  ;
-		} else {
-			$_POST['step'] = 1 ;
-		}
-		echo $_POST['step'] ;
-
-// Set Height parameter
-echo '&height=' ; 
-
-		if (isset($_POST['height'])) {
-  			$_POST['height'] = ( get_magic_quotes_gpc() ) ? $_POST['height'] : addslashes( $_POST['height'] )  ;
-		} else {
-			$_POST['height'] = 200 ;
-		}
-		echo $_POST['height'];
-
-// Set Vertical Resolution parameter
-echo '&vr=';
-	  	if (isset($_POST['vr'])) {
-  			$_POST['vr'] = ( get_magic_quotes_gpc() ) ? $_POST['vr'] : addslashes( $_POST['vr'] )  ;
-		} else {
-			$_POST['vr'] = 1 ;
-		}
-		echo $_POST['vr'];
-
-// Set Degree of Trendline parameter
-echo '&degree='; 
-		if (isset($_POST['degree'])) {
-  			$_POST['degree'] = ( get_magic_quotes_gpc() ) ? $_POST['degree'] : addslashes( $_POST['degree'] )  ;
-		} else {
-			$_POST['degree'] = 8 ;
-		}
-		echo $_POST['degree'];
-
-// Set up the URL parameter for the shot list
-
-echo '&cc=0&shots=' ;
-
-// Get the shot list
-
-do {
-
-echo 10*$row_rsShotListing['ShotLength']. ',' ;
-
-} while ($row_rsShotListing = mysql_fetch_assoc($rsShotListing));
-
-//echo ' "/> ' ;
-
-?>
-
-" width="550"/>        </p>
-      <p><a href="TitleCharts.php?recordID=<?php echo $row_DetailRS1['slTitleID']; ?>">View full-sized graph.</a><br />
-      </p></td>
-  </tr>
-  <tr>
-    <td><p><strong>Current graph settings:</strong></p>
-      <p><strong>Step</strong>:
-        <?php 
-	  	if (isset($_POST['step'])) {
-  			$_POST['step'] = ( get_magic_quotes_gpc() ) ? $_POST['step'] : addslashes( $_POST['step'] )  ;
-		} else {
-			$_POST['step'] = 1 ;
-		}
-	  	echo $_POST['step'] ?>
-        <br />
-        <strong>Vertical resolution</strong>:
-        <?php 
-	  	if (isset($_POST['vr'])) {
-  			$_POST['vr'] = ( get_magic_quotes_gpc() ) ? $_POST['vr'] : addslashes( $_POST['vr'] )  ;
-		} else {
-			$_POST['vr'] = 1 ;
-		}
-		echo 10*($_POST['vr']) ?>
-        pixels for each second of shot length<br />
-        <strong>Height of graph</strong>:
-        <?php 
-		if (isset($_POST['height'])) {
-  			$_POST['height'] = ( get_magic_quotes_gpc() ) ? $_POST['height'] : addslashes( $_POST['height'] )  ;
-		} else {
-			$_POST['height'] = 200 ;
-		}
-		echo $_POST['height'] ?>
-        pixels<br />
-        <strong>Degree of trendline</strong>:
-        <?php 
-		if (isset($_POST['degree'])) {
-  			$_POST['degree'] = ( get_magic_quotes_gpc() ) ? $_POST['degree'] : addslashes( $_POST['degree'] )  ;
-		} else {
-			$_POST['degree'] = 8 ;
-		}
-		echo $_POST['degree'] ?>
-        <br />
-        <!--        Color code: <?php echo $_POST['cc'] ?>-->
-        </p>
-      </p>
-      <p><em>Change the graph's settings: </em></p>
-      <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>?recordID=<?php echo $_GET['recordID'] ?>" method="post" name="redraw" class="bodyText" id="redraw">
-        <!-- 
-
-Form details from CineMetrics http://www.cinemetrics.lv/movie.php?movie_ID=565 
-
-<form action="" method="post" name="form2" class="bodyText" id="form2"> 
-
--->
-        <p>
-          <strong>Step</strong>:
-          <select name="step" class="bodyText">
-            <option value="1" selected="selected">1</option>
-            <option value="2" >2</option>
-            <option value="3" >3</option>
-            <option value="4" >4</option>
-            <option value="5" >5</option>
-            <option value="6" >6</option>
-            <option value="7" >7</option>
-            <option value="8" >8</option>
-            <option value="9" >9</option>
-            <option value="10" >10</option>
-            </select>
-          <br />
-          <strong>Vertical resolution</strong>:
-          <select name="vr" class="bodyText">
-            <option value=".1">1 pixel/sec</option>
-            <option value=".2">2 pixels/sec</option>
-            <option value=".3">3 pixels/sec</option>
-            <option value=".5">5 pixels/sec</option>
-            <option value="1" selected="selected">10 pixels/sec</option>
-            <option value="1.5">15 pixels/sec</option>
-            <option value="2">20 pixels/sec</option>
-            <option value="3">30 pixels/sec</option>
-            <option value="5">50 pixels/sec</option>
-            </select>
-          <br />
-          <strong>Height</strong>:
-          <select name="height" class="bodyText">
-            <option value="10">10 pix</option>
-            <option value="50">50 pix</option>
-            <option value="100">100 pix</option>
-            <option value="200" selected="selected">200 pix</option>
-            <option value="300">300 pix</option>
-            <option value="500">500 pix</option>
-            <option value="750">750 pix</option>
-            <option value="1000">1000 pix</option>
-            </select>
-          <br />
-          <strong>Degree of the trendline</strong>:
-          <select name="degree" class="bodyText">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8" selected="selected">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-            </select>
-          <br />
-          <strong>        Moving average</strong> (The range over which the average is computed. If set to 10, the average will be computed for 11 shots: the current one, 5 before it, and 5 ahead of it):
-          <select name="period" class="bodyText">
-            <option value="0" selected="selected">0</option>
-            <option value="6">6</option>
-            <option value="10">10</option>
-            <option value="20">20</option>
-            <option value="30">30</option>
-            <option value="40">40</option>
-            <option value="50">50</option>
-            <option value="60">60</option>
-            <option value="70">70</option>
-            <option value="80">80</option>
-            <option value="90">90</option>
-            <option value="100">100</option>
-            </select>
-          <!--           Color code? 
-           <select name="cc" class="bodyText" id="cc"> 
-             <option value="0" selected="selected">No</option> 
-             <option value="1">Yes</option> 
-          </select>            
--->
-          <br />
-          <!--Redraw button -- replace with link to new file? 
-          <input name="redraw" type="button" class="navText" id="redraw" onclick="Redraw(this.form);" value="Redraw" /> 
-          <input name="movie" type="hidden" id="movie" value="565" /> 
--->
-          <!--Show trendline equation button
-
-          <input name="button" type="button" class="navText" id="button" value="Show trendline equation" onClick="window.open('equation.php','graph', 'width=500,height=200,scrollbars=no,resizable=1,scrolling=no,location=no,toolbar=no');"
-/> 
--->
-          <!--Show raw data button
-
-          <input name="button2" type="button" class="navText" id="button2" value="Show raw data" onclick="window.open('data.php?movie_ID=565','rawdata', 'width=203,height=600,scrollbars=yes,resizable=1,scrolling=yes,location=no,toolbar=no');"
-/> -->
-          <input name="submit" type="submit" value="draw new graph" />
-          </p>
-        </form>
-      <!-- End Cinemetrics form -->
-      <p>Graph created by <a href="http://www.cinemetrics.lv" target="_blank">CineMetrics</a>. For help interpeting this graph, please see &quot;<a href="http://www.cinemetrics.lv/dbhelp.php" target="_blank">Using the database</a>.&quot;</p> </td>
-    </tr>
 </table>
 
 <?php 
 include ('includes/footerV2.php') ;
-?>
-<?php
-mysql_free_result($DetailRS1);
-mysql_free_result($rsShotListing);
 ?>

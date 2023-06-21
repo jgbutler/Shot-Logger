@@ -2,7 +2,7 @@
 /*
     Shot Logger facilitates the analysis of visual style in film and television 
 	through screen shots and editing statistics.
-    Copyright (C) 2007-2015 Jeremy Butler.
+    Copyright (C) 2007-2023 Jeremy Butler.
 	Telecommunication and Film Department, The University of Alabama.
 
     This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-require_once('../Connections/ShotLogger2.php'); 
+require_once('../Connections/ShotLogger.php'); 
 
 if (!function_exists("GetSQLValueString")) {
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 

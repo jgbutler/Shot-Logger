@@ -2,7 +2,7 @@
 /*
     Shot Logger facilitates the analysis of visual style in film and television 
 	through screen shots and editing statistics.
-    Copyright (C) 2007-2015 Jeremy Butler.
+    Copyright (C) 2007-2020 Jeremy Butler.
 	Telecommunication and Film Department, The University of Alabama.
 
     This program is free software: you can redistribute it and/or modify
@@ -20,7 +20,7 @@
 */
 
 $pageTitle = 'Download Source Code' ; 
-include ('includes/headerV2.php') ;
+include ('includes/headerA2.php') ;
 
 ?>
 
@@ -42,7 +42,7 @@ include ('includes/headerV2.php') ;
 		?>.
       </li>
     <li>A tab-delimited file listing all Shot Logger titles with their statistics (e.g., ASL)</li>
-      <li><a href="data/download/download_ShotLogger_TitleDataXML.php">Also availalble in XML format</a>
+      <li><a href="data/download/download_ShotLogger_TitleDataXML.php">Also available in XML format</a>
         <ul>
           <li>File size:
             <?php
@@ -97,7 +97,7 @@ include ('includes/headerV2.php') ;
 <h1>Download Source Code</h1>
 <p><a href="https://github.com/jgbutler/Shot-Logger" target="_blank"><img src="images_site/Octocat.jpg" alt="GitHub logo (Octocat)" width="240"" height="200" style="float: left; margin: 0px 15px 15px 0px; width="64/></a>Shot Logger's source code&#8212;primitive though it may be&#8212;is <a href="https://github.com/jgbutler/Shot-Logger" target="_blank">available on GitHub</a> as open-source software, licensed under <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">the GNU General Public License, Version 3</a>. It was first uploaded to GitHub on July 23, 2015, after lengthy alpha and beta periods.</p>
 <br clear="all">
-<h1>Download VLC</h1>
+<h1>Install VLC</h1>
 <p><img src="VLCandShotLogger/GetVLC.png" width="298" height="122" alt="Get VLC Media Player" align="left" />Much as we love VLC, we have to acknowledge one occasional problem with it. Sometimes updates to VLC manage to break a key function that Shot Logger requires. At least twice during our use of VLC, the ability to embed time-code data into the names of &quot;screen shots&quot; has been busted. </p>
 <p>As a safeguard against this problem, we provide (below) versions of VLC that <em>do</em> support time-code embedding.</p>
 <p>Also, although VLC contains no malware, it will take over the playing of <em>all</em> of your audio and video files if you do not un-check certain boxes during installation. Specifically, VLC asks you to &quot;Choose Components&quot; during installation:</p>

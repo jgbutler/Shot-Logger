@@ -18,7 +18,6 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
 require_once('Connections/ShotLoggerVM.php'); 
 
 if (!function_exists("GetSQLValueString")) {
@@ -52,18 +51,31 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 }
 }
 
-mysql_select_db($database_ShotLoggerVM, $ShotLoggerVM);
-$query_rsTitleListing = "SELECT * FROM sl_Title2  LEFT JOIN `sl_ImdbMap`  USING (IMDbID)  ORDER BY `EpisodeDate` ASC";
-$rsTitleListing = mysql_query($query_rsTitleListing, $ShotLoggerVM) or die(mysql_error());
-$row_rsTitleListing = mysql_fetch_assoc($rsTitleListing);
-$totalRows_rsTitleListing = mysql_num_rows($rsTitleListing);
+try {
+		// Connect to the database and run a query to return a record set (rs)
+        $sql = "SELECT * FROM sl_Title2  LEFT JOIN `sl_ImdbMap`  USING (IMDbID)  ORDER BY `EpisodeDate` ASC";
 
-mysql_select_db($database_ShotLoggerVM, $ShotLoggerVM);
-// WORKS: $query_rsNewStats = "SELECT * FROM sl_Title2";
-$query_rsNewStats = "SELECT * FROM sl_Title2 LEFT JOIN `sl_ImdbMap` USING (IMDbID) ORDER BY `slTitleID` DESC";
-$rsNewStats = mysql_query($query_rsNewStats, $ShotLoggerVM) or die(mysql_error());
-$row_rsNewStats = mysql_fetch_assoc($rsNewStats);
-$totalRows_rsNewStats = mysql_num_rows($rsNewStats);
+	$rsTitleListing = $db->query($sql) ;
+		// Get record set as an array
+		// Capturing SQL errors 
+		// Capture an array of errorInfo from the $db object
+		$errorInfo = $db->errorInfo();
+		// If errorInfo exists, put it in a variable. The THIRD bit of info in the error array [2] is the message.
+		if (isset($errorInfo[2])) {
+			$error = $errorInfo[2];
+		}
+// Catch PHP errors
+} catch (Exception $e) {
+    $error = $e->getMessage();
+}
+
+// Query to count the number of rows in an array
+        $q = $db->query($sql);
+        $rows = $q->fetchAll();
+        $rowCount = number_format(count($rows));
+
+//$row_rsTitleListing = $rsTitleListing->fetch() ;
+
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -114,76 +126,6 @@ function getRandomFromArray($ar) {
 // Get a random image from the $files array
 
 ?>
-<!-- Load JavaScript for Google chart visualization. -->
-<script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script type="text/javascript">
-  google.load('visualization', '1', {packages: ['table']});
-</script>
-<script type="text/javascript">
-    function drawVisualization() {
-      // Create and populate the data table named "data".
-      var data = google.visualization.arrayToDataTable([
-	  // Set column headers
-        ['SL ID #', 'IMDb ID #', 'Movie or TV Program<br>(Click title for IMDb)', 'SL Title<br>(Click title for more data)', 'Episode Date', 'Movie Date', 'Length', 'MSL', 'ASL', 'Max SL'],
-		// Enter data
-        <?php
-        do { // Create rows for data entry. Quotation marks around strings, but not around numbers.
-            echo " [ 
-			{$row_rsNewStats['slTitleID']}, 
-			\"{$row_rsNewStats['IMDbID']}\", 
-			\"{$row_rsNewStats['ImdbTitle']}\", 
-			\"{$row_rsNewStats['Title']}\", 
-			\"{$row_rsNewStats['EpisodeDate']}\", 
-			{$row_rsNewStats['MovieDate']}, 
-			{$row_rsNewStats['Length']}, 
-			{$row_rsNewStats['MedianShotLength']}, 
-			{$row_rsNewStats['AverageShotLength']}, 
-			{$row_rsNewStats['MaximumSL']} ], 
-			\n\t";
-        } while ($row_rsNewStats = mysql_fetch_assoc($rsNewStats)); 
-        ?>
-      ]);
-
-    // Create and draw the visualization.
-	var table = new google.visualization.Table(document.getElementById('patternformat_div'));
-	
-	// apply formatting
-	// formatter.format(dataTable, srcColumnIndices, opt_dstColumnIndex)
-	// formatter docs are here https://developers.google.com/chart/interactive/docs/reference#formatters
-	
-	// Important!
-	// In the 'var formatter' parameters, the numbers refer to the array numbers in the formatter.format parameter and NOT to the columns in the
-	// data table!!! And all the numbers assume zero to be the FIRST number. This is what is meant in the docs, when it says:
-	
-	// "Embed placeholders in your string to indicate a value from another column to embed. 
-	//  The placeholders are {#}, where # is the index of a source column to use. 
-	//  The index is an index in the srcColumnIndices array from the format() method below."
-	
-	// Thus: in the following example, [1, 1] means that the SECOND column from the data table should be used.
-	// And the {0} and {1} pull the data from the [1, 1] array -- meaning that the {0} pulls the FIRST number and the {1} pulls the SECOND number!
-	
-	var formatter = new google.visualization.PatternFormat('<a href="http://www.imdb.com/title/{0}/">{1}</a>');
-	formatter.format(data, [1, 2], 2);  // parameters are dataTable, source columns (in square brackets) and destination column
-	
-	var formatter2 = new google.visualization.PatternFormat('<a href="TitleListDetail.php?recordID={0}">{1}</a>');
-	formatter2.format(data, [0, 3], 3); 
-	
-	// Had to move this formatter to the last position. Otherwise, it changes the data in column zero.
-	// Then I realized it was irrelevant and I commented it out.
-	
-	//var formatter3 = new google.visualization.PatternFormat('<a href="../TitleListDetailV2.php?recordID={0}">{1}</a>');
-	//formatter3.format(data, [0, 0], 0); 
-	
-	var view = new google.visualization.DataView(data);
-	view.setColumns([2,3,4,5,6,7,8,9]); // Create a view without the first and second columns (column zero and one).
-	
-	table.draw(view, {allowHtml: true}); // allow HTML code to be inserted into table 
-    }
-    
-    google.setOnLoadCallback(drawVisualization);
-
-
-</script>
 </head>
 <body>
 
@@ -236,15 +178,14 @@ $img4 = getRandomFromArray($files);
       <li><a href="copyrightV2.php">copyright</a></li>
       <li><a href="downloadV2.php">download</a></li>
     </ul>
-    <p>A service of the Telecommunication and Film Department, the University of Alabama.</p>
-<p><strong>Related sites:</strong><br />
-<a href="http://www.cinemetrics.lv/" target="_blank">CineMetrics<br />
-</a><a href="http://www.tvcrit.com/" target="_blank">TVCrit.com<br />
-</a><a href="http://www.screensite.org/" target="_blank">ScreenSite</a>
-      </p>
+    <p>Formerly a service of the Telecommunication and Film Department, <a href="https://cis.ua.edu/" target="_blank">the  College of Communication and Information Sciences</a>, at <a href="https://ua.edu/" target="_blank">the University of Alabama</a>.</p>
+    <p><strong>Related sites:</strong><br />
+      <a href="http://laughlogger.org/" target="_blank">Laugh Logger</a><br />
+      <a href="http://cinemetrics.lv/" target="_blank">CineMetrics</a><br />
+      <a href="http://tvcrit.com/" target="_blank">TVCrit.com</a><br />
+      <a href="http://screensite.org/" target="_blank">ScreenSite</a></p>
 	<p><strong>Related Software:</strong><br />
-<a href="http://www.videolan.org/vlc/" target="_blank"> VLC Media Player</a><br />
-<a href="http://gallery.menalto.com/" target="_blank">Gallery 2</a></p>
+<a href="http://www.videolan.org/vlc/" target="_blank"> VLC Media Player</a></p>
     <!-- end .sidebar1 --></div>
   <!-- start .content -->
   <div class="content">
@@ -263,31 +204,30 @@ $img4 = getRandomFromArray($files);
 
 <table border="1" align="center">
   <tr>
-    <td valign="top"><a href="data.php">IMDb Title</a><br />
+    <td valign="top"><strong><a href="data.php">IMDb Title</a></strong><br />
       (click for IMBd info)</td>
-    <td valign="top"><a href="dataSortBySLTitle.php">SL Title</a><br />
+    <td valign="top"><a href="dataSortBySLTitle.php"><strong>SL Title</strong></a><br />
       (click for SL data)</td>
-    <td valign="top"><a href="dataSortByEpisodeDate.php">Episode Date</a></td>
-    <td valign="top"><a href="dataSortByMovieDate.php">Movie Date</a></td>
-    <td valign="top"><a href="dataSortByASL.php">ASL</a></td>
-    <td valign="top"><a href="dataSortByMSL.php">MSL</a></td>
+    <td valign="top"><a href="dataSortByEpisodeDate.php"><strong>Episode Date</strong></a></td>
+    <td valign="top"><a href="dataSortByMovieDate.php"><strong>Movie Date</strong></a></td>
+    <td valign="top"><a href="dataSortByASL.php"><strong>ASL</strong></a></td>
+    <td valign="top"><a href="dataSortByMSL.php"><strong>MSL</strong></a></td>
   </tr>
-  <?php do { ?>
+	<?php 
+	// Use a WHILE loop to iterate through the results.
+	while ($row_rsTitleListing = $rsTitleListing->fetch())  {  ?>
     <tr>
       <td><a href="http://www.imdb.com/title/<?php echo $row_rsTitleListing['IMDbID']; ?>" target="_blank"><?php echo $row_rsTitleListing['ImdbTitle']; ?></a></td>
-      <td><a href="TitleListDetail.php?recordID=<?php echo $row_rsTitleListing['slTitleID']; ?>"><?php echo $row_rsTitleListing['Title']; ?></td>
+      <td><a href="TitleListDetail.php?recordID=<?php echo $row_rsTitleListing['slTitleID']; ?>"><?php echo $row_rsTitleListing['Title']; ?></a></td>
       <td><?php echo $row_rsTitleListing['EpisodeDate']; ?></td>
       <td><?php echo $row_rsTitleListing['MovieDate']; ?></td>
       <td><?php echo $row_rsTitleListing['AverageShotLength']; ?></td>
       <td><?php echo $row_rsTitleListing['MedianShotLength']; ?></td>
     </tr>
-    <?php } while ($row_rsTitleListing = mysql_fetch_assoc($rsTitleListing)); ?>
+    <?php }  // END WHILE loop	?>
 </table>
 <br />
-<?php echo $totalRows_rsTitleListing ?> Records Total
+<?php echo $rowCount ?> Records Total
 <?php 
 include ('includes/footerV2.php') ;
-?>
-<?php
-mysql_free_result($rsTitleListing);
 ?>

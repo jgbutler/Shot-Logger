@@ -2,7 +2,7 @@
 /*
     Shot Logger facilitates the analysis of visual style in film and television 
 	through screen shots and editing statistics.
-    Copyright (C) 2007-2015 Jeremy Butler.
+    Copyright (C) 2007-2020 Jeremy Butler.
 	Telecommunication and Film Department, The University of Alabama.
 
     This program is free software: you can redistribute it and/or modify
@@ -19,12 +19,17 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 $pageTitle = 'About Us' ; 
-include ('includes/headerV2.php') ;
+include ('includes/headerA2.php') ;
 ?>
 <h1>About Us</h1>
-<p>Shot Logger is a service of <a href="http://www.tcf.ua.edu/" target="_blank">the Telecommunication and Film Department</a>, <a href="http://cis.ua.edu/" target="_blank">the College of Communication and Information Sciences</a>, <a href="http://www.ua.edu/" target="_blank">the University of Alabama</a>. It is coded, maintained, and administered by <a href="http://www.tcf.ua.edu/jbutler/" target="_blank">Jeremy Butler</a>, a TCF professor. Shot Logger has been munching on editing data since 16:11 CDT on August 8, 2007, when <a href="TitleListDetailV2.php?recordID=1" target="_blank">shot data from a <em>Friends</em> episode</a> were input into the system. </p>
-<p>Version 2.0 of Shot Logger, a major rewrite of its code, went beta on November 1, 2011.</p>
-
+<p>Shot Logger is coded, maintained, and administered by <a href="http://tvcrit.com/jbutler/" target="_blank">Jeremy Butler</a>, a professor emeritus of TV and film studies at the University of Alabama. Shot Logger has been munching on editing data since 16:11 CDT on August 8, 2007, when <a href="TitleListDetailV2.php?recordID=1" target="_blank">shot data from a <em>Friends</em> episode</a> were input into the system. Until 2020, it was a service of the Telecommunication and Film Department, <a href="http://cis.ua.edu/" target="_blank">the College of Communication and Information Sciences</a>, at <a href="http://www.ua.edu/" target="_blank">the University of Alabama</a>.</p>
+<h2>Changelog</h2>
+<ul>
+  <li>January 1, 2020: Version 2.2, converted code to <a href="https://www.php.net/manual/en/book.pdo.php" target="_blank">PHP Data Objects (PDO)</a>; moved to new server.</li>
+  <li>November 1, 2011: Version 2.0, a major rewrite of the code.</li>
+  <li>August 8, 2007: Alpha (public) release, with first data submitted.</li>
+</ul>
+<br />
 <h2>Current Data</h2>
 <ul>
   <li>Films and TV programs logged: 

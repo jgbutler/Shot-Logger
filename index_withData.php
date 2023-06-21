@@ -29,9 +29,7 @@ include ('includes/headerA2.php');
 <p>Shot Logger facilitates the analysis of visual style in film and television.</p>
 
 		<p>It contains a <a href="data.php">database</a> of editing statistics for  <?php
-		echo number_format($row_rsSLStatsUpdate['TitlesCount']) ;
-		//echo $rowCount ;
-		?> instances of <?php echo number_format($row_rsSLStatsUpdate['IMDBTitlesCount']) ; ?> films and TV programs and a gallery of
+		echo number_format($row_rsSLStatsUpdate['TitlesCount']) ; ?> instances of <?php echo number_format($row_rsSLStatsUpdate['IMDBTitlesCount']) ; ?> films and TV programs and a gallery of
 <?php 
 		echo number_format($row_rsSLStatsUpdate['ShotsCount']); ?>
  screen shots (individual frames from every shot in those films/TV programs). </p>
@@ -59,4 +57,6 @@ foreach ($files as $img) {
 </p>
 <?php 
 include ('includes/footerV2.php');
+
+mysql_free_result($rsIMDbTitles);
 ?>

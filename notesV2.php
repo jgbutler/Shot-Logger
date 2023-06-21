@@ -2,7 +2,7 @@
 /*
     Shot Logger facilitates the analysis of visual style in film and television 
 	through screen shots and editing statistics.
-    Copyright (C) 2007-2015 Jeremy Butler.
+    Copyright (C) 2007-2020 Jeremy Butler.
 	Telecommunication and Film Department, The University of Alabama.
 
     This program is free software: you can redistribute it and/or modify
@@ -21,12 +21,15 @@
 
 $pageTitle = 'To Do' ; 
 
-include ('includes/headerV2.php') ;
+include ('includes/headerA2.php') ;
 
 ?>
 <h1>To-Do List</h1>
 <p>Shot Logger is still in early stages of development. Much remains to do.</p>
 <ol>
+  <li>Update GitHub files to version 2.2, for distribution as open-source software.</li>
+  <li><a href="http://motpicthistcrit.com/downloadV2.php" target="_blank">Refresh all downloadable data.</a></li>
+  <li>Update admin section with PDO code.</li>
   <li>Update admin section to use new statistics generator</li>
   <li>Update downloadable files to use new stats table.</li>
   <li>Add system to attach scale to a shot.</li>
@@ -36,7 +39,6 @@ include ('includes/headerV2.php') ;
   <li>Create system to delete bad frames/data from SL.</li>
   <li>Fix keywords.</li>
   <li>Add more charts, using Google.</li>
-  <li><s>Add to GitHub for distribution as open-source software.</s></li>
   <li><s>Check to make sure the SL directory has not been previously imported. But what to do if it has?</s></li>
   <li><s>CSS: separate data tables from other tables.
     </s>

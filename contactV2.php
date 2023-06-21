@@ -2,7 +2,7 @@
 /*
     Shot Logger facilitates the analysis of visual style in film and television 
 	through screen shots and editing statistics.
-    Copyright (C) 2007-2015 Jeremy Butler.
+    Copyright (C) 2007-2020 Jeremy Butler.
 	Telecommunication and Film Department, The University of Alabama.
 
     This program is free software: you can redistribute it and/or modify
@@ -19,18 +19,16 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 $pageTitle = 'Contact Information' ; 
-include ('includes/headerV2.php') ;
+include ('includes/headerA2.php') ;
 ?>
 
 <h1>Contact Us</h1>
 <p><strong>Shot Logger administrator:</strong>
 </p>
 <p>Jeremy Butler<br />
-  Professor<br>
-		Telecommunication and Film Department<br>
-		The University of Alabama<br>
-		Tuscaloosa, AL 35487</p>
-		<p><img src="images_site/JGBemail.gif" width="196" height="32" alt="Jeremy Butler's email address." /></p>
+  Professor Emeritus, TV and Film Studies<br>
+  The University of Alabama</p>
+		<p>Comments: jgbutler@gmail.com</p>
 
 <?php 
 include ('includes/footerV2.php') ;

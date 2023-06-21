@@ -19,10 +19,48 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-//require_once('Connections/ShotLoggerVM.php'); 
+require_once('Connections/ShotLoggerVM.php'); 
+try {
+		// Connect to the database and run a query to return a record set (rs)
+		/*$sql = "SELECT * FROM `wp_posts` JOIN wp_postmeta ON meta_id=ID WHERE `meta_key` = 'url' ";*/
+
+        $sql = "SELECT * FROM sl_Statistics";
+
+        $rsSLStatsUpdate = $db->query($sql) ;
+		// Get record set as an array
+		// Capturing SQL errors 
+		// Capture an array of errorInfo from the $db object
+		$errorInfo = $db->errorInfo();
+		// If errorInfo exists, put it in a variable. The THIRD bit of info in the error array [2] is the message.
+		if (isset($errorInfo[2])) {
+			$error = $errorInfo[2];
+		}
+// Catch PHP errors
+} catch (Exception $e) {
+    $error = $e->getMessage();
+}
+
+// Query to count the number of rows in an array
+        $q = $db->query($sql);
+        $rows = $q->fetchAll();
+        $rowCount = number_format(count($rows));
+
+$row_rsSLStatsUpdate = $rsSLStatsUpdate->fetch() ;
+
 $pageTitle = 'Home' ; 
-include ('includes/headerA2.php');
+//include ('includes/headerA2.php');
+
 ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Shot Logger 2.0: <?php echo $pageTitle ?></title>
+<link href="twoColFixLtHdr_liquidcolors.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
 
 <h1>Analyzing Visual Style</h1>
 
@@ -31,7 +69,7 @@ include ('includes/headerA2.php');
 		<p>It contains a <a href="data.php">database</a> of editing statistics for  <?php
 		echo number_format($row_rsSLStatsUpdate['TitlesCount']) ;
 		//echo $rowCount ;
-		?> instances of <?php echo number_format($row_rsSLStatsUpdate['IMDBTitlesCount']) ; ?> films and TV programs and a gallery of
+		?> instances of <?php echo $row_rsSLStatsUpdate['IMDBTitlesCount'] ; ?> films and TV programs and a gallery of
 <?php 
 		echo number_format($row_rsSLStatsUpdate['ShotsCount']); ?>
  screen shots (individual frames from every shot in those films/TV programs). </p>
@@ -59,4 +97,6 @@ foreach ($files as $img) {
 </p>
 <?php 
 include ('includes/footerV2.php');
+
+mysql_free_result($rsIMDbTitles);
 ?>

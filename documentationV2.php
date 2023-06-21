@@ -2,7 +2,7 @@
 /*
     Shot Logger facilitates the analysis of visual style in film and television 
 	through screen shots and editing statistics.
-    Copyright (C) 2007-2015 Jeremy Butler.
+    Copyright (C) 2007-2020 Jeremy Butler.
 	Telecommunication and Film Department, The University of Alabama.
 
     This program is free software: you can redistribute it and/or modify
@@ -20,7 +20,7 @@
 */
 
 $pageTitle = 'Documentation' ; 
-include ('includes/headerV2.php') ;
+include ('includes/headerA2.php') ;
 ?>
 <h1>Documentation</h1>
 <p>Shot Logger logs shots from DVDs and other digital video sources. It stores a frame capture from each and every shot in the video <em>and</em> it records each shot's starting time code (its hour, minute and second) in the name of the file. Shot Logger then processes that time code to determine the length of individual shots, as well as calculating several statistics for those lengths &#8212; including average shot length and standard deviation.</p>
@@ -88,19 +88,20 @@ include ('includes/headerV2.php') ;
 <ol>
   <li>Go to the Shot Logger Administration page.</li>
   <li>Select <em>View listing of uploaded files</em> to choose a directory for either a TV episode or a theatrical film. A list of all items' directories will display.</li>
-  <li>Drill down to the specific directory you want to import. (It may help to sort the directories by <em>Last Modified</em>, in reverse chronological order.) Once you're inside that directory, click the <em>Yes, import data NOW</em> button.</li>
-  <li>Provide data to be attached to the Shot Logger title for these items.
+  <li>Drill down to the specific directory you want to import. (It may help to sort the directories by <em>Last Modified</em>, in reverse chronological order.) Once you're inside that directory, click the <em>Yes, import data NOW</em> button. The <em>Item Data</em> form will appear.</li>
+  <li>In the <em>Item Data</em> form, provide the data to be attached to the Shot Logger title for these items.
     <ol>
+      <li>Provide the title <em>as it appears on the IMDb</em>. Titles can vary across countries and releases. Use the IMDb title to standardize the title.</li>
       <li>Quotation marks should not be used in any titles.</li>
-      <li>The Internet Movie Database ID can be found by looking up the title and then examining the URL for the TV program or film. Titles start with the letters, &quot;tt&quot;. For example:<br />
-        <em>http://www.imdb.com/title/tt0044230/</em><br />
+      <li>The <strong>Internet Movie Database ID</strong> can be found by looking up the title and then examining the URL for the TV program or film. Titles start with the letters, &quot;tt&quot;. For example:<br />
+        <em>http://www.imdb.com/title/tt0044230/</em>. With TV shows, be certain to get the IMDb ID for the entire show and not just a single expisode.<br />
         In this URL, the IMDb ID is <strong>tt0044230</strong>.</li>
       <li>Dates for TV episodes must be in this format: YYYY-MM-DD. E.g., 1957-10-04 for 4 October 1957. Dates for movies must be the release year &#8212; e.g., 2007.</li>
-      <li>Click <em>Insert Data Now</em> to begin the import process. This will take you to the <em>Insert Data</em> page.</li>
+      <li>Click <em>Insert Data Now</em> to begin the import process. This will take you to the <em>Import Results</em> page.</li>
     </ol>
   </li>
-  <li>To finish the import, click <em>proceed to the listings</em>. This will take you to the <em>Import Results</em> page.</li>
-  <li><strong>But you're not quite finished</strong>. Although the frame captures have been imported, we have not yet done the statistical analysis of them. On the <em>Import Results</em> page, click &quot;skip ahead to this form&quot; or manually scroll to the bottom and check the <em>Data for SL Title</em> form. If everything appears correct, click the <em>Update record</em> button.</li>
+  <li>On the <em>Import Results</em> page, you'll see a list of all the filenames, their timecodes, and their shot lengths. <strong>But you're not quite finished</strong>. Although the frame captures have been imported, Shot Logger has not yet done the statistical analysis of them. On the <em>Import Results</em> page, click &quot;skip ahead to this form&quot; or manually scroll to the bottom and check the <em>Data for SL Title</em> form. If everything appears correct, click the <em>Update record</em> button.</li>
+  <li><strong>Now you are done!</strong></li>
 </ol>
 
 <?php 

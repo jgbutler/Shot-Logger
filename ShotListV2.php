@@ -2,7 +2,7 @@
 /*
     Shot Logger facilitates the analysis of visual style in film and television 
 	through screen shots and editing statistics.
-    Copyright (C) 2007-2015 Jeremy Butler.
+    Copyright (C) 2007-2020 Jeremy Butler.
 	Telecommunication and Film Department, The University of Alabama.
 
     This program is free software: you can redistribute it and/or modify
@@ -19,67 +19,20 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-require_once('../Connections/ShotLogger2.php'); 
+require_once('Connections/ShotLoggerVM.php'); 
 
-if (!function_exists("GetSQLValueString")) {
-function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
-{
-  if (PHP_VERSION < 6) {
-    $theValue = get_magic_quotes_gpc() ? stripslashes($theValue) : $theValue;
-  }
-
-  $theValue = function_exists("mysql_real_escape_string") ? mysql_real_escape_string($theValue) : mysql_escape_string($theValue);
-
-  switch ($theType) {
-    case "text":
-      $theValue = ($theValue != "") ? "'" . $theValue . "'" : "NULL";
-      break;    
-    case "long":
-    case "int":
-      $theValue = ($theValue != "") ? intval($theValue) : "NULL";
-      break;
-    case "double":
-      $theValue = ($theValue != "") ? doubleval($theValue) : "NULL";
-      break;
-    case "date":
-      $theValue = ($theValue != "") ? "'" . $theValue . "'" : "NULL";
-      break;
-    case "defined":
-      $theValue = ($theValue != "") ? $theDefinedValue : $theNotDefinedValue;
-      break;
-  }
-  return $theValue;
-}
+$stmt = $db->prepare("SELECT Title FROM sl_Title2 WHERE slTitleID = ?");
+if ($stmt->execute(array($_GET['recordID']))) {
+  $row_rsSLTitle = $stmt->fetch();
 }
 
-$colname_rsShotList = "-1";
-if (isset($_GET['recordID'])) {
-  $colname_rsShotList = $_GET['recordID'];
-}
-
-mysql_select_db($database_ShotLogger2, $ShotLogger2);
-$query_rsShotList = sprintf("SELECT * FROM sl_ShotData WHERE slTitleID = %s ORDER BY TimeCode ASC", GetSQLValueString($colname_rsShotList, "int"));
-$rsShotList = mysql_query($query_rsShotList, $ShotLogger2) or die(mysql_error());
-$row_rsShotList = mysql_fetch_assoc($rsShotList);
-$totalRows_rsShotList = mysql_num_rows($rsShotList);
-
-$colname_rsSLTitle = "-1";
-if (isset($_GET['recordID'])) {
-  $colname_rsSLTitle = $_GET['recordID'];
-}
-mysql_select_db($database_ShotLogger2, $ShotLogger2);
-$query_rsSLTitle = sprintf("SELECT Title FROM sl_Title2 WHERE slTitleID = %s", GetSQLValueString($colname_rsSLTitle, "int"));
-$rsSLTitle = mysql_query($query_rsSLTitle, $ShotLogger2) or die(mysql_error());
-$row_rsSLTitle = mysql_fetch_assoc($rsSLTitle);
-$totalRows_rsSLTitle = mysql_num_rows($rsSLTitle);
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Shot Logger 2.0: <?php echo $row_rsSLTitle['Title']; ?></title>
+<meta charset="utf-8">
+<title>Shot Logger 2.2: <?php echo $row_rsSLTitle['Title']; ?></title>
 <link href="twoColLiqLtHdr.css" rel="stylesheet" type="text/css" />
-
 </head>
 <body>
 
@@ -113,29 +66,49 @@ $totalRows_rsSLTitle = mysql_num_rows($rsSLTitle);
   <!-- start .content -->
   <div class="content">
 <h2>Shot List for <em><?php echo $row_rsSLTitle['Title']; ?></em> </h2>
-<p><?php echo $totalRows_rsShotList ?> shots total.</p>
+<p><?php 
+// Query to count the number of rows in an array
+
+$stmt = $db->prepare("SELECT * FROM sl_ShotData WHERE slTitleID = ? ORDER BY TimeCode ASC");
+if ($stmt->execute(array($_GET['recordID']))) {
+	$rows = $stmt->fetchAll();
+	$totalRows_rsShotList = count($rows);
+}
+echo $totalRows_rsShotList ?> shots total.</p>
+
 <table width="600" border="1" align="center">
   <tr>
     <td><strong>Shot #</strong></td>
     <td><strong>Time Code</strong></td>
-<!--    <td>shotID</td>-->
     <td><strong>Click to view details</strong></td>
-<!--    <td><strong>sl_directory</strong></td>-->
-<!--    <td>slTitleID</td>-->
     <td><strong>Shot Length</strong></td>
     <td><strong>Shot Scale</strong></td>
     <td><strong>Camera Movement</strong></td>
     <td><strong>Comments</strong></td>
   </tr>
-  <?php // Loop through all the shots.
+  <?php 
+  // Query to SELECT all shot data from sl_ShotData
+
+$stmt = $db->prepare("SELECT * FROM sl_ShotData WHERE slTitleID = ? ORDER BY TimeCode ASC");
+	if ($stmt->execute(array($_GET['recordID']))) {
+		$row_rsShotList = $stmt->fetch();
+}
+
+// Loop through all the shots.
   $ShotNumber = 1 ;
-  do { ?>
+do { ?>
     <tr>
 		<td align="center"><?php 
 		if  ($row_rsShotList['ShotNumber']) {
 			echo $row_rsShotList['ShotNumber'] ;
 		}
 		else {
+
+			// ROUTINE TO ADD SHOT NUMBERS TO DATABASE
+			// COMMENTED OUT
+			// $ShotNumber IS ALREADY ADDED DURING THE IMPORT PROCESS, IN InsertShotDataPW.php
+			
+			/*
 			echo $ShotNumber ; 
 
 			// UPDATE SHOT NUMBER IN DATABASE
@@ -148,28 +121,25 @@ $totalRows_rsSLTitle = mysql_num_rows($rsSLTitle);
 
 			// Increment shot number
 			$ShotNumber = $ShotNumber + 1 ;
-		}
+
+
+*/
+}
 		?></td>
       <td><b><?php echo gmdate("H:i:s", $row_rsShotList['TimeCode']) . '</b><br>' ;
 	  echo '(' . $row_rsShotList['TimeCode']; ?> seconds)</td>
-<!--      <td><?php echo $row_rsShotList['shotID']; ?>&nbsp; </td>-->
       <td><a href="ShotListDetailV2.php?recordID=<?php echo $row_rsShotList['shotID']; ?>">
         <img src="images/<?php echo $row_rsShotList['sl_directory'] . $row_rsShotList['filename']; ?>" alt="Frame grab: <?php echo $row_rsShotList['filename']; ?>" height="150" border="0" /> </a>
       </td>
-<!--      <td><?php echo $row_rsShotList['sl_directory']; ?></td>-->
-<!--      <td><?php echo $row_rsShotList['slTitleID']; ?></td>-->
       <td><?php echo $row_rsShotList['ShotLength']; ?> secs.</td>
       <td><?php echo $row_rsShotList['ShotScale']; ?></td>
       <td><?php echo $row_rsShotList['CameraMovement']; ?></td>
       <td><?php echo $row_rsShotList['Comments']; ?></td>
     </tr>
-    <?php } while ($row_rsShotList = mysql_fetch_assoc($rsShotList)); ?>
+    <?php } while ($row_rsShotList = $stmt->fetch()) ;	?>
+
+
 </table>
 <?php 
 include ('includes/footerV2.php') ;
-?>
-<?php
-mysql_free_result($rsShotList);
-
-mysql_free_result($rsSLTitle);
 ?>
