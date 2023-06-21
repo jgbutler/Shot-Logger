@@ -22,6 +22,8 @@ files!
 Sincerely,
 
 Jeremy Butler
+
 Shot Logger founder and author
+
 jgbutler@gmail.com
 
