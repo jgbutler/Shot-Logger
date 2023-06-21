@@ -974,20 +974,47 @@ function pr($data, $die = false) {
 			<?php endif; ?>
 
 
-				
-			<div class="row">
-			  <div class="col-xs-12">
-				<hr>
-				<form action="../admin/albumItemsPW.php" method="post" name="SelectDir">
-				<input name="slDir" type="hidden" value="<?php echo $leadon ?>" />
-				<button type="submit" class="btn btn-secondary">Folder Admin</button>
-				</form>							
-				</form>
-			</div>
-			
-			
-			
-			
+          
+
+           
+			<?php if(! empty($data['directoryTree'])): ?>
+				<div class="row">
+					<div class="col-xs-12">
+
+                    <div id="breadcrumbs">Would you like to add this directory, <strong><?php echo $url ?></strong>, to Shot Logger?</div>
+
+                    <form action="../admin/albumItemsPW.php" method="post" name="SelectDir">
+                    <input name="slDir" type="hidden" value="<?php echo $url ?>" />
+                    <input name="submit" type="submit" value="Yes, import data NOW" />
+                    </form>
+                
+                
+                
+                
+					</div>
+				</div>
+			<?php endif; ?>
+                      
+           
+           
+
+           
+                      
+                                 
+                                            
+                                                                  
+           
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="table-container">

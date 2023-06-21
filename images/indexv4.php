@@ -917,7 +917,6 @@ function pr($data, $die = false) {
 			<div class="row">
 				<div class="col-xs-12">
 					<h1 class="text-center"><?php echo $listing->pageTitle; ?></h1>
-					<h3 class="text-center"><a href="/index.php">Return to Shot Logger home.</a></h3>
 				</div>
 			</div>
 		<?php endif; ?>
@@ -974,20 +973,6 @@ function pr($data, $die = false) {
 			<?php endif; ?>
 
 
-				
-			<div class="row">
-			  <div class="col-xs-12">
-				<hr>
-				<form action="../admin/albumItemsPW.php" method="post" name="SelectDir">
-				<input name="slDir" type="hidden" value="<?php echo $leadon ?>" />
-				<button type="submit" class="btn btn-secondary">Folder Admin</button>
-				</form>							
-				</form>
-			</div>
-			
-			
-			
-			
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="table-container">
