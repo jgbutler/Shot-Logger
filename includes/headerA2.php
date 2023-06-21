@@ -2,7 +2,7 @@
 /*
     Shot Logger facilitates the analysis of visual style in film and television 
 	through screen shots and editing statistics.
-    Copyright (C) 2007-2015 Jeremy Butler.
+    Copyright (C) 2007-2020 Jeremy Butler.
 	Telecommunication and Film Department, The University of Alabama.
 
     This program is free software: you can redistribute it and/or modify
@@ -24,52 +24,31 @@ This header include does NOT work for pages with complicated header
 information: data.php and TitleListDetailV2.php
 */
 
-if (!function_exists("GetSQLValueString")) {
-function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
-{
-  if (PHP_VERSION < 6) {
-    $theValue = get_magic_quotes_gpc() ? stripslashes($theValue) : $theValue;
-  }
+try {
+		// Connect to the database and run a query to return a record set (rs)
+        $sql = "SELECT * FROM sl_Statistics";
 
-  $theValue = function_exists("mysql_real_escape_string") ? mysql_real_escape_string($theValue) : mysql_escape_string($theValue);
-
-  switch ($theType) {
-    case "text":
-      $theValue = ($theValue != "") ? "'" . $theValue . "'" : "NULL";
-      break;    
-    case "long":
-    case "int":
-      $theValue = ($theValue != "") ? intval($theValue) : "NULL";
-      break;
-    case "double":
-      $theValue = ($theValue != "") ? doubleval($theValue) : "NULL";
-      break;
-    case "date":
-      $theValue = ($theValue != "") ? "'" . $theValue . "'" : "NULL";
-      break;
-    case "defined":
-      $theValue = ($theValue != "") ? $theDefinedValue : $theNotDefinedValue;
-      break;
-  }
-  return $theValue;
-}
+        $rsSLStatsUpdate = $db->query($sql) ;
+		// Get record set as an array
+		// Capturing SQL errors 
+		// Capture an array of errorInfo from the $db object
+		$errorInfo = $db->errorInfo();
+		// If errorInfo exists, put it in a variable. The THIRD bit of info in the error array [2] is the message.
+		if (isset($errorInfo[2])) {
+			$error = $errorInfo[2];
+		}
+// Catch PHP errors
+} catch (Exception $e) {
+    $error = $e->getMessage();
 }
 
-mysql_select_db($database_ShotLoggerVM, $ShotLoggerVM);
-$query_rsSLStatsUpdate = "SELECT * FROM sl_Statistics";
-$rsSLStatsUpdate = mysql_query($query_rsSLStatsUpdate, $ShotLoggerVM) or die(mysql_error());
-$row_rsSLStatsUpdate = mysql_fetch_assoc($rsSLStatsUpdate);
-$totalRows_rsSLStatsUpdate = mysql_num_rows($rsSLStatsUpdate);
+// Query to count the number of rows in an array
+        $q = $db->query($sql);
+        $rows = $q->fetchAll();
+        $rowCount = number_format(count($rows));
 
-?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Shot Logger 2.0: <?php echo $pageTitle ?></title>
-<link href="twoColFixLtHdr_liquidcolors.css" rel="stylesheet" type="text/css" />
-<?php 
-// Function by frasq at frasq dot org, http://php.net/manual/en/function.readdir.php
+
+// Get a random image from the $files array
 function listdir($dir='.') { 
     if (!is_dir($dir)) { 
         return false; 
@@ -110,7 +89,36 @@ function getRandomFromArray($ar) {
     $num = array_rand($ar); 
     return $ar[$num]; 
 } 
-// Get a random image from the $files array
+
+// Alternative random-image-selector script
+//Function from https://www.dyn-web.com/code/random-image-php/
+/*
+$root = '';
+$path = 'images/2001/';
+
+$imgList = getImagesFromDir($root . $path);
+$img = getRandomFromArray($imgList);
+
+function getImagesFromDir($path) {
+    $images = array();
+    if ( $img_dir = @opendir($path) ) {
+        while ( false !== ($img_file = readdir($img_dir)) ) {
+            // checks for gif, jpg, png
+            if ( preg_match("/(\.gif|\.jpg|\.png)$/", $img_file) ) {
+                $images[] = $img_file;
+            }
+        }
+        closedir($img_dir);
+    }
+    return $images;
+}
+
+function getRandomFromArray($ar) {
+    $num = array_rand($ar);
+    return $ar[$num];
+}
+
+*/
 
 // Function to format file sizes
 function format_bytes($size) {
@@ -118,14 +126,20 @@ function format_bytes($size) {
     for ($i = 0; $size >= 1024 && $i < 4; $i++) $size /= 1024;
     return round($size, 1).$units[$i];
 }
-
+$row_rsSLStatsUpdate = $rsSLStatsUpdate->fetch() ;
 
 ?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Shot Logger 2.2: <?php echo $pageTitle ?></title>
+<link href="twoColFixLtHdr_liquidcolors.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
 <!--Google Analytics-->
-<?php include_once("Connections/GoogleAnalytics.js") ?>
+<?php // include_once("Connections/GoogleAnalytics.js") ?>
 
 <!-- start .header -->
 <div class="container">
@@ -160,7 +174,7 @@ $img4 = getRandomFromArray($files);
       <li><a href="copyrightV2.php">copyright</a></li>
       <li><a href="downloadV2.php">download</a></li>
     </ul>
-    <p>A service of <a href="https://jcm.ua.edu/" target="_blank">the J/Creative Media Department</a>, <a href="https://cis.ua.edu/" target="_blank">the  College of Communication and Information Sciences</a>, at <a href="https://ua.edu/" target="_blank">the University of Alabama</a>.</p>
+    <p>Formerly supported by the Telecommunication and Film Department and <a href="https://cis.ua.edu/" target="_blank">the  College of Communication and Information Sciences</a>, at <a href="https://ua.edu/" target="_blank">the University of Alabama</a>.</p>
 <p><strong>Related sites:</strong><br />
 <a href="http://laughlogger.org/" target="_blank">Laugh Logger</a><br />
 <a href="http://cinemetrics.lv/" target="_blank">CineMetrics</a><br />
